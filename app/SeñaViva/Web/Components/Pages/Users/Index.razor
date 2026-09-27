@@ -1,0 +1,103 @@
+@page "/usuarios"
+@attribute [Authorize]
+@attribute [StreamRendering]
+@inject SenaVivaApiClient Api
+
+<PageTitle>Usuarios · SeñaViva</PageTitle>
+
+<PageHeader Title="Usuarios" Kicker="Administración" KickerIcon="users"
+            Subtitle="Personas registradas en SeñaViva y su rol dentro de la plataforma.">
+    <Actions>
+        <a class="btn btn-primary" href="usuarios/nuevo"><PixelIcon Name="plus" /> Nuevo usuario</a>
+    </Actions>
+</PageHeader>
+
+<StatusAlert Message="@StatusMessage" />
+<ApiErrorAlert Error="error" />
+
+@if (users is null && error is null)
+{
+    <PixelLoader Text="Cargando usuarios…" />
+}
+else if (users is { Count: 0 })
+{
+    <EmptyState Title="Aún no hay usuarios">
+        <ChildContent>Los usuarios aparecen aquí cuando se registran o cuando creas uno.</ChildContent>
+        <Actions>
+            <a class="btn btn-primary" href="usuarios/nuevo"><PixelIcon Name="plus" /> Crear el primero</a>
+        </Actions>
+    </EmptyState>
+}
+else if (users is not null)
+{
+    <p class="label-caps muted">Total <span class="count">@users.Count</span></p>
+
+    <table class="px-table">
+        <thead>
+            <tr>
+                <th scope="col">Nombre</th>
+                <th scope="col">Email</th>
+                <th scope="col">Rol</th>
+                <th scope="col">Estado</th>
+                <th scope="col">Enlace</th>
+                <th scope="col" class="cell-actions"><span class="sr-only">Acciones</span></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in users)
+            {
+                <tr>
+                    <td>
+                        <span class="person"><Avatar Name="@user.Name" /> @user.Name</span>
+                    </td>
+                    <td data-label="Email">@user.Email</td>
+                    <td data-label="Rol"><span class="tag tag-plum">@user.Role.ToDisplayName()</span></td>
+                    <td data-label="Estado">
+                        <span class="tag @(user.IsActive ? "tag-teal" : "")">@(user.IsActive ? "Activo" : "Inactivo")</span>
+                    </td>
+                    <td data-label="Enlace">
+                        @if (user.Auth0Id is null)
+                        {
+                            <span class="muted">Sin enlazar</span>
+                        }
+                        else
+                        {
+                            <span class="tag tag-sun">Enlazado</span>
+                        }
+                    </td>
+                    <td class="cell-actions">
+                        <a class="btn btn-sm btn-icon" href="usuarios/@user.Id/editar" title="Editar a @user.Name">
+                            <PixelIcon Name="edit" /><span class="sr-only">Editar a @user.Name</span>
+                        </a>
+                        <a class="btn btn-sm btn-icon btn-danger" href="usuarios/@user.Id/eliminar" title="Eliminar a @user.Name">
+                            <PixelIcon Name="trash" /><span class="sr-only">Eliminar a @user.Name</span>
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    [SupplyParameterFromQuery(Name = "estado")]
+    private string? Status { get; set; }
+
+    private List<UserResponse>? users;
+    private ApiError? error;
+
+    private string? StatusMessage => Status switch
+    {
+        "creado" => "Usuario creado.",
+        "actualizado" => "Usuario actualizado.",
+        "eliminado" => "Usuario eliminado.",
+        _ => null
+    };
+
+    protected override async Task OnInitializedAsync()
+    {
+        var result = await Api.GetUsersAsync();
+        users = result.Value;
+        error = result.Error;
+    }
+}

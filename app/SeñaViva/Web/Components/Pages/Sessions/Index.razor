@@ -1,0 +1,93 @@
+@page "/sesiones"
+@attribute [Authorize]
+@attribute [StreamRendering]
+@inject SenaVivaApiClient Api
+
+<PageTitle>Sesiones · SeñaViva</PageTitle>
+
+<PageHeader Title="Sesiones" Kicker="Conversaciones" KickerIcon="chat"
+            Subtitle="Cada sesión es una conversación entre una persona sorda y una oyente.">
+    <Actions>
+        <a class="btn btn-primary" href="sesiones/nueva"><PixelIcon Name="play" /> Nueva sesión</a>
+    </Actions>
+</PageHeader>
+
+<StatusAlert Message="@StatusMessage" />
+<ApiErrorAlert Error="error" />
+
+@if (sessions is null && error is null)
+{
+    <PixelLoader Text="Cargando sesiones…" />
+}
+else if (sessions is { Count: 0 })
+{
+    <EmptyState Title="Todavía no hay sesiones">
+        <ChildContent>Inicia la primera conversación; quedará registrada aquí con su estado.</ChildContent>
+        <Actions>
+            <a class="btn btn-primary" href="sesiones/nueva"><PixelIcon Name="play" /> Nueva sesión</a>
+        </Actions>
+    </EmptyState>
+}
+else if (sessions is not null)
+{
+    <p class="label-caps muted">Total <span class="count">@sessions.Count</span></p>
+
+    <table class="px-table">
+        <thead>
+            <tr>
+                <th scope="col">Usuario</th>
+                <th scope="col">Inicio</th>
+                <th scope="col">Lengua</th>
+                <th scope="col">Estado</th>
+                <th scope="col" class="cell-actions"><span class="sr-only">Acciones</span></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var session in sessions)
+            {
+                var active = session.Status == SessionStatus.Active;
+                <tr>
+                    <td>
+                        <span class="person"><Avatar Name="@session.UserName" /> @session.UserName</span>
+                    </td>
+                    <td data-label="Inicio">@session.StartedAt.ToLocalDisplay()</td>
+                    <td data-label="Lengua"><span class="tag tag-sun">@session.SignLanguage</span></td>
+                    <td data-label="Estado">
+                        <span class="tag @(active ? "tag-teal tag-live" : "")">@session.Status.ToDisplayName()</span>
+                    </td>
+                    <td class="cell-actions">
+                        <a class="btn btn-sm btn-icon" href="sesiones/@session.Id/editar" title="Editar sesión">
+                            <PixelIcon Name="edit" /><span class="sr-only">Editar sesión de @session.UserName</span>
+                        </a>
+                        <a class="btn btn-sm btn-icon btn-danger" href="sesiones/@session.Id/eliminar" title="Eliminar sesión">
+                            <PixelIcon Name="trash" /><span class="sr-only">Eliminar sesión de @session.UserName</span>
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    [SupplyParameterFromQuery(Name = "estado")]
+    private string? Status { get; set; }
+
+    private List<ConversationSessionResponse>? sessions;
+    private ApiError? error;
+
+    private string? StatusMessage => Status switch
+    {
+        "creada" => "Sesión creada.",
+        "actualizada" => "Sesión actualizada.",
+        "eliminada" => "Sesión eliminada.",
+        _ => null
+    };
+
+    protected override async Task OnInitializedAsync()
+    {
+        var result = await Api.GetSessionsAsync();
+        sessions = result.Value;
+        error = result.Error;
+    }
+}

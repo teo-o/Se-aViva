@@ -1,0 +1,20 @@
+<span class="avatar" aria-hidden="true">@Initials</span>
+
+@code {
+    [Parameter]
+    public string? Name { get; set; }
+
+    private string Initials
+    {
+        get
+        {
+            var words = (Name ?? string.Empty)
+                .Split([' ', '@', '.'], StringSplitOptions.RemoveEmptyEntries)
+                .Take(2)
+                .Select(word => char.ToUpperInvariant(word[0]));
+
+            var initials = string.Concat(words);
+            return initials.Length > 0 ? initials : "?";
+        }
+    }
+}

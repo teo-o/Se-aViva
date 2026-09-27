@@ -1,0 +1,58 @@
+@if (Error is not null)
+{
+    <Notice Kind="@Kind" Icon="@Icon" Title="@Title">
+        @if (Hint is not null)
+        {
+            <p>@Hint</p>
+        }
+        @if (Error.StatusCode == HttpStatusCode.Unauthorized)
+        {
+            <p><a href="Account/Login" data-enhance-nav="false">Inicia sesión de nuevo</a></p>
+        }
+        @if (Error.ValidationErrors.Count > 0)
+        {
+            <ul>
+                @foreach (var message in Error.ValidationErrors)
+                {
+                    <li>@message</li>
+                }
+            </ul>
+        }
+        else if (!string.IsNullOrWhiteSpace(Error.Detail))
+        {
+            <p class="notice-detail">@Error.Detail</p>
+        }
+    </Notice>
+}
+
+@code {
+    [Parameter]
+    public ApiError? Error { get; set; }
+
+    private string Kind => Error?.StatusCode is HttpStatusCode.Forbidden or HttpStatusCode.NotFound ? "warning" : "error";
+
+    private string Icon => Error?.StatusCode switch
+    {
+        HttpStatusCode.Forbidden or HttpStatusCode.Unauthorized => "lock",
+        HttpStatusCode.NotFound => "info",
+        _ => "alert"
+    };
+
+    private string Title => Error?.StatusCode switch
+    {
+        null => "No fue posible conectar con la API de SeñaViva.",
+        HttpStatusCode.Unauthorized => "Tu sesión no es válida o expiró.",
+        HttpStatusCode.Forbidden => "No tienes permiso para esta acción.",
+        HttpStatusCode.NotFound => "No se encontró el recurso.",
+        HttpStatusCode.Conflict => "No se pudo completar la operación.",
+        HttpStatusCode.BadRequest => "Revisa los datos enviados.",
+        _ => "Ocurrió un error inesperado."
+    };
+
+    private string? Hint => Error?.StatusCode switch
+    {
+        null => "Verifica que la API esté corriendo y que el certificado HTTPS de desarrollo sea de confianza.",
+        HttpStatusCode.Forbidden => "Tu rol en Auth0 no incluye el permiso requerido.",
+        _ => null
+    };
+}

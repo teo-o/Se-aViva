@@ -1,0 +1,30 @@
+@page "/Error"
+@using System.Diagnostics
+
+<PageTitle>Error · SeñaViva</PageTitle>
+
+<section class="lost">
+    <img src="img/lost.svg" alt="" width="128" height="128" />
+    <p class="lost-code">¡UPS!</p>
+    <h1 class="lost-title">Algo salió mal</h1>
+    <p class="muted">No pudimos procesar tu solicitud. Intenta de nuevo en unos minutos.</p>
+
+    @if (ShowRequestId)
+    {
+        <p class="muted">Id de la solicitud: <code>@RequestId</code></p>
+    }
+
+    <a class="btn btn-primary" href=""><PixelIcon Name="home" /> Volver al inicio</a>
+</section>
+
+@code {
+    [CascadingParameter]
+    private HttpContext? HttpContext { get; set; }
+
+    private string? RequestId { get; set; }
+
+    private bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
+
+    protected override void OnInitialized() =>
+        RequestId = Activity.Current?.Id ?? HttpContext?.TraceIdentifier;
+}

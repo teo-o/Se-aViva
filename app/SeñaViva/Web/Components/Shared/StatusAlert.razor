@@ -1,0 +1,9 @@
+@if (!string.IsNullOrWhiteSpace(Message))
+{
+    <Notice Kind="success" Icon="check" Title="@Message" />
+}
+
+@code {
+    [Parameter]
+    public string? Message { get; set; }
+}

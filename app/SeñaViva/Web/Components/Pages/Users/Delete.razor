@@ -1,0 +1,66 @@
+@page "/usuarios/{Id:int}/eliminar"
+@attribute [Authorize]
+@inject SenaVivaApiClient Api
+@inject NavigationManager Navigation
+
+<PageTitle>Eliminar usuario · SeñaViva</PageTitle>
+
+<PageHeader Title="Eliminar usuario" Kicker="Usuarios" KickerIcon="users">
+    <Actions>
+        <a class="btn btn-ghost" href="usuarios"><PixelIcon Name="back" /> Volver</a>
+    </Actions>
+</PageHeader>
+
+<ApiErrorAlert Error="error" />
+
+@if (user is not null)
+{
+    <section class="panel panel-danger form-panel">
+        <h2 class="panel-title"><PixelIcon Name="alert" Size="16" /> Confirmar</h2>
+
+        <p><strong>¿Seguro que quieres eliminar este usuario?</strong> Esta acción no se puede deshacer.</p>
+
+        <div class="identity">
+            <Avatar Name="@user.Name" />
+            <div>
+                <div class="identity-name">@user.Name</div>
+                <div class="muted">@user.Email · @user.Role.ToDisplayName()</div>
+            </div>
+        </div>
+
+        <form method="post" @formname="eliminar-usuario" @onsubmit="DeleteAsync">
+            <AntiforgeryToken />
+            <div class="btn-row">
+                <button type="submit" class="btn btn-danger"><PixelIcon Name="trash" /> Eliminar</button>
+                <a href="usuarios" class="btn btn-ghost">Cancelar</a>
+            </div>
+        </form>
+    </section>
+}
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    private UserResponse? user;
+    private ApiError? error;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var result = await Api.GetUserAsync(Id);
+        user = result.Value;
+        error = result.Error;
+    }
+
+    private async Task DeleteAsync()
+    {
+        var result = await Api.DeleteUserAsync(Id);
+        if (result.Succeeded)
+        {
+            Navigation.NavigateTo("usuarios?estado=eliminado");
+            return;
+        }
+
+        error = result.Error;
+    }
+}

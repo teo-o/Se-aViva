@@ -1,0 +1,67 @@
+@page "/sesiones/{Id:guid}/eliminar"
+@attribute [Authorize]
+@inject SenaVivaApiClient Api
+@inject NavigationManager Navigation
+
+<PageTitle>Eliminar sesión · SeñaViva</PageTitle>
+
+<PageHeader Title="Eliminar sesión" Kicker="Conversaciones" KickerIcon="chat">
+    <Actions>
+        <a class="btn btn-ghost" href="sesiones"><PixelIcon Name="back" /> Volver</a>
+    </Actions>
+</PageHeader>
+
+<ApiErrorAlert Error="error" />
+
+@if (session is not null)
+{
+    <section class="panel panel-danger form-panel">
+        <h2 class="panel-title"><PixelIcon Name="alert" Size="16" /> Confirmar</h2>
+
+        <p><strong>¿Seguro que quieres eliminar esta sesión?</strong> Esta acción no se puede deshacer.</p>
+
+        <dl class="stats">
+            <dt>Usuario</dt>
+            <dd>@session.UserName</dd>
+            <dt>Inicio</dt>
+            <dd>@session.StartedAt.ToLocalDisplay()</dd>
+            <dt>Estado</dt>
+            <dd>@session.Status.ToDisplayName()</dd>
+        </dl>
+
+        <form method="post" @formname="eliminar-sesion" @onsubmit="DeleteAsync">
+            <AntiforgeryToken />
+            <div class="btn-row">
+                <button type="submit" class="btn btn-danger"><PixelIcon Name="trash" /> Eliminar</button>
+                <a href="sesiones" class="btn btn-ghost">Cancelar</a>
+            </div>
+        </form>
+    </section>
+}
+
+@code {
+    [Parameter]
+    public Guid Id { get; set; }
+
+    private ConversationSessionResponse? session;
+    private ApiError? error;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var result = await Api.GetSessionAsync(Id);
+        session = result.Value;
+        error = result.Error;
+    }
+
+    private async Task DeleteAsync()
+    {
+        var result = await Api.DeleteSessionAsync(Id);
+        if (result.Succeeded)
+        {
+            Navigation.NavigateTo("sesiones?estado=eliminada");
+            return;
+        }
+
+        error = result.Error;
+    }
+}

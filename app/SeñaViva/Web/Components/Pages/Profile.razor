@@ -1,0 +1,169 @@
+@page "/perfil"
+@attribute [Authorize]
+@attribute [StreamRendering]
+@inject SenaVivaApiClient Api
+
+<PageTitle>Mi perfil · SeñaViva</PageTitle>
+
+<PageHeader Title="Mi perfil" Kicker="Ficha de jugador" KickerIcon="user"
+            Subtitle="Tus datos de acceso viven en Auth0; tu cuenta de SeñaViva guarda tu rol y tus sesiones." />
+
+<div class="grid-2">
+    <section class="panel">
+        <h2 class="panel-title"><PixelIcon Name="lock" Size="16" /> Perfil en <span class="nocaps">Auth0</span></h2>
+
+        <div class="identity">
+            <Avatar Name="@fullName" />
+            <div>
+                <div class="identity-name">@fullName</div>
+                <div class="muted">@email</div>
+            </div>
+        </div>
+
+        <dl class="stats">
+            <dt>Tipo de documento</dt>
+            <dd>@Labels.DocumentTypeName(documentType)</dd>
+
+            <dt>Número</dt>
+            <dd>@(string.IsNullOrEmpty(documentNumber) ? "Sin registrar" : documentNumber)</dd>
+
+            <dt><span class="nocaps">Auth0</span> ID</dt>
+            <dd><code>@auth0Id</code></dd>
+        </dl>
+
+        @if (string.IsNullOrEmpty(documentType) || string.IsNullOrEmpty(documentNumber))
+        {
+            <div class="mt-notice">
+                <Notice Kind="info" Icon="info" Title="Aún no has completado tu perfil.">
+                    <p>El formulario aparece la próxima vez que inicies sesión.</p>
+                </Notice>
+            </div>
+        }
+    </section>
+
+    <section class="panel">
+        <h2 class="panel-title"><PixelIcon Name="chat" Size="16" /> Cuenta en SeñaViva</h2>
+
+        <ApiErrorAlert Error="error" />
+
+        @if (localUser is not null)
+        {
+            <StatusAlert Message="@statusMessage" />
+            <dl class="stats">
+                <dt>Rol</dt>
+                <dd><span class="tag tag-plum">@localUser.Role.ToDisplayName()</span></dd>
+
+                <dt>Estado</dt>
+                <dd>
+                    <span class="tag @(localUser.IsActive ? "tag-teal tag-live" : "")">@(localUser.IsActive ? "Activa" : "Inactiva")</span>
+                </dd>
+
+                <dt>Registrado el</dt>
+                <dd>@localUser.CreatedAt.ToLocalDisplay()</dd>
+
+                <dt>Id en SeñaViva</dt>
+                <dd>#@localUser.Id</dd>
+            </dl>
+
+            <div class="btn-row">
+                <a class="btn btn-primary" href="sesiones/nueva"><PixelIcon Name="play" /> Nueva sesión</a>
+            </div>
+        }
+        else if (notRegistered)
+        {
+            <p><strong>¿Deseas crear tu usuario en SeñaViva?</strong></p>
+
+            <EditForm Model="Registration" FormName="registro" OnValidSubmit="RegisterAsync">
+                <DataAnnotationsValidator />
+
+                @if (isAdministrator)
+                {
+                    <p class="muted">Tienes el rol <strong>Administrador</strong> en Auth0, así que tu usuario se creará como administrador.</p>
+                    <input type="hidden" name="Registration.Role" value="@UserRole.Administrator" />
+                }
+                else
+                {
+                    <p class="muted">Cuéntanos cómo te comunicas:</p>
+                    <InputRadioGroup @bind-Value="Registration!.Role">
+                        <div class="choices">
+                            <label class="choice">
+                                <InputRadio Value="UserRole.Deaf" />
+                                <span class="choice-body">
+                                    <span class="choice-mark"><PixelIcon Name="hand" Size="20" /></span>
+                                    <span>Soy una persona sorda y me comunico en LSC</span>
+                                </span>
+                            </label>
+                            <label class="choice">
+                                <InputRadio Value="UserRole.Hearing" />
+                                <span class="choice-body">
+                                    <span class="choice-mark"><PixelIcon Name="sound" Size="20" /></span>
+                                    <span>Soy una persona oyente</span>
+                                </span>
+                            </label>
+                        </div>
+                    </InputRadioGroup>
+                    <ValidationMessage For="() => Registration.Role" />
+                }
+
+                <div class="btn-row">
+                    <button type="submit" class="btn btn-primary"><PixelIcon Name="check" /> Sí, crear mi usuario</button>
+                </div>
+            </EditForm>
+        }
+        else if (error is null)
+        {
+            <PixelLoader Text="Buscando tu cuenta…" />
+        }
+    </section>
+</div>
+
+@code {
+    [CascadingParameter]
+    private Task<AuthenticationState> AuthenticationState { get; set; } = default!;
+
+    [SupplyParameterFromForm(FormName = "registro")]
+    private RegisterCurrentUserRequest? Registration { get; set; }
+
+    private string? auth0Id;
+    private string? fullName;
+    private string? email;
+    private string? documentType;
+    private string? documentNumber;
+
+    private UserResponse? localUser;
+    private bool notRegistered;
+    private bool isAdministrator;
+    private string? statusMessage;
+    private ApiError? error;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var user = (await AuthenticationState).User;
+        isAdministrator = user.HasClaim(SenaVivaClaims.Roles, SenaVivaClaims.AdministratorRole);
+        Registration ??= new() { Role = isAdministrator ? UserRole.Administrator : null };
+
+        auth0Id = user.FindFirstValue("sub") ?? user.FindFirstValue(ClaimTypes.NameIdentifier);
+        fullName = user.FindFirstValue(SenaVivaClaims.FullName) ?? user.Identity?.Name;
+        email = user.FindFirstValue("email") ?? user.FindFirstValue(ClaimTypes.Email);
+        documentType = user.FindFirstValue(SenaVivaClaims.DocumentType);
+        documentNumber = user.FindFirstValue(SenaVivaClaims.DocumentNumber);
+
+        var result = await Api.GetCurrentUserAsync();
+        localUser = result.Value;
+        notRegistered = result.Error?.StatusCode == HttpStatusCode.NotFound;
+        error = notRegistered ? null : result.Error;
+    }
+
+    private async Task RegisterAsync()
+    {
+        var result = await Api.RegisterCurrentUserAsync(Registration!);
+        if (result.Succeeded)
+        {
+            localUser = result.Value;
+            notRegistered = false;
+            statusMessage = "¡Listo! Tu cuenta quedó registrada en SeñaViva.";
+        }
+
+        error = result.Error;
+    }
+}

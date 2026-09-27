@@ -1,0 +1,103 @@
+@page "/sesiones/nueva"
+@attribute [Authorize]
+@inject SenaVivaApiClient Api
+@inject NavigationManager Navigation
+
+<PageTitle>Nueva sesión · SeñaViva</PageTitle>
+
+<PageHeader Title="Nueva sesión" Kicker="Conversaciones" KickerIcon="chat">
+    <Actions>
+        <a class="btn btn-ghost" href="sesiones"><PixelIcon Name="back" /> Volver</a>
+    </Actions>
+</PageHeader>
+
+<ApiErrorAlert Error="error" />
+
+@if (notRegistered)
+{
+    <Notice Kind="info" Icon="user" Title="Antes de crear sesiones debes registrar tu cuenta en SeñaViva.">
+        <p><a href="perfil">Ir a mi perfil</a></p>
+    </Notice>
+}
+else if (currentUser is not null)
+{
+    <section class="panel form-panel">
+        <h2 class="panel-title"><PixelIcon Name="play" Size="16" /> Configurar sesión</h2>
+
+        <div class="identity">
+            <Avatar Name="@currentUser.Name" />
+            <div>
+                <div class="identity-name">@currentUser.Name</div>
+                <div class="muted">La sesión empezará como <strong>activa</strong>.</div>
+            </div>
+        </div>
+
+        <EditForm Model="Input" FormName="crear-sesion" OnValidSubmit="CreateAsync">
+            <DataAnnotationsValidator />
+
+            <div class="field">
+                <label for="signLanguage" class="field-label">Lengua de señas</label>
+                <InputSelect id="signLanguage" @bind-Value="Input!.SignLanguage" class="input">
+                    @foreach (var language in Enum.GetValues<SignLanguage>())
+                    {
+                        <option value="@language">@language.ToDisplayName()</option>
+                    }
+                </InputSelect>
+                <ValidationMessage For="() => Input.SignLanguage" />
+            </div>
+
+            <div class="btn-row">
+                <button type="submit" class="btn btn-primary"><PixelIcon Name="play" /> Crear sesión</button>
+                <a href="sesiones" class="btn btn-ghost">Cancelar</a>
+            </div>
+        </EditForm>
+    </section>
+}
+
+@code {
+    [SupplyParameterFromForm(FormName = "crear-sesion")]
+    private NewSessionForm? Input { get; set; }
+
+    private UserResponse? currentUser;
+    private bool notRegistered;
+    private ApiError? error;
+
+    protected override async Task OnInitializedAsync()
+    {
+        Input ??= new();
+
+        var result = await Api.GetCurrentUserAsync();
+        currentUser = result.Value;
+        notRegistered = result.Error?.StatusCode == HttpStatusCode.NotFound;
+        error = notRegistered ? null : result.Error;
+    }
+
+    private async Task CreateAsync()
+    {
+        if (currentUser is null)
+        {
+            return;
+        }
+
+        var request = new CreateConversationSessionRequest
+        {
+            UserId = currentUser.Id,
+            SignLanguage = Input!.SignLanguage!.Value
+        };
+
+        var result = await Api.CreateSessionAsync(request);
+        if (result.Succeeded)
+        {
+            Navigation.NavigateTo("sesiones?estado=creada");
+            return;
+        }
+
+        error = result.Error;
+    }
+
+    private sealed class NewSessionForm
+    {
+        [System.ComponentModel.DataAnnotations.Required(ErrorMessage = "La lengua de señas es obligatoria.")]
+        public SignLanguage? SignLanguage { get; set; } = SenaViva.Shared.Enums.SignLanguage.LSC;
+    }
+}

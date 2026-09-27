@@ -1,0 +1,39 @@
+@inherits LayoutComponentBase
+
+<header class="hud">
+    <div class="hud-inner">
+        <a class="brand" href="" aria-label="SeñaViva, inicio">
+            <img src="img/logo.svg" alt="" width="40" height="40" />
+            <span class="brand-name">SEÑAVIVA</span>
+        </a>
+
+        <input type="checkbox" id="menu-toggle" class="menu-toggle sr-only" />
+        <label for="menu-toggle" class="menu-button">
+            <PixelIcon Name="menu" Size="24" />
+            <span class="sr-only">Abrir menú</span>
+        </label>
+
+        <NavMenu />
+
+        <div class="hud-user">
+            <LoginDisplay />
+        </div>
+    </div>
+</header>
+
+<main class="page">
+    @Body
+</main>
+
+<footer class="site-footer">
+    <div class="site-footer-inner">
+        <span>SeñaViva · Lengua de Señas Colombiana ⇄ español</span>
+        <span class="palette-strip" aria-hidden="true">
+            <span style="--swatch: var(--teal)"></span>
+            <span style="--swatch: var(--sun)"></span>
+            <span style="--swatch: var(--coral)"></span>
+            <span style="--swatch: var(--plum)"></span>
+            <span style="--swatch: var(--snow)"></span>
+        </span>
+    </div>
+</footer>

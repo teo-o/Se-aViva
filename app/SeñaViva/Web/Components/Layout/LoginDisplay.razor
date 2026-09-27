@@ -1,0 +1,19 @@
+<AuthorizeView>
+    <Authorized>
+        <div class="player">
+            <Avatar Name="@context.User.Identity?.Name" />
+            <span class="player-name">@context.User.Identity?.Name</span>
+        </div>
+        <form action="Account/Logout" method="post">
+            <AntiforgeryToken />
+            <button type="submit" class="btn btn-sm btn-icon" title="Cerrar sesión">
+                <PixelIcon Name="logout" Size="18" />
+                <span class="sr-only">Cerrar sesión</span>
+            </button>
+        </form>
+    </Authorized>
+    <NotAuthorized>
+        <a href="Account/Login" class="btn btn-ghost btn-sm" data-enhance-nav="false">Entrar</a>
+        <a href="Account/Login?signup=true" class="btn btn-sun btn-sm" data-enhance-nav="false">Crear cuenta</a>
+    </NotAuthorized>
+</AuthorizeView>

@@ -1,0 +1,76 @@
+@page "/"
+
+<PageTitle>SeñaViva</PageTitle>
+
+<section class="title-screen">
+    <div class="title-art">
+        <img src="img/logo.svg" alt="" width="160" height="160" />
+        <PixelIcon Name="spark" Size="27" Class="title-spark s1" />
+        <PixelIcon Name="spark" Size="18" Class="title-spark s2" />
+        <PixelIcon Name="spark" Size="18" Class="title-spark s3" />
+    </div>
+
+    <div>
+        <p class="title-tagline label-caps">Lengua de Señas Colombiana ⇄ español</p>
+        <h1 class="title">SEÑAVIVA</h1>
+
+        <AuthorizeView>
+            <Authorized>
+                <p class="dialog">¡Hola, @context.User.Identity?.Name! Tu próxima conversación está a un clic.</p>
+                <div class="hero-actions">
+                    <a class="btn btn-primary btn-lg" href="sesiones/nueva"><PixelIcon Name="play" /> Nueva sesión</a>
+                    <a class="btn btn-lg" href="perfil"><PixelIcon Name="user" /> Mi perfil</a>
+                </div>
+            </Authorized>
+            <NotAuthorized>
+                <p class="dialog">Conversaciones en tiempo real entre personas sordas y oyentes, sin esperar a un intérprete.</p>
+                <div class="hero-actions">
+                    <a class="btn btn-primary btn-lg" href="Account/Login?signup=true" data-enhance-nav="false"><PixelIcon Name="play" /> Empezar</a>
+                    <a class="btn btn-lg" href="Account/Login" data-enhance-nav="false"><PixelIcon Name="login" /> Ya tengo cuenta</a>
+                </div>
+            </NotAuthorized>
+        </AuthorizeView>
+    </div>
+</section>
+
+<h2 class="section-title">Lo que puedes hacer</h2>
+
+<div class="quests">
+    <article class="panel quest">
+        <span class="quest-icon" style="--quest: var(--teal)"><PixelIcon Name="hand" Size="27" /></span>
+        <h3>Señas a texto y voz</h3>
+        <p>La cámara reconoce las señas en LSC y las convierte en texto y voz para la persona oyente.</p>
+        <span class="tag">Próximamente</span>
+    </article>
+
+    <article class="panel quest">
+        <span class="quest-icon" style="--quest: var(--plum)"><PixelIcon Name="sound" Size="27" /></span>
+        <h3>Voz a señas</h3>
+        <p>La voz del oyente se transcribe y un avatar 3D la interpreta en Lengua de Señas Colombiana.</p>
+        <span class="tag">Próximamente</span>
+    </article>
+
+    <article class="panel quest">
+        <span class="quest-icon" style="--quest: var(--coral)"><PixelIcon Name="chat" Size="27" /></span>
+        <h3>Sesiones de conversación</h3>
+        <p>Cada conversación queda registrada como una sesión con su lengua de señas y su estado.</p>
+        <span class="tag tag-teal tag-live">Disponible</span>
+    </article>
+</div>
+
+<h2 class="section-title">Cómo empezar</h2>
+
+<ol class="steps">
+    <li>
+        <span class="step-num">1</span>
+        <div><strong>Crea tu cuenta</strong><span>Regístrate con tu correo en segundos.</span></div>
+    </li>
+    <li>
+        <span class="step-num">2</span>
+        <div><strong>Completa tu perfil</strong><span>Cuéntanos cómo te comunicas y tu documento.</span></div>
+    </li>
+    <li>
+        <span class="step-num">3</span>
+        <div><strong>Inicia una sesión</strong><span>Abre una conversación en LSC cuando la necesites.</span></div>
+    </li>
+</ol>

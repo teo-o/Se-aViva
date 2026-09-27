@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#1c1b2b" />
+    <base href="/" />
+    <ResourcePreloader />
+    <link rel="preload" href="fonts/press-start-2p-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="fonts/pixelify-sans-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="@Assets["app.css"]" />
+    <ImportMap />
+    <link rel="icon" type="image/svg+xml" href="img/logo.svg" />
+    <link rel="alternate icon" type="image/png" href="favicon.png" />
+    <HeadOutlet />
+</head>
+
+<body>
+    <div class="load-bar" aria-hidden="true"></div>
+    <Routes />
+    <script src="@Assets["_framework/blazor.web.js"]"></script>
+    <script src="@Assets["js/app.js"]"></script>
+</body>
+
+</html>

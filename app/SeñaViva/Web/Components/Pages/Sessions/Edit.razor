@@ -1,0 +1,95 @@
+@page "/sesiones/{Id:guid}/editar"
+@attribute [Authorize]
+@inject SenaVivaApiClient Api
+@inject NavigationManager Navigation
+
+<PageTitle>Editar sesión · SeñaViva</PageTitle>
+
+<PageHeader Title="Editar sesión" Kicker="Conversaciones" KickerIcon="chat">
+    <Actions>
+        <a class="btn btn-ghost" href="sesiones"><PixelIcon Name="back" /> Volver</a>
+    </Actions>
+</PageHeader>
+
+<ApiErrorAlert Error="error" />
+
+@if (Input is not null)
+{
+    <section class="panel form-panel">
+        <h2 class="panel-title"><PixelIcon Name="edit" Size="16" /> Estado de la sesión</h2>
+
+        <EditForm Model="Input" FormName="editar-sesion" OnValidSubmit="UpdateAsync">
+            <DataAnnotationsValidator />
+
+            <div class="field-grid">
+                <div class="field">
+                    <label for="status" class="field-label">Estado</label>
+                    <InputSelect id="status" @bind-Value="Input.Status" class="input">
+                        @foreach (var status in Enum.GetValues<SessionStatus>())
+                        {
+                            <option value="@status">@status.ToDisplayName()</option>
+                        }
+                    </InputSelect>
+                    <ValidationMessage For="() => Input.Status" />
+                </div>
+
+                <div class="field">
+                    <label for="signLanguage" class="field-label">Lengua de señas</label>
+                    <InputSelect id="signLanguage" @bind-Value="Input.SignLanguage" class="input">
+                        @foreach (var language in Enum.GetValues<SignLanguage>())
+                        {
+                            <option value="@language">@language.ToDisplayName()</option>
+                        }
+                    </InputSelect>
+                    <ValidationMessage For="() => Input.SignLanguage" />
+                </div>
+            </div>
+
+            <div class="btn-row">
+                <button type="submit" class="btn btn-primary"><PixelIcon Name="check" /> Guardar cambios</button>
+                <a href="sesiones" class="btn btn-ghost">Cancelar</a>
+            </div>
+        </EditForm>
+    </section>
+}
+
+@code {
+    [Parameter]
+    public Guid Id { get; set; }
+
+    [SupplyParameterFromForm(FormName = "editar-sesion")]
+    private UpdateConversationSessionRequest? Input { get; set; }
+
+    private ApiError? error;
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (Input is not null)
+        {
+            return;
+        }
+
+        var result = await Api.GetSessionAsync(Id);
+        error = result.Error;
+        if (result.Value is { } session)
+        {
+            Input = new UpdateConversationSessionRequest
+            {
+                Status = session.Status,
+                SignLanguage = session.SignLanguage
+            };
+        }
+    }
+
+    private async Task UpdateAsync()
+    {
+        var result = await Api.UpdateSessionAsync(Id, Input!);
+        if (result.Succeeded)
+        {
+            Navigation.NavigateTo("sesiones?estado=actualizada");
+            return;
+        }
+
+        error = result.Error;
+    }
+}

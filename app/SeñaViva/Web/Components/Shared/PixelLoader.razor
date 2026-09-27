@@ -1,0 +1,9 @@
+<div class="px-loader" role="status">
+    <span class="px-loader-blocks" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+    <span class="px-loader-text">@Text</span>
+</div>
+
+@code {
+    [Parameter]
+    public string Text { get; set; } = "Cargando…";
+}

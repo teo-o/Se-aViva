@@ -1,0 +1,79 @@
+@page "/usuarios/nuevo"
+@attribute [Authorize]
+@inject SenaVivaApiClient Api
+@inject NavigationManager Navigation
+
+<PageTitle>Nuevo usuario · SeñaViva</PageTitle>
+
+<PageHeader Title="Nuevo usuario" Kicker="Usuarios" KickerIcon="users">
+    <Actions>
+        <a class="btn btn-ghost" href="usuarios"><PixelIcon Name="back" /> Volver</a>
+    </Actions>
+</PageHeader>
+
+<ApiErrorAlert Error="error" />
+
+<section class="panel form-panel">
+    <h2 class="panel-title"><PixelIcon Name="plus" Size="16" /> Datos del usuario</h2>
+
+    <EditForm Model="Input" FormName="crear-usuario" OnValidSubmit="CreateAsync">
+        <DataAnnotationsValidator />
+
+        <div class="field">
+            <label for="name" class="field-label">Nombre completo</label>
+            <InputText id="name" @bind-Value="Input!.Name" class="input" placeholder="Ej: Ana María Pérez" />
+            <ValidationMessage For="() => Input.Name" />
+        </div>
+
+        <div class="field">
+            <label for="email" class="field-label">Email</label>
+            <InputText id="email" type="email" @bind-Value="Input.Email" class="input" placeholder="nombre@correo.com" />
+            <ValidationMessage For="() => Input.Email" />
+        </div>
+
+        <div class="field">
+            <label for="role" class="field-label">Rol</label>
+            <InputSelect id="role" @bind-Value="Input.Role" class="input">
+                <option value="">Selecciona un rol</option>
+                @foreach (var role in Enum.GetValues<UserRole>())
+                {
+                    <option value="@role">@role.ToDisplayName()</option>
+                }
+            </InputSelect>
+            <ValidationMessage For="() => Input.Role" />
+        </div>
+
+        <div class="field">
+            <label for="auth0Id" class="field-label"><span class="nocaps">Auth0</span> ID <span class="field-optional">(opcional)</span></label>
+            <InputText id="auth0Id" @bind-Value="Input.Auth0Id" class="input" placeholder="auth0|..." />
+            <p class="field-hint">El <code>user_id</code> del usuario en Auth0, para enlazar esta cuenta con su login.</p>
+            <ValidationMessage For="() => Input.Auth0Id" />
+        </div>
+
+        <div class="btn-row">
+            <button type="submit" class="btn btn-primary"><PixelIcon Name="check" /> Crear usuario</button>
+            <a href="usuarios" class="btn btn-ghost">Cancelar</a>
+        </div>
+    </EditForm>
+</section>
+
+@code {
+    [SupplyParameterFromForm(FormName = "crear-usuario")]
+    private CreateUserRequest? Input { get; set; }
+
+    private ApiError? error;
+
+    protected override void OnInitialized() => Input ??= new();
+
+    private async Task CreateAsync()
+    {
+        var result = await Api.CreateUserAsync(Input!);
+        if (result.Succeeded)
+        {
+            Navigation.NavigateTo("usuarios?estado=creado");
+            return;
+        }
+
+        error = result.Error;
+    }
+}

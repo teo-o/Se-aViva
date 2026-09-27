@@ -1,0 +1,41 @@
+<header class="page-head">
+    <div>
+        @if (Kicker is not null)
+        {
+            <div class="page-kicker label-caps">
+                @if (KickerIcon is not null)
+                {
+                    <PixelIcon Name="@KickerIcon" Size="16" />
+                }
+                @Kicker
+            </div>
+        }
+        <h1 class="page-title">@Title</h1>
+        @if (Subtitle is not null)
+        {
+            <p class="page-subtitle">@Subtitle</p>
+        }
+    </div>
+
+    @if (Actions is not null)
+    {
+        <div class="page-actions">@Actions</div>
+    }
+</header>
+
+@code {
+    [Parameter, EditorRequired]
+    public string Title { get; set; } = default!;
+
+    [Parameter]
+    public string? Kicker { get; set; }
+
+    [Parameter]
+    public string? KickerIcon { get; set; }
+
+    [Parameter]
+    public string? Subtitle { get; set; }
+
+    [Parameter]
+    public RenderFragment? Actions { get; set; }
+}

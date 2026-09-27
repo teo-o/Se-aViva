@@ -1,0 +1,114 @@
+@page "/usuarios/{Id:int}/editar"
+@attribute [Authorize]
+@inject SenaVivaApiClient Api
+@inject NavigationManager Navigation
+
+<PageTitle>Editar usuario · SeñaViva</PageTitle>
+
+<PageHeader Title="Editar usuario" Kicker="Usuarios" KickerIcon="users">
+    <Actions>
+        <a class="btn btn-ghost" href="usuarios"><PixelIcon Name="back" /> Volver</a>
+    </Actions>
+</PageHeader>
+
+<ApiErrorAlert Error="error" />
+
+@if (Input is not null)
+{
+    <section class="panel form-panel">
+        <h2 class="panel-title"><PixelIcon Name="edit" Size="16" /> Datos del usuario</h2>
+
+        <EditForm Model="Input" FormName="editar-usuario" OnValidSubmit="UpdateAsync">
+            <DataAnnotationsValidator />
+
+            <div class="field">
+                <label for="name" class="field-label">Nombre completo</label>
+                <InputText id="name" @bind-Value="Input.Name" class="input" />
+                <ValidationMessage For="() => Input.Name" />
+            </div>
+
+            <div class="field">
+                <label for="email" class="field-label">Email</label>
+                <InputText id="email" type="email" @bind-Value="Input.Email" class="input" />
+                <ValidationMessage For="() => Input.Email" />
+            </div>
+
+            <div class="field-grid">
+                <div class="field">
+                    <label for="role" class="field-label">Rol</label>
+                    <InputSelect id="role" @bind-Value="Input.Role" class="input">
+                        @foreach (var role in Enum.GetValues<UserRole>())
+                        {
+                            <option value="@role">@role.ToDisplayName()</option>
+                        }
+                    </InputSelect>
+                    <ValidationMessage For="() => Input.Role" />
+                </div>
+
+                <div class="field">
+                    <label for="isActive" class="field-label">Estado</label>
+                    <InputSelect id="isActive" @bind-Value="Input.IsActive" class="input">
+                        <option value="true">Activo</option>
+                        <option value="false">Inactivo</option>
+                    </InputSelect>
+                    <ValidationMessage For="() => Input.IsActive" />
+                </div>
+            </div>
+
+            <div class="field">
+                <label for="auth0Id" class="field-label"><span class="nocaps">Auth0</span> ID <span class="field-optional">(opcional)</span></label>
+                <InputText id="auth0Id" @bind-Value="Input.Auth0Id" class="input" placeholder="auth0|..." />
+                <ValidationMessage For="() => Input.Auth0Id" />
+            </div>
+
+            <div class="btn-row">
+                <button type="submit" class="btn btn-primary"><PixelIcon Name="check" /> Guardar cambios</button>
+                <a href="usuarios" class="btn btn-ghost">Cancelar</a>
+            </div>
+        </EditForm>
+    </section>
+}
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    [SupplyParameterFromForm(FormName = "editar-usuario")]
+    private UpdateUserRequest? Input { get; set; }
+
+    private ApiError? error;
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (Input is not null)
+        {
+            return;
+        }
+
+        var result = await Api.GetUserAsync(Id);
+        error = result.Error;
+        if (result.Value is { } user)
+        {
+            Input = new UpdateUserRequest
+            {
+                Name = user.Name,
+                Email = user.Email,
+                Role = user.Role,
+                IsActive = user.IsActive,
+                Auth0Id = user.Auth0Id
+            };
+        }
+    }
+
+    private async Task UpdateAsync()
+    {
+        var result = await Api.UpdateUserAsync(Id, Input!);
+        if (result.Succeeded)
+        {
+            Navigation.NavigateTo("usuarios?estado=actualizado");
+            return;
+        }
+
+        error = result.Error;
+    }
+}

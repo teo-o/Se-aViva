@@ -1,0 +1,22 @@
+<div class="notice notice-@Kind" role="@(Kind is "error" or "warning" ? "alert" : "status")">
+    <span class="notice-icon"><PixelIcon Name="@Icon" Size="18" /></span>
+    <div class="notice-body">
+        <p class="notice-title">@Title</p>
+        @ChildContent
+    </div>
+</div>
+
+@code {
+    // success | error | warning | info
+    [Parameter]
+    public string Kind { get; set; } = "info";
+
+    [Parameter]
+    public string Icon { get; set; } = "info";
+
+    [Parameter, EditorRequired]
+    public string Title { get; set; } = default!;
+
+    [Parameter]
+    public RenderFragment? ChildContent { get; set; }
+}
