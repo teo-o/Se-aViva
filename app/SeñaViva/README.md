@@ -48,7 +48,7 @@ El `Id` de la sesión es un `Guid`, como el `idSesion: UUID` del UML. El tipo y 
 
 ## Puesta en marcha
 
-Ejecuta estos comandos desde `apps/SeñaViva`:
+Ejecuta estos comandos desde `app/SeñaViva`:
 
 ```bash
 dotnet tool restore
