@@ -1,6 +1,9 @@
-# SeñaViva — Backend (Entrega 2)
+# SeñaViva — Entrega 2
 
-API REST en **.NET 10 (LTS)** con el CRUD de **usuarios** y **sesiones de conversación**. Usa Entity Framework Core sobre SQL Server, Swagger y autenticación JWT con **Auth0**.
+Solución en **.NET 10 (LTS)** con dos aplicaciones:
+
+- **API:** API REST con el CRUD de **usuarios** y **sesiones de conversación**, Entity Framework Core sobre SQL Server, Swagger y autenticación JWT con **Auth0**.
+- **Web:** aplicación **Blazor Web App**. Inicia sesión con Auth0, muestra el perfil con su metadata y consume la API para el CRUD.
 
 ## Estructura
 
@@ -9,8 +12,8 @@ SeñaViva/
 ├── SeñaViva.sln
 ├── global.json            SDK 10.0.x
 ├── dotnet-tools.json      dotnet-ef como herramienta local
-├── API/                   ASP.NET Core Web API
-│   ├── Auth/              Opciones de Auth0, permisos y políticas
+├── API/                   ASP.NET Core Web API (https://localhost:7168)
+│   ├── Auth/              Opciones de Auth0, permisos, políticas y usuario actual
 │   ├── Controllers/       UsersController, ConversationSessionsController
 │   ├── Data/              DataContext + configuraciones de EF
 │   ├── Errors/            Excepciones de dominio y manejador global (ProblemDetails)
@@ -18,13 +21,41 @@ SeñaViva/
 │   ├── Migrations/        InitialCreate
 │   ├── Services/          Reglas de negocio de cada entidad
 │   └── Swagger/           Swagger con OAuth2 (PKCE) y Bearer
-└── Shared/                Tipos compartidos con el frontend
-    ├── DTOs/Requests|Responses
-    ├── Entities/          User, ConversationSession
-    └── Enums/             UserRole, SessionStatus, SignLanguage
+├── Web/                   Blazor Web App, renderizado estático en servidor (https://localhost:7200)
+│   ├── Auth/              Login/logout con Auth0 y token para llamar la API
+│   ├── Components/        Layout HUD, páginas y componentes (PixelIcon, Notice, EmptyState, PixelLoader…)
+│   ├── design/            pixelart.py: genera el logo, el favicon y las ilustraciones
+│   ├── Display/           Textos en español para enums y fechas
+│   └── Services/          Cliente HTTP de la API
+├── Shared/                Tipos compartidos entre API y Web
+│   ├── Auth/              Nombres de los claims personalizados de Auth0
+│   ├── DTOs/Requests|Responses
+│   ├── Entities/          User, ConversationSession
+│   └── Enums/             UserRole, SessionStatus, SignLanguage
+└── auth0/                 Configuración de Auth0 versionada, sin secretos
+    ├── actions/           Código de las Post-Login Actions
+    └── forms/             Plantilla del formulario "Completar perfil" (importable)
 ```
 
-El flujo es: `Controller` (HTTP) → `Service` (reglas) → `DataContext` (EF Core).
+Así se conectan las piezas:
+
+- **API:** `Controller` (HTTP) → `Service` (reglas) → `DataContext` (EF Core).
+- **Web:** página Blazor → `SenaVivaApiClient` → API, con el access token del usuario.
+
+## Cómo se integran los componentes
+
+```text
+Navegador ──► Web (Blazor) ──login──► Auth0 (Universal Login + Form + Actions)
+                 │                        │
+                 │  access token          ├─ Post-Login Action: rol "Usuario" por defecto
+                 ▼                        └─ Form + Flow: nombre y documento en user_metadata
+                API ──► SQL Server (Users, ConversationSessions)
+```
+
+- **Auth0** es la fuente de la identidad: credenciales, login, roles y la metadata del perfil (tipo y número de documento).
+- **La Web** usa el flujo *Regular Web Application*, igual que el ejemplo de clase. Tiene las rutas `/Account/Login`, `/callback` y `/Account/Logout` y guarda la sesión en una cookie. El Client Secret solo existe en el servidor.
+- **La API** valida el access token (JWT RS256) y autoriza cada endpoint por permiso.
+- **La base de datos** guarda los datos del dominio. Cada `User` se enlaza con Auth0 por `Auth0Id` (el `sub`). El documento **no** se replica en la base de datos: vive solo en Auth0, así hay una sola fuente de verdad.
 
 ## Relación con el UML de la Entrega 1
 
@@ -38,43 +69,87 @@ El flujo es: `Controller` (HTTP) → `Service` (reglas) → `DataContext` (EF Co
 
 `ConversationSession` es el estado persistente del *Context* y *Subject* del UML. Cuando se implemente la traducción en tiempo real, la sesión en ejecución cargará este registro y le asignará la estrategia según su `SignLanguage`. Agregar una nueva lengua de señas consiste en agregar un valor al enum y una estrategia nueva.
 
-El `Id` de la sesión es un `Guid`, como el `idSesion: UUID` del UML. El tipo y el número de documento **no** se guardan en la base de datos: viven como `user_metadata` en Auth0, como pide la rúbrica. `User.Auth0Id` guarda el `sub` de Auth0 y enlaza el registro local con el perfil de Auth0.
+Cambios respecto al diseño de Workbench, documentados como permite el profesor:
+- **Motor:** SQL Server en lugar de MySQL. El proveedor de MySQL más usado todavía no soporta EF Core 10.
+- **Id de la sesión:** `Guid`, como el `idSesion: UUID` del UML.
+- **`User`:** se agregó `Auth0Id`.
 
 ## Requisitos
 
 - .NET SDK 10.0.x.
 - SQL Server LocalDB (viene con Visual Studio). Para usar otra instancia, sobrescribe `ConnectionStrings:DefaultConnection`.
+- Certificado HTTPS de desarrollo **de confianza**. Ejecuta `dotnet dev-certs https --trust` una vez y acepta la ventana de Windows. Sin esto, la Web no puede llamar a la API por HTTPS.
 - Una cuenta de Auth0 (ver la guía más abajo).
 
 ## Puesta en marcha
 
-Ejecuta estos comandos desde `app/SeñaViva`:
+Ejecuta estos comandos desde `app/SeñaViva`. Los valores de Auth0 se guardan con **user-secrets**, fuera del repositorio.
 
 ```bash
 dotnet tool restore
 
-# Auth0: estos valores no son secretos, pero se mantienen fuera del repositorio
+# API
 dotnet user-secrets set "Auth0:Domain" "TU-TENANT.us.auth0.com" --project API
 dotnet user-secrets set "Auth0:Audience" "https://api.senaviva.local" --project API
 dotnet user-secrets set "Auth0:SwaggerClientId" "CLIENT_ID_DE_LA_APP_SPA" --project API
 
-# Opcional: otra base de datos
-# dotnet user-secrets set "ConnectionStrings:DefaultConnection" "Server=...;Database=SenaVivaDb;..." --project API
+# Web (Regular Web Application)
+dotnet user-secrets set "Auth0:Domain" "TU-TENANT.us.auth0.com" --project Web
+dotnet user-secrets set "Auth0:Audience" "https://api.senaviva.local" --project Web
+dotnet user-secrets set "Auth0:ClientId" "CLIENT_ID_DE_LA_REGULAR_WEB_APP" --project Web
+dotnet user-secrets set "Auth0:ClientSecret" "CLIENT_SECRET_DE_LA_REGULAR_WEB_APP" --project Web
 
 dotnet ef database update --project API
-dotnet run --project API --launch-profile https
 ```
 
-Swagger queda disponible en **https://localhost:7168/swagger** (solo en Development).
+Levanta cada aplicación en su propia terminal:
 
-`Auth0:Domain` va **sin** `https://`. Si falta `Domain` o `Audience`, la API no arranca y muestra un mensaje que lo indica; esto también aplica a los comandos de `dotnet ef`. Como alternativa a user-secrets puedes usar variables de entorno (`Auth0__Domain`, `Auth0__Audience`, `Auth0__SwaggerClientId`, `ConnectionStrings__DefaultConnection`).
+```bash
+dotnet run --project API --launch-profile https   # https://localhost:7168/swagger
+dotnet run --project Web --launch-profile https   # https://localhost:7200
+```
 
-## Endpoints
+Notas:
+- **`Auth0:Domain` va sin `https://`.** Si falta un valor de Auth0, la aplicación no arranca y muestra cuál falta. En la API esto también aplica a los comandos de `dotnet ef`.
+- **Variables de entorno:** en lugar de user-secrets puedes usar `Auth0__Domain`, `Auth0__ClientSecret`, etc.
+
+## Web
+
+| Página | Qué hace |
+|---|---|
+| `/` | Presentación. Enlaces **Crear cuenta** (abre directamente el registro de Auth0) e **Iniciar sesión** |
+| `/perfil` | Datos de Auth0 (nombre, email, tipo y número de documento) y la cuenta en SeñaViva. A quien no tiene cuenta en SeñaViva (usuarios que ya existían y administradores) le pregunta *"¿Deseas crear tu usuario en SeñaViva?"*: los administradores quedan como Administrador y los demás eligen *persona sorda* u *oyente* |
+| `/usuarios` | CRUD de usuarios: listar, crear, editar y eliminar (requiere `read:users` / `write:users`) |
+| `/sesiones` | CRUD de sesiones de conversación. Una sesión nueva queda a nombre del usuario actual |
+
+### Diseño (pixel art)
+
+La interfaz usa un sistema de diseño propio, sin Bootstrap ni frameworks de UI. Todo el CSS está en `wwwroot/app.css`.
+
+- **Paleta limitada:** tinta `#1c1b2b`, papel `#f3ead3`, nieve `#fffbf1`, verde azulado `#1f7a70`, sol `#f2b83a`, coral `#c2452b` y ciruela `#4b3a78`, con variantes oscuras para relieve y sombras. No hay degradados.
+- **Tipografía:** *Press Start 2P* para la marca, el título de portada y los números. *Pixelify Sans* para títulos, etiquetas y texto. Press Start 2P no tiene mayúsculas con tilde, así que los títulos con tildes usan Pixelify. Las dos van alojadas en `wwwroot/fonts`, con licencia OFL.
+- **Marcos pixel:** los elementos enmarcados usan un borde de 4 px con esquinas escalonadas y sombra dura; ver la variable `--frame`.
+- **Animaciones:** todas son escalonadas (`steps()`), como los fotogramas de un sprite, y se desactivan con `prefers-reduced-motion`.
+- **Logo, favicon e ilustraciones:** se dibujan como cuadrículas de texto en `design/pixelart.py`. Para regenerarlos, ejecuta `python design/pixelart.py` (requiere Pillow).
+- **Íconos:** son de 9×9 y están en `Display/PixelIcons.cs`. Se usan con `<PixelIcon Name="..."/>` y toman el color del texto.
+- **Estados de la interfaz:**
+  - **Carga:** las listas y el perfil usan `[StreamRendering]` y muestran `PixelLoader` mientras llega la respuesta de la API. `wwwroot/js/app.js` muestra una barra de carga al navegar o enviar un formulario, marca el botón enviado como ocupado y evita el doble envío.
+  - **Vacío:** `EmptyState`.
+  - **Avisos de éxito, error o permiso:** `Notice`.
+- **Responsive:** en pantallas de hasta 900 px la navegación pasa a un menú desplegable; en las de hasta 720 px las tablas se convierten en tarjetas.
+
+**Alta automática de registros nuevos:** el formulario de Auth0 pregunta *"¿Cómo te comunicas?"* (`tipo_usuario`: `Deaf` o `Hearing`). Al volver del login, la web (`Auth/NewUserRegistration.cs`) crea el usuario en SeñaViva con ese rol mediante `POST /api/users/me`, sin preguntar nada más. Quien ya existía antes de este cambio no tiene `tipo_usuario` y los administradores se excluyen: a ellos se les pregunta en `/perfil`.
+
+La web usa **renderizado estático en el servidor** con formularios. Cada llamada a la API ocurre mientras se atiende una petición HTTP, y así el access token siempre está disponible en `HttpContext`. Es el patrón que recomienda Microsoft para llamar APIs externas con el token del usuario sin exponerlo en el navegador.
+
+## Endpoints de la API
 
 Todos exigen un token de Auth0 válido. Sin token responden **401**; con token pero sin el permiso, **403**.
 
 | Método | Ruta | Permiso |
 |---|---|---|
+| GET | `/api/users/me` | solo autenticado (usuario final) |
+| POST | `/api/users/me` | solo autenticado (usuario final) |
 | GET | `/api/users` | `read:users` |
 | GET | `/api/users/{id}` | `read:users` |
 | POST | `/api/users` | `write:users` |
@@ -87,11 +162,18 @@ Todos exigen un token de Auth0 válido. Sin token responden **401**; con token p
 | DELETE | `/api/conversation-sessions/{id}` | `write:sessions` |
 
 Reglas:
-- El email es único (sin distinguir mayúsculas) y el `Auth0Id` también. Un duplicado responde **409**.
-- No se puede eliminar un usuario que tiene sesiones (**409**); en ese caso se desactiva con `isActive: false`.
-- Crear una sesión con un `userId` inexistente responde **404**.
-- Si faltan campos o un enum tiene un valor inválido, la respuesta es **400** con `ValidationProblemDetails`.
-- Los enums viajan como texto:
+- **`/api/users/me`:**
+  - Registra o consulta al usuario del token.
+  - Toma el `sub`, el email y el nombre de los claims que agrega la Action `perfil-senaviva.js`.
+  - Permite los roles `Deaf` y `Hearing`. `Administrator` solo si el token trae el rol `Administrador` de Auth0 (claim `https://senaviva.local/roles`); si no, responde **403**. `Interpreter` lo asigna un administrador con `PUT /api/users/{id}`.
+  - Si se llama dos veces, devuelve el mismo usuario.
+  - No enlaza por email: si ya existe un usuario con ese email, responde **409** y un administrador debe asignarle el `auth0Id`.
+  - Rechaza tokens de máquina (M2M) con **403**.
+- **Unicidad:** el email es único (sin distinguir mayúsculas) y el `Auth0Id` también. Un duplicado responde **409**.
+- **Eliminar usuarios:** no se puede eliminar un usuario que tiene sesiones (**409**); en ese caso se desactiva con `isActive: false`.
+- **Sesiones:** crear una sesión con un `userId` inexistente responde **404**.
+- **Validación:** si faltan campos o un enum tiene un valor inválido, la respuesta es **400** con los mensajes en español.
+- **Enums:** viajan como texto:
   - `role`: `Deaf`, `Hearing`, `Interpreter`, `Administrator`.
   - `status`: `Active`, `Finished`.
   - `signLanguage`: `LSC`.
@@ -101,6 +183,9 @@ Ejemplos de cuerpo:
 ```json
 POST /api/users
 { "name": "Ana Pérez", "email": "ana@example.com", "role": "Deaf", "auth0Id": "auth0|65f..." }
+
+POST /api/users/me
+{ "role": "Hearing" }
 
 POST /api/conversation-sessions
 { "userId": 1, "signLanguage": "LSC" }
@@ -117,7 +202,7 @@ En el entorno de desarrollo no había un MCP de Auth0 disponible, así que la co
 
 ### 1. Dominio
 
-En el dashboard, **Settings** del tenant (o cualquier aplicación → *Settings* → *Domain*), copia el dominio, por ejemplo `dev-abc123.us.auth0.com`. Ese valor va en `Auth0:Domain`.
+En cualquier aplicación → *Settings* → *Domain*, copia el dominio, por ejemplo `dev-abc123.us.auth0.com`. Ese valor va en `Auth0:Domain`.
 
 ### 2. API (Audience)
 
@@ -128,6 +213,8 @@ En el dashboard, **Settings** del tenant (o cualquier aplicación → *Settings*
 2. En la pestaña **Settings**, dentro de *RBAC Settings*, activa:
    - **Enable RBAC**
    - **Add Permissions in the Access Token**
+
+   Sin esto el token no trae `permissions` y la API responde **403**.
 3. En la pestaña **Permissions**, crea estos permisos:
 
 | Permiso | Descripción |
@@ -146,60 +233,80 @@ En **User Management → Roles → Create Role**:
 | `Administrador` | los 4 |
 | `Usuario` | `read:sessions`, `write:sessions` |
 
-### 4. Application para Swagger (Client ID)
+Copia el **ID del rol `Usuario`** (`rol_...`); lo usa la Action del paso 7.
 
-1. Ve a **Applications → Applications → Create Application** y elige **Single Page Web Applications**. Nómbrala `SeñaViva Swagger`.
+### 4. Aplicación de la Web (Regular Web Application)
+
+En **Applications → Applications**, abre tu *Regular Web Application* o crea una nueva de ese tipo.
+
+1. En **Settings**:
+   - **Allowed Callback URLs:** `https://localhost:7200/callback`
+   - **Allowed Logout URLs:** `https://localhost:7200/`
+   - **Allowed Web Origins:** `https://localhost:7200`
+2. En la pestaña **APIs**, edita `SeñaViva API`. En **User-delegated Access** elige **Authorized** y **marca los 4 permisos**; si no marcas ninguno, no se guarda. Sin este paso, Auth0 responde `Client "..." is not authorized to access resource server`.
+3. Copia el **Client ID** y el **Client Secret** en los user-secrets del proyecto Web.
+
+Esta misma aplicación tiene *Client access* a la **Auth0 Management API** para el Vault y la Action del rol (pasos 7 y 8). Necesita los scopes `read:users`, `update:users`, `update:users_app_metadata` y `update:current_user_metadata`, y en *Settings → Advanced → Grant Types* debe estar activo **Client Credentials**.
+
+### 5. Aplicación para Swagger (SPA)
+
+1. Ve a **Create Application** y elige **Single Page Web Applications**. Nómbrala `SeñaViva Swagger`.
 2. En **Settings**:
    - **Allowed Callback URLs:** `https://localhost:7168/swagger/oauth2-redirect.html`
    - **Allowed Web Origins:** `https://localhost:7168`
    - **Allowed Origins (CORS):** `https://localhost:7168`
-3. Si la aplicación tiene la pestaña **APIs**, autoriza el acceso de usuario (*User Access*) a `SeñaViva API`.
-4. Copia el **Client ID** en `Auth0:SwaggerClientId`. Una SPA no usa Client Secret: Swagger usa **Authorization Code + PKCE**.
+3. En la pestaña **APIs**, autoriza la *User-delegated Access* a `SeñaViva API` con los 4 permisos.
+4. Copia el **Client ID** en `Auth0:SwaggerClientId` de la API. Una SPA no usa Client Secret: Swagger usa **Authorization Code + PKCE**.
 
-La aplicación de login del frontend (la *Regular Web Application* de las clases) es independiente de esta y la configura el frontend.
+### 6. Formulario "Completar perfil" (rúbrica, punto 3)
 
-### 5. Usuarios de prueba
+Captura el nombre completo, cómo se comunica la persona (`tipo_usuario`) y el tipo y número de documento. El Flow guarda el nombre y el documento en el perfil de Auth0 (`name` y `user_metadata`), siguiendo el método de los encuentros explicativos; la Action `perfil-senaviva.js` guarda `tipo_usuario` en `user_metadata`.
 
-En **User Management → Users → Create User**, con la conexión *Username-Password-Authentication*:
-- `admin.senaviva@example.com`: pestaña **Roles**, asignar `Administrador`.
-- `usuario.senaviva@example.com`: pestaña **Roles**, asignar `Usuario`.
+1. **Vault:** en **Actions → Forms → Vault**, crea una conexión **Auth0** con el Domain, el Client ID y el Client Secret de la aplicación del paso 4. Como audience usa `https://TU-TENANT.us.auth0.com/api/v2/`.
+2. **Importar:** ve a **Forms → Create Form → Import** y carga [`auth0/forms/completar-perfil.json`](auth0/forms/completar-perfil.json). Trae el formulario y el Flow **Update user**. Si Auth0 pide asociar la conexión *REPLACE_WITH_M2M_CONNECTION*, elige la del Vault.
+3. **Publicar:** publica el Form y el Flow. Copia el **ID del formulario** (`ap_...`).
+4. **Verificar:** después de un login, revisa las **Executions** del Flow (deben tener respuesta 200) y el `user_metadata` del usuario.
 
-Para enlazar a cada uno con la base de datos local, copia su **user_id** (por ejemplo `auth0|65f...`) y úsalo como `auth0Id` al crear el usuario con `POST /api/users`.
+### 7. Post-Login Actions
 
-### 6. Obtener un token y probar en Swagger
+En **Actions → Triggers → post-login**, crea dos Actions con **+ → Build from scratch**. Pega el código de cada archivo, haz **Deploy** y **arrástralas al flujo en este orden**. Después pulsa **Apply**.
 
-**Opción A: iniciar sesión desde Swagger (recomendada)**
-1. Abre `https://localhost:7168/swagger` y pulsa **Authorize**.
-2. En el esquema **Auth0 (OAuth2, authorizationCode)** el `client_id` ya viene lleno. Deja `client_secret` vacío, marca `openid`, `profile` y `email`, y pulsa **Authorize**.
-3. Inicia sesión con un usuario de prueba. Swagger adjuntará el token a cada petición.
-   - Con `Administrador` funcionan todos los endpoints.
-   - Con `Usuario`, los endpoints de `/api/users` responden **403**.
+1. **[`auth0/actions/asignar-rol-por-defecto.js`](auth0/actions/asignar-rol-por-defecto.js)**
+   - **Qué hace:** asigna el rol `Usuario` a quien no tiene roles, es decir, a quien se acaba de registrar. En ese mismo login agrega `read:sessions` y `write:sessions` al token.
+   - **Secrets** (se agregan en la Action → *Secrets*):
 
-**Opción B: token de máquina (M2M)**
-1. En **Applications → APIs → SeñaViva API → Machine To Machine Applications**, autoriza la aplicación de prueba y marca los permisos que quieras probar.
-2. En la pestaña **Test** de la API, copia el `access_token` de la respuesta.
-3. En Swagger, pulsa **Authorize** → esquema **Bearer**, pega el token sin el prefijo `Bearer ` y pulsa **Authorize**.
+     | Secret | Valor |
+     |---|---|
+     | `AUTH0_DOMAIN` | `TU-TENANT.us.auth0.com` |
+     | `CLIENT_ID`, `CLIENT_SECRET` | Los de la aplicación del paso 4 |
+     | `DEFAULT_ROLE_ID` | El `rol_...` del rol `Usuario` |
+     | `API_AUDIENCE` | `https://api.senaviva.local` |
 
-Para revisar qué contiene un token puedes usar https://jwt.io: busca `aud`, `iss` y `permissions` (o `scope`). No pegues ahí tokens de producción.
+   - **Si el rol no se asigna:** en *Monitoring → Logs* aparece `No se pudo asignar el rol por defecto…`, seguido de la respuesta de Auth0. Si dice *Insufficient scope*, agrega el scope que indique a la aplicación.
+2. **[`auth0/actions/perfil-senaviva.js`](auth0/actions/perfil-senaviva.js)**
+   - **Configuración:** reemplaza `FORM_ID` por el `ap_...` del paso 6.
+   - **Qué hace:** muestra el formulario mientras falten los datos del documento, y agrega a los tokens los claims `https://senaviva.local/...`:
+     - **ID token:** nombre, tipo y número de documento, para la página *Mi perfil*.
+     - **Access token:** email y nombre, para `POST /api/users/me`.
 
-### 7. Metadata del perfil: tipo y número de documento (rúbrica, punto 3)
+### 8. Personalizar el login (rúbrica: "no usar la plantilla por defecto")
 
-Esta parte se configura en Auth0, sin código, siguiendo el método de los encuentros explicativos. El backend no llama a la Management API.
+En **Branding → Universal Login → Customization Options**:
+- **Colores:** color primario `#0f766e` (el verde azulado de la web) y fondo de página `#1e3a8a`.
+- **Logo:** la URL pública de un logo de SeñaViva.
+- **Textos:** en *Branding → Universal Login → Advanced Options → Text customization* (o *Custom Text*), ajusta los textos de la pantalla de login y de registro en español.
 
-1. **Form:** en **Actions → Forms**, crea un formulario con los campos *Nombre completo*, *Tipo de documento* (dropdown: Cédula, Tarjeta de identidad…) y *Número de documento*. Renombra los IDs de los campos a nombres legibles, por ejemplo `nombre_completo`, `tipo_doc` y `documento`.
-2. **Post-Login Action:** usa el código de *render* que genera el Form en una Action del trigger **Post Login**. Luego haz *Deploy* y arrástrala al flujo.
-3. **Vault:** crea una conexión de tipo **Auth0** con el Domain, el Client ID y el Client Secret de la aplicación de login. Usa como audience el identificador de **Auth0 Management API**. En esa aplicación, pestaña **APIs → Auth0 Management API**, concede estos *client access* scopes: `read:users`, `update:users`, `update:users_app_metadata` y `update:current_user_metadata`.
-4. **Flow:** después del Form, agrega un Flow con la acción **Update user**. Usa el `user.id` del contexto y un body como este:
+Una plantilla HTML completamente propia requiere un dominio personalizado, como mostró el profesor.
 
-   ```json
-   {
-     "name": "{{fields.nombre_completo}}",
-     "user_metadata": {
-       "tipo_documento": "{{fields.tipo_doc}}",
-       "numero_documento": "{{fields.documento}}"
-     }
-   }
-   ```
+### 9. Usuarios de prueba y verificación
 
-   Los valores de texto van **entre comillas**; si no, Auth0 responde *user data is not valid JSON*.
-5. **Verificación:** revisa las **Executions** del Flow (debe haber una respuesta 200) y, en *User Management → Users*, el `user_metadata` del usuario.
+1. **Registro:** en la Web, pulsa **Crear cuenta** y regístrate. Deben ocurrir tres cosas: aparece el formulario *Completar perfil*, se asigna el rol `Usuario` y vuelves a la web.
+2. **Perfil:** en **Mi perfil** debes ver el nombre, el tipo y número de documento, y el formulario para registrarte en SeñaViva (*persona sorda* u *oyente*).
+3. **Sesiones:** en **Sesiones**, crea, edita y elimina una sesión.
+4. **Permisos:** con el rol `Usuario`, **Usuarios** muestra *"No tienes permiso"*, porque falta `read:users`. Para el CRUD de usuarios, asigna el rol `Administrador` a tu usuario en *User Management → Users → Roles*. Luego cierra sesión y vuelve a entrar, para que el token nuevo traiga los permisos.
+
+Para probar la API directamente, Swagger ofrece dos opciones:
+- **Authorize → esquema Auth0:** inicia sesión desde Swagger.
+- **Authorize → esquema Bearer:** pega un token de la pestaña **Test** de la API en Auth0.
+
+Para revisar qué contiene un token puedes usar https://jwt.io: busca `aud`, `permissions` (o `scope`) y los claims `https://senaviva.local/...`. No pegues ahí tokens reales de producción.
