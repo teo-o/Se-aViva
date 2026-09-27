@@ -1,0 +1,226 @@
+{
+  "version": "3.0.0",
+  "form": {
+    "name": "SeñaViva - Completar perfil",
+    "description": "Captura nombre completo, tipo y número de documento y los guarda en el perfil de Auth0.",
+    "messages": {
+      "custom": {},
+      "errors": {}
+    },
+    "languages": {
+      "default": null,
+      "primary": "es"
+    },
+    "translations": {},
+    "start": {
+      "nextNode": "step_datos_perfil",
+      "coordinates": {
+        "x": 0,
+        "y": 0
+      },
+      "hiddenFields": []
+    },
+    "nodes": [
+      {
+        "id": "step_datos_perfil",
+        "type": "STEP",
+        "alias": "Datos del perfil",
+        "config": {
+          "nextNode": "flow_actualizar_metadata",
+          "components": [
+            {
+              "id": "titulo",
+              "type": "RICH_TEXT",
+              "config": {
+                "content": "<h2>Completa tu perfil</h2><p>Necesitamos estos datos para terminar tu registro en SeñaViva.</p>"
+              },
+              "category": "BLOCK"
+            },
+            {
+              "id": "nombre_completo",
+              "hint": null,
+              "type": "TEXT",
+              "label": "Nombre completo",
+              "config": {
+                "maxLength": 100,
+                "minLength": 3,
+                "multiline": false,
+                "placeholder": "Ej: Ana María Pérez",
+                "defaultValue": null
+              },
+              "category": "FIELD",
+              "required": true,
+              "transient": false
+            },
+            {
+              "id": "tipo_usuario",
+              "hint": null,
+              "type": "CHOICE",
+              "label": "¿Cómo te comunicas?",
+              "config": {
+                "options": [
+                  {
+                    "label": "Soy una persona sorda y me comunico en LSC",
+                    "value": "Deaf"
+                  },
+                  {
+                    "label": "Soy una persona oyente",
+                    "value": "Hearing"
+                  }
+                ],
+                "multiple": false,
+                "allowOther": null,
+                "defaultValue": null
+              },
+              "category": "FIELD",
+              "required": true,
+              "transient": false
+            },
+            {
+              "id": "tipo_doc",
+              "hint": null,
+              "type": "DROPDOWN",
+              "label": "Tipo de documento",
+              "config": {
+                "options": [
+                  {
+                    "label": "Cédula de ciudadanía",
+                    "value": "CC"
+                  },
+                  {
+                    "label": "Tarjeta de identidad",
+                    "value": "TI"
+                  },
+                  {
+                    "label": "Cédula de extranjería",
+                    "value": "CE"
+                  },
+                  {
+                    "label": "Pasaporte",
+                    "value": "PA"
+                  },
+                  {
+                    "label": "Permiso por Protección Temporal",
+                    "value": "PPT"
+                  }
+                ],
+                "multiple": false,
+                "placeholder": "Selecciona una opción",
+                "defaultValue": null
+              },
+              "category": "FIELD",
+              "required": true,
+              "transient": false
+            },
+            {
+              "id": "documento",
+              "hint": null,
+              "type": "TEXT",
+              "label": "Número de documento",
+              "config": {
+                "maxLength": 15,
+                "minLength": 5,
+                "multiline": false,
+                "placeholder": "Ej: 1036123456",
+                "defaultValue": null
+              },
+              "category": "FIELD",
+              "required": true,
+              "transient": false
+            },
+            {
+              "id": "boton_continuar",
+              "type": "NEXT_BUTTON",
+              "config": {
+                "text": "Continuar"
+              },
+              "category": "BLOCK"
+            }
+          ]
+        },
+        "coordinates": {
+          "x": 400,
+          "y": 0
+        }
+      },
+      {
+        "id": "flow_actualizar_metadata",
+        "type": "FLOW",
+        "alias": "Actualizar metadata",
+        "config": {
+          "flowId": "#FLOW-1#",
+          "nextNode": "$ending"
+        },
+        "coordinates": {
+          "x": 900,
+          "y": 0
+        }
+      }
+    ],
+    "ending": {
+      "content": null,
+      "redirection": null,
+      "callback": null,
+      "afterSubmit": {
+        "email": null,
+        "flowId": null
+      },
+      "coordinates": {
+        "x": 1300,
+        "y": 0
+      },
+      "resumeFlow": true
+    },
+    "social": [],
+    "style": {
+      "css": null,
+      "theme": "ROUND",
+      "version": "MODERN"
+    },
+    "tags": []
+  },
+  "flows": {
+    "#FLOW-1#": {
+      "name": "SeñaViva - Actualizar metadata",
+      "description": null,
+      "actions": [
+        {
+          "id": "update_user_senaviva",
+          "type": "AUTH0",
+          "alias": "Actualizar metadata",
+          "notes": null,
+          "action": "UPDATE_USER",
+          "params": {
+            "userId": "{{context.user.user_id}}",
+            "changes": {
+              "name": "{{fields.nombre_completo}}",
+              "user_metadata": {
+                "tipo_documento": "{{fields.tipo_doc}}",
+                "numero_documento": "{{fields.documento}}"
+              }
+            },
+            "connectionId": "#CONN-1#"
+          },
+          "allowFailure": false
+        }
+      ],
+      "triggers": {
+        "webhook": {
+          "secret": null,
+          "enabled": false
+        }
+      },
+      "synchronous": true,
+      "security": {
+        "rateLimits": []
+      }
+    }
+  },
+  "connections": {
+    "#CONN-1#": {
+      "id": "ac_REEMPLAZAR",
+      "appId": "AUTH0",
+      "name": "REPLACE_WITH_M2M_CONNECTION"
+    }
+  }
+}
