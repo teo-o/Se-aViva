@@ -1,0 +1,4214 @@
+WEBVTT
+
+55d86378-76b1-44d5-ade8-51151c9d09af/23-0
+00:00:03.279 --> 00:00:07.559
+<v JONATHAN SANCHEZ GIRALDO>Arrancamos chicos,
+semana en estos momentos estamos en.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/25-0
+00:00:09.119 --> 00:00:14.338
+<v JONATHAN SANCHEZ GIRALDO>22 estamos semana 8, listo, semana 8,
+ya esta semana se activan nuevamente el</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/25-1
+00:00:14.338 --> 00:00:18.620
+<v JONATHAN SANCHEZ GIRALDO>otro proceso de evaluación.
+¿En qué consiste el otro proceso de</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/25-2
+00:00:18.620 --> 00:00:22.032
+<v JONATHAN SANCHEZ GIRALDO>evaluación?
+Pues consiste en actividades que hemos</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/25-3
+00:00:22.032 --> 00:00:27.652
+<v JONATHAN SANCHEZ GIRALDO>ido realizando dentro del proceso que nos
+vamos encontrando en las diferentes fases</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/25-4
+00:00:27.652 --> 00:00:27.919
+<v JONATHAN SANCHEZ GIRALDO>del.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/26-0
+00:00:27.959 --> 00:00:31.369
+<v JONATHAN SANCHEZ GIRALDO>Del semestre,
+para eso le vamos a empezar a profundizar</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/26-1
+00:00:31.369 --> 00:00:35.144
+<v JONATHAN SANCHEZ GIRALDO>un poquito más en el primero.
+Ustedes estaban dando una idea,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/26-2
+00:00:35.144 --> 00:00:38.432
+<v JONATHAN SANCHEZ GIRALDO>un contexto,
+unos mockups que iban a demostrar lo que</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/26-3
+00:00:38.432 --> 00:00:43.243
+<v JONATHAN SANCHEZ GIRALDO>ustedes iban a empezar a realizar dentro
+dentro del proyecto final que ustedes</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/26-4
+00:00:43.243 --> 00:00:46.653
+<v JONATHAN SANCHEZ GIRALDO>están trabajando como equipos.
+Listo ya para esta fase,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/26-5
+00:00:46.653 --> 00:00:48.479
+<v JONATHAN SANCHEZ GIRALDO>si ya vamos a empezar a hacer.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/28-0
+00:00:48.559 --> 00:00:55.234
+<v JONATHAN SANCHEZ GIRALDO>Los CRUD como mínimo un CRUD de algún
+producto que vamos a empezar a trabajar.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/28-1
+00:00:55.234 --> 00:01:00.472
+<v JONATHAN SANCHEZ GIRALDO>Les voy a mostrar por aquí el documento
+que vamos a trabajar.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/28-2
+00:01:00.472 --> 00:01:06.723
+<v JONATHAN SANCHEZ GIRALDO>Esta es la actividad número 2 que
+justamente también tiene como límite de</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/28-3
+00:01:06.723 --> 00:01:07.399
+<v JONATHAN SANCHEZ GIRALDO>entrega.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/30-0
+00:01:07.759 --> 00:01:12.747
+<v JONATHAN SANCHEZ GIRALDO>El domingo justamente ya la tengo lista
+para montarla en el espacio,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/30-1
+00:01:12.747 --> 00:01:18.168
+<v JONATHAN SANCHEZ GIRALDO>pero la quiero socializar para que se
+entienda un poquito de qué es lo que</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/30-2
+00:01:18.168 --> 00:01:23.444
+<v JONATHAN SANCHEZ GIRALDO>vamos a ir pidiendo. Listo, ojo,
+en el documento están los mismos roles,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/30-3
+00:01:23.444 --> 00:01:28.359
+<v JONATHAN SANCHEZ GIRALDO>están los mismos equipos de trabajo,
+los mismos equipos de trabajo.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/31-0
+00:01:28.439 --> 00:01:34.525
+<v JONATHAN SANCHEZ GIRALDO>Profe, que es que mi compañerito canceló.
+Eso mismo pasa en los proyectos,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/31-1
+00:01:34.525 --> 00:01:38.907
+<v JONATHAN SANCHEZ GIRALDO>las personas se van,
+las personas toca reemplazarlas.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/31-2
+00:01:38.907 --> 00:01:45.074
+<v JONATHAN SANCHEZ GIRALDO>Entonces toca reemplazar el tema de los
+roles o muchas veces le toca a unos</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/31-3
+00:01:45.074 --> 00:01:48.319
+<v JONATHAN SANCHEZ GIRALDO>chicos asumir el rol listo, pero lo que.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/32-0
+00:01:48.399 --> 00:01:52.029
+<v JONATHAN SANCHEZ GIRALDO>Hemos trabajado, no se sale,
+pues de que sí o sí,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/32-1
+00:01:52.029 --> 00:01:55.369
+<v JONATHAN SANCHEZ GIRALDO>no es que tocaste una contratación por
+fuera,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/32-2
+00:01:55.369 --> 00:02:00.233
+<v JONATHAN SANCHEZ GIRALDO>como muchas veces pasa en las en las
+empresas chicos, por ejemplo,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/32-3
+00:02:00.233 --> 00:02:02.919
+<v JONATHAN SANCHEZ GIRALDO>en el caso de nosotros como proyecto.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/33-0
+00:02:03.759 --> 00:02:09.807
+<v JONATHAN SANCHEZ GIRALDO>Había un proyecto en el cual yo estaba
+empezando a trabajar y era todo el</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/33-1
+00:02:09.807 --> 00:02:16.182
+<v JONATHAN SANCHEZ GIRALDO>montaje de implementación del moodle,
+así como nosotros tenemos el moodle del</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/33-2
+00:02:16.182 --> 00:02:19.697
+<v JONATHAN SANCHEZ GIRALDO>ITM,
+pero en este caso era allá se llamaba</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/33-3
+00:02:19.697 --> 00:02:20.759
+<v JONATHAN SANCHEZ GIRALDO>Aula Digital.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/34-0
+00:02:21.839 --> 00:02:25.415
+<v JONATHAN SANCHEZ GIRALDO>Cuando yo llegué a trabajar con aula
+digital,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/34-1
+00:02:25.415 --> 00:02:29.223
+<v JONATHAN SANCHEZ GIRALDO>el reto que me habían puesto era montar
+el aula,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/34-2
+00:02:29.223 --> 00:02:34.897
+<v JONATHAN SANCHEZ GIRALDO>pero yo necesitaba muchas cosas más,
+infraestructura, servidores. O sea,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/34-3
+00:02:34.897 --> 00:02:40.959
+<v JONATHAN SANCHEZ GIRALDO>yo necesitaba una cantidad de cosas que
+no iba a dar abasto yo solito, listo.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/35-0
+00:02:41.279 --> 00:02:45.763
+<v JONATHAN SANCHEZ GIRALDO>y cuántos afiliados tiene en ese momento
+la caja de compensación en ese momento</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/35-1
+00:02:45.763 --> 00:02:50.414
+<v JONATHAN SANCHEZ GIRALDO>tenía más de un millón de afiliados listo
+entonces para empezar a vender productos</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/35-2
+00:02:50.414 --> 00:02:55.122
+<v JONATHAN SANCHEZ GIRALDO>y todo eso no se puede montar un producto
+cualquiera Entonces en ese en ese momento</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/35-3
+00:02:55.122 --> 00:02:59.325
+<v JONATHAN SANCHEZ GIRALDO>Bueno yo levanté la mano bueno y y yo con
+quién voy a trabajar nadie había</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/35-4
+00:02:59.325 --> 00:03:02.519
+<v JONATHAN SANCHEZ GIRALDO>trabajado mudo dentro de comfama entonces
+en ese momento</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/36-0
+00:03:03.119 --> 00:03:08.217
+<v JONATHAN SANCHEZ GIRALDO>Ahí es donde ustedes,
+como arquitectos de futuros que de pronto</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/36-1
+00:03:08.217 --> 00:03:13.235
+<v JONATHAN SANCHEZ GIRALDO>van a ser los que quieran seguir con la
+línea de arquitectura,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/36-2
+00:03:13.235 --> 00:03:19.448
+<v JONATHAN SANCHEZ GIRALDO>entonces tienen que empezar a pensar todo
+el tema de la del montaje de la del</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/36-3
+00:03:19.448 --> 00:03:21.439
+<v JONATHAN SANCHEZ GIRALDO>proyecto en general. con.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/37-0
+00:03:21.519 --> 00:03:24.952
+<v JONATHAN SANCHEZ GIRALDO>Todas y cada una del de sus funciones
+está la parte,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/37-1
+00:03:24.952 --> 00:03:30.004
+<v JONATHAN SANCHEZ GIRALDO>entonces está el de la base de datos,
+entonces está el de la infraestructura,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/37-2
+00:03:30.004 --> 00:03:34.084
+<v JONATHAN SANCHEZ GIRALDO>está el de implementación,
+está el gestor de la plataforma que</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/37-3
+00:03:34.084 --> 00:03:38.748
+<v JONATHAN SANCHEZ GIRALDO>muchas veces se nos olvida de que las
+plataformas alguien las tiene que</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/37-4
+00:03:38.748 --> 00:03:41.079
+<v JONATHAN SANCHEZ GIRALDO>gestionar y normalmente no lo hacen.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/38-0
+00:03:41.919 --> 00:03:45.041
+<v JONATHAN SANCHEZ GIRALDO>Roles,
+pues muy alto dentro de dentro de un</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/38-1
+00:03:45.041 --> 00:03:48.943
+<v JONATHAN SANCHEZ GIRALDO>equipo de trabajo.
+Me refiero a manejar la plataforma,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/38-2
+00:03:48.943 --> 00:03:54.336
+<v JONATHAN SANCHEZ GIRALDO>agregar un usuario, quitar un usuario,
+ponerle un curso, quitarle un curso.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/38-3
+00:03:54.336 --> 00:03:57.812
+<v JONATHAN SANCHEZ GIRALDO>Eso es gestión. Listo. Entonces,
+en ese momento,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/38-4
+00:03:57.812 --> 00:04:03.559
+<v JONATHAN SANCHEZ GIRALDO>entonces yo ya empecé a hacer el rol de
+arquitectura de distribución de trabajo.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/40-0
+00:04:03.759 --> 00:04:07.443
+<v JONATHAN SANCHEZ GIRALDO>Y faltaba,
+faltaba gente para hacer todo el tema de</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/40-1
+00:04:07.443 --> 00:04:11.198
+<v JONATHAN SANCHEZ GIRALDO>modificación del entorno completo del
+moodle. Listo,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/40-2
+00:04:11.198 --> 00:04:16.937
+<v JONATHAN SANCHEZ GIRALDO>tema que en este caso yo podía hacerlo,
+pero no tenía la capacidad porque estaba</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/40-3
+00:04:16.937 --> 00:04:20.337
+<v JONATHAN SANCHEZ GIRALDO>capacitando los docentes.
+También fue pandemia,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/40-4
+00:04:20.337 --> 00:04:25.863
+<v JONATHAN SANCHEZ GIRALDO>todo una cantidad de cosas. Entonces,
+en ese momento nació el tema del rol de</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/40-5
+00:04:25.863 --> 00:04:26.359
+<v JONATHAN SANCHEZ GIRALDO>el rol.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/41-0
+00:04:26.479 --> 00:04:30.383
+<v JONATHAN SANCHEZ GIRALDO>Para poder solicitar trabajo adicional
+con 1/3.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/41-1
+00:04:30.383 --> 00:04:35.506
+<v JONATHAN SANCHEZ GIRALDO>Entonces aquí los estoy llevando en este
+caso en este momento.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/41-2
+00:04:35.506 --> 00:04:42.093
+<v JONATHAN SANCHEZ GIRALDO>Yo no sé si alguno de sus compañeros ya
+canceló el otro curso, canceló semestre.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/41-3
+00:04:42.093 --> 00:04:46.159
+<v JONATHAN SANCHEZ GIRALDO>Dios no lo quiere. De pronto está enfermo.
+Bueno.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/42-0
+00:04:46.199 --> 00:04:52.192
+<v JONATHAN SANCHEZ GIRALDO>Alguna cosa pasa, pero en ese caso,
+mostrándoles, pues como este ejemplo mío,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/42-1
+00:04:52.192 --> 00:04:58.337
+<v JONATHAN SANCHEZ GIRALDO>a nosotros nos tocó contratar una empresa
+externa y al y esa empresa externa me</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/42-2
+00:04:58.337 --> 00:05:02.793
+<v JONATHAN SANCHEZ GIRALDO>tenía que garantizar todo el
+funcionamiento. Normalmente,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/42-3
+00:05:02.793 --> 00:05:07.479
+<v JONATHAN SANCHEZ GIRALDO>cuando lo encuentran ustedes por ahí,
+eso se llaman células.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/43-0
+00:05:07.839 --> 00:05:10.924
+<v JONATHAN SANCHEZ GIRALDO>Células,
+entonces se contrató una célula para</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/43-1
+00:05:10.924 --> 00:05:15.619
+<v JONATHAN SANCHEZ GIRALDO>implementación del Moodle y
+acompañamiento en la parte de del montaje</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/43-2
+00:05:15.619 --> 00:05:20.582
+<v JONATHAN SANCHEZ GIRALDO>de tecnología. Listo entonces, bueno,
+esperemos que ese no sea el caso de</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/43-3
+00:05:20.582 --> 00:05:23.734
+<v JONATHAN SANCHEZ GIRALDO>ustedes,
+pero para que ustedes lo tengan en su</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/43-4
+00:05:23.734 --> 00:05:25.679
+<v JONATHAN SANCHEZ GIRALDO>mente de que eso puede pasar.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/44-0
+00:05:26.359 --> 00:05:31.280
+<v JONATHAN SANCHEZ GIRALDO>¿Y profe, y uno ahí que uno cómo hace,
+uno cómo hace para seleccionar las</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/44-1
+00:05:31.280 --> 00:05:34.073
+<v JONATHAN SANCHEZ GIRALDO>personas, no?
+Cuando uno hace ese tipo de</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/44-2
+00:05:34.073 --> 00:05:38.130
+<v JONATHAN SANCHEZ GIRALDO>contrataciones a terceros,
+uno tiene que obviamente sacar un</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/44-3
+00:05:38.130 --> 00:05:43.250
+<v JONATHAN SANCHEZ GIRALDO>documento de qué es lo que usted necesita.
+Yo necesito una persona que tenga</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/44-4
+00:05:43.250 --> 00:05:47.639
+<v JONATHAN SANCHEZ GIRALDO>conocimientos en PHP porque nosotros lo
+necesitábamos con Moodle.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/45-0
+00:05:47.759 --> 00:05:50.851
+<v JONATHAN SANCHEZ GIRALDO>Que tenga conocimiento en servidores
+Linux,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/45-1
+00:05:50.851 --> 00:05:56.331
+<v JONATHAN SANCHEZ GIRALDO>porque el modelo está montado en Linux,
+que tenga conocimiento en PHP Apache,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/45-2
+00:05:56.331 --> 00:06:00.055
+<v JONATHAN SANCHEZ GIRALDO>porque todo lo teníamos montado en
+servidores Linux,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/45-3
+00:06:00.055 --> 00:06:03.989
+<v JONATHAN SANCHEZ GIRALDO>que tenga conocimiento en a W en Azure
+Virtual Machine,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/45-4
+00:06:03.989 --> 00:06:09.399
+<v JONATHAN SANCHEZ GIRALDO>porque nosotros no teníamos máquinas allá
+en Azure, o sea, todo eso se pide.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/46-0
+00:06:09.519 --> 00:06:13.519
+<v JONATHAN SANCHEZ GIRALDO>Y a partir de eso,
+pues ya la empresa tiene que garantizarme</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/46-1
+00:06:13.519 --> 00:06:17.387
+<v JONATHAN SANCHEZ GIRALDO>el la implementación,
+listo o pues con eso que eso también</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/46-2
+00:06:17.387 --> 00:06:22.369
+<v JONATHAN SANCHEZ GIRALDO>aplican en ese caso, listo. Bueno,
+entonces seguimos trabajando con el tema</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/46-3
+00:06:22.369 --> 00:06:26.041
+<v JONATHAN SANCHEZ GIRALDO>de del Front,
+ya vamos a empezar a trabajar esa primera</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/46-4
+00:06:26.041 --> 00:06:29.712
+<v JONATHAN SANCHEZ GIRALDO>parte del CRUD,
+ahorita vamos a hacer algunos ejemplos,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/46-5
+00:06:29.712 --> 00:06:34.039
+<v JONATHAN SANCHEZ GIRALDO>vamos a hacer algunas cosas que les voy a
+mostrar en tiempo real.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/47-0
+00:06:34.079 --> 00:06:39.195
+<v JONATHAN SANCHEZ GIRALDO>¿Cómo trabajamos los con las APIs?
+¿Cómo trabajamos con el consumo interno</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/47-1
+00:06:39.195 --> 00:06:43.629
+<v JONATHAN SANCHEZ GIRALDO>de las funcionalidades?
+Se los voy a mostrar en tiempo real para</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/47-2
+00:06:43.629 --> 00:06:49.087
+<v JONATHAN SANCHEZ GIRALDO>que ustedes sepan cómo trabajar. Listo,
+la documentación siempre la encontramos</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/47-3
+00:06:49.087 --> 00:06:49.359
+<v JONATHAN SANCHEZ GIRALDO>acá.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/48-0
+00:06:50.559 --> 00:06:54.268
+<v JONATHAN SANCHEZ GIRALDO>Muy bien,
+y en caso de que en el tenemos el primer</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/48-1
+00:06:54.268 --> 00:06:57.176
+<v JONATHAN SANCHEZ GIRALDO>punto,
+que es parte ya de lo que ha ido</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/48-2
+00:06:57.176 --> 00:07:02.630
+<v JONATHAN SANCHEZ GIRALDO>evolucionando el trabajo que ustedes han
+venido realizando, no. ¿Sabe qué?</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/48-3
+00:07:02.630 --> 00:07:08.374
+<v JONATHAN SANCHEZ GIRALDO>Después de que nosotros arrancamos el
+trabajo nos dimos cuenta que tenemos que</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/48-4
+00:07:08.374 --> 00:07:09.319
+<v JONATHAN SANCHEZ GIRALDO>mejorar esto.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/49-0
+00:07:09.519 --> 00:07:13.804
+<v JONATHAN SANCHEZ GIRALDO>Tenemos que ajustar esto,
+tenemos que cambiar la de pronto la</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/49-1
+00:07:13.804 --> 00:07:17.466
+<v JONATHAN SANCHEZ GIRALDO>justificación.
+No pasa nada en caso de que el primer</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/49-2
+00:07:17.466 --> 00:07:22.787
+<v JONATHAN SANCHEZ GIRALDO>punto necesiten hacer algún ajuste,
+se hace el ajuste y se hace la claridad.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/49-3
+00:07:22.787 --> 00:07:26.104
+<v JONATHAN SANCHEZ GIRALDO>Aquí es donde está el la parte del primer
+CRUD,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/49-4
+00:07:26.104 --> 00:07:31.079
+<v JONATHAN SANCHEZ GIRALDO>entonces implementar todas las opciones
+CRUD, por eso la semana pasada.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/50-0
+00:07:31.439 --> 00:07:35.937
+<v JONATHAN SANCHEZ GIRALDO>Estuvimos trabajando el término del CRUD
+de crear, leer, actualizar,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/50-1
+00:07:35.937 --> 00:07:39.001
+<v JONATHAN SANCHEZ GIRALDO>eliminar para el módulo de usuarios.
+Entonces,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/50-2
+00:07:39.001 --> 00:07:42.913
+<v JONATHAN SANCHEZ GIRALDO>en este caso nosotros vamos a manejar un
+módulo de usuario.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/50-3
+00:07:42.913 --> 00:07:47.606
+<v JONATHAN SANCHEZ GIRALDO>Ustedes van a manejar un módulo de
+usuarios dentro de sus aplicativos y</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/50-4
+00:07:47.606 --> 00:07:52.039
+<v JONATHAN SANCHEZ GIRALDO>vamos a hacer todo el proceso para hacer
+el tema de la integración.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/51-0
+00:07:52.159 --> 00:07:55.321
+<v JONATHAN SANCHEZ GIRALDO>Ojo,
+esto es integración de arquitecturas a</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/51-1
+00:07:55.321 --> 00:07:59.346
+<v JONATHAN SANCHEZ GIRALDO>arquitecturas.
+Entonces hay información que usted tiene</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/51-2
+00:07:59.346 --> 00:08:04.448
+<v JONATHAN SANCHEZ GIRALDO>que pedirle al usuario para poder
+guardarla dentro dentro del sistema.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/51-3
+00:08:04.448 --> 00:08:04.879
+<v JONATHAN SANCHEZ GIRALDO>Listo.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/52-0
+00:08:06.319 --> 00:08:09.533
+<v JONATHAN SANCHEZ GIRALDO>Otra parte,
+al menos 1 elemento adicional del</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/52-1
+00:08:09.533 --> 00:08:15.051
+<v JONATHAN SANCHEZ GIRALDO>escenario, ejemplo: mascotas, pedidos,
+artículos, factura, reserva a clientes.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/52-2
+00:08:15.051 --> 00:08:18.055
+<v JONATHAN SANCHEZ GIRALDO>O sea,
+el módulo de usuarios más este otro</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/52-3
+00:08:18.055 --> 00:08:21.547
+<v JONATHAN SANCHEZ GIRALDO>módulo,
+cualquiera que ustedes estén manejando en</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/52-4
+00:08:21.547 --> 00:08:25.319
+<v JONATHAN SANCHEZ GIRALDO>debe permitir hacer todo el proceso de
+poderlo crear.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/53-0
+00:08:25.439 --> 00:08:28.720
+<v JONATHAN SANCHEZ GIRALDO>Poderlo eliminar,
+poderlo actualizar o poderlo listar</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/53-1
+00:08:28.720 --> 00:08:33.703
+<v JONATHAN SANCHEZ GIRALDO>dentro de las diferentes consultas. Listo,
+debe estar documentado con capturas de</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/53-2
+00:08:33.703 --> 00:08:37.227
+<v JONATHAN SANCHEZ GIRALDO>pantalla. Bueno,
+eso es información adicional que vamos a</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/53-3
+00:08:37.227 --> 00:08:40.143
+<v JONATHAN SANCHEZ GIRALDO>ir a ir trabajando dentro del ejercicio.
+O sea,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/53-4
+00:08:40.143 --> 00:08:44.639
+<v JONATHAN SANCHEZ GIRALDO>en estos momentos ya toca empezar a
+trabajar un poco más todo el proceso.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/54-0
+00:08:44.959 --> 00:08:49.151
+<v JONATHAN SANCHEZ GIRALDO>De una un proceso, profe,
+tengo que tener todo el software listo,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/54-1
+00:08:49.151 --> 00:08:51.628
+<v JONATHAN SANCHEZ GIRALDO>no,
+ya les voy a mostrar el manejo del</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/54-2
+00:08:51.628 --> 00:08:54.423
+<v JONATHAN SANCHEZ GIRALDO>usuario.
+Entonces con esto se basan para la</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/54-3
+00:08:54.423 --> 00:08:59.631
+<v JONATHAN SANCHEZ GIRALDO>primera parte y la segunda parte dentro
+de lo que ustedes ya han ido manejando en</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/54-4
+00:08:59.631 --> 00:09:02.553
+<v JONATHAN SANCHEZ GIRALDO>el lenguaje que ustedes han venido
+manejando,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/54-5
+00:09:02.553 --> 00:09:05.919
+<v JONATHAN SANCHEZ GIRALDO>no les voy a exigir lenguaje de
+programación porque.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/55-0
+00:09:06.239 --> 00:09:11.739
+<v JONATHAN SANCHEZ GIRALDO>Para mí la idea es trabajar siempre la
+lógica y en el lenguaje de programación,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/55-1
+00:09:11.739 --> 00:09:16.414
+<v JONATHAN SANCHEZ GIRALDO>que se sientan más cómodos,
+pues simplemente van a ir realizando su</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/55-2
+00:09:16.414 --> 00:09:20.470
+<v JONATHAN SANCHEZ GIRALDO>proyecto. Listo,
+integrar el login en el aplicativo de Aut</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/55-3
+00:09:20.470 --> 00:09:25.213
+<v JONATHAN SANCHEZ GIRALDO>Zero, que es lo que vamos a ver hoy,
+que ya lo hemos ido trabajando,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/55-4
+00:09:25.213 --> 00:09:26.519
+<v JONATHAN SANCHEZ GIRALDO>ya les he mostrado.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/56-0
+00:09:26.639 --> 00:09:31.210
+<v JONATHAN SANCHEZ GIRALDO>El funcionamiento,
+todo el proceso del de cómo funciona,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/56-1
+00:09:31.210 --> 00:09:36.903
+<v JONATHAN SANCHEZ GIRALDO>cómo se levanta el servicio.
+Ahorita vamos a ver algo sobre el consumo</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/56-2
+00:09:36.903 --> 00:09:42.676
+<v JONATHAN SANCHEZ GIRALDO>de las API y cómo escribir sobre los
+datos que tenemos dentro dentro de</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/56-3
+00:09:42.676 --> 00:09:44.199
+<v JONATHAN SANCHEZ GIRALDO>nuestro ecosistema.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/57-0
+00:09:44.959 --> 00:09:50.149
+<v JONATHAN SANCHEZ GIRALDO>eso lo vamos a trabajar ahorita listo en
+el registro se debe capturar además de</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/57-1
+00:09:50.149 --> 00:09:55.403
+<v JONATHAN SANCHEZ GIRALDO>correo y contraseña nombre completo del
+usuario guardarlo en el campo name flujo</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/57-2
+00:09:55.403 --> 00:10:00.332
+<v JONATHAN SANCHEZ GIRALDO>adicional formulario posterior que
+solicite tipo y número de documento todo</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/57-3
+00:10:00.332 --> 00:10:04.159
+<v JONATHAN SANCHEZ GIRALDO>eso lo vamos a ver ahorita esta
+información debe almacenar</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/58-0
+00:10:04.239 --> 00:10:09.811
+<v JONATHAN SANCHEZ GIRALDO>Como metadata del perfil en auxer, listo,
+eso lo vamos a hacer ahorita y vamos a</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/58-1
+00:10:09.811 --> 00:10:14.969
+<v JONATHAN SANCHEZ GIRALDO>tener el conocimiento para que ustedes lo
+puedan aplicar en sus proyectos.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/58-2
+00:10:14.969 --> 00:10:20.610
+<v JONATHAN SANCHEZ GIRALDO>Esto lo vamos a aplicar ahorita y ya el
+club de la parte de ustedes del proyecto,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/58-3
+00:10:20.610 --> 00:10:22.879
+<v JONATHAN SANCHEZ GIRALDO>pues ya lo trabajan en dentro de.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/60-0
+00:10:22.959 --> 00:10:26.929
+<v JONATHAN SANCHEZ GIRALDO>Cada una de las espacios que tiene en
+caso, miren,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/60-1
+00:10:26.929 --> 00:10:31.055
+<v JONATHAN SANCHEZ GIRALDO>en caso de que tengan que hacer alguna
+modificación,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/60-2
+00:10:31.055 --> 00:10:35.803
+<v JONATHAN SANCHEZ GIRALDO>en caso de que tengan que hacer algún
+ajuste de la metadata,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/60-3
+00:10:35.803 --> 00:10:41.719
+<v JONATHAN SANCHEZ GIRALDO>se realiza el ajuste y se documenta la el
+ajuste que se tiene que realizar.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/61-0
+00:10:42.879 --> 00:10:47.384
+<v JONATHAN SANCHEZ GIRALDO>En caso de que ya la tengan montada y
+lista, no pasa nada,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/61-1
+00:10:47.384 --> 00:10:53.110
+<v JONATHAN SANCHEZ GIRALDO>simplemente queda igual y lo mismo de la
+vez pasada tenemos la parte de la</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/61-2
+00:10:53.110 --> 00:10:59.371
+<v JONATHAN SANCHEZ GIRALDO>integración con la parte de cómo funciona
+cada uno dentro del rol y dentro de las</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/61-3
+00:10:59.371 --> 00:11:01.279
+<v JONATHAN SANCHEZ GIRALDO>actividades del proyecto.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/62-0
+00:11:01.599 --> 00:11:07.216
+<v JONATHAN SANCHEZ GIRALDO>Y lo mismo de la vez pasada que la parte
+de los videos quedaron muy bien</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/62-1
+00:11:07.216 --> 00:11:13.678
+<v JONATHAN SANCHEZ GIRALDO>trabajados con cada una de las diferentes
+características. Hay que mejorar un poco,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/62-2
+00:11:13.678 --> 00:11:18.602
+<v JONATHAN SANCHEZ GIRALDO>chicos, el tema de del pitch.
+Nos estamos alargando un poquito,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/62-3
+00:11:18.602 --> 00:11:21.679
+<v JONATHAN SANCHEZ GIRALDO>hay que intentar trabajar un el tema de.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/63-0
+00:11:21.999 --> 00:11:27.216
+<v JONATHAN SANCHEZ GIRALDO>De reducir un poco el la exposición del
+producto que nosotros vamos a vender.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/63-1
+00:11:27.216 --> 00:11:32.298
+<v JONATHAN SANCHEZ GIRALDO>Esto es preparándolos justamente.
+Hay unos ejercicios que se llaman pitch o</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/63-2
+00:11:32.298 --> 00:11:35.843
+<v JONATHAN SANCHEZ GIRALDO>pitch elevator,
+que son momentos en los cuales usted</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/63-3
+00:11:35.843 --> 00:11:39.321
+<v JONATHAN SANCHEZ GIRALDO>tiene que vender su producto en menos de
+5 minutos.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/63-4
+00:11:39.321 --> 00:11:43.199
+<v JONATHAN SANCHEZ GIRALDO>En menos de 5 minutos usted tiene que
+vender su producto.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/64-0
+00:11:43.519 --> 00:11:48.476
+<v JONATHAN SANCHEZ GIRALDO>A una persona y el ejercicio era que
+usted va en un en un ascensor y el</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/64-1
+00:11:48.476 --> 00:11:52.468
+<v JONATHAN SANCHEZ GIRALDO>ascensor se demora 2 3 minutos para
+llegar a cierto piso.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/64-2
+00:11:52.468 --> 00:11:57.769
+<v JONATHAN SANCHEZ GIRALDO>Usted tiene que entregar rápidamente,
+enganchar la persona para poder vender</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/64-3
+00:11:57.769 --> 00:12:03.207
+<v JONATHAN SANCHEZ GIRALDO>ese producto para que la persona diga,
+pues si quiere me cuenta un poquito más</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/64-4
+00:12:03.207 --> 00:12:04.239
+<v JONATHAN SANCHEZ GIRALDO>de su producto.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/65-0
+00:12:04.319 --> 00:12:09.654
+<v JONATHAN SANCHEZ GIRALDO>O si realmente subiendo en ese ascensor,
+usted lo aburre y no le entendí.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/65-1
+00:12:09.654 --> 00:12:15.710
+<v JONATHAN SANCHEZ GIRALDO>No sé de qué me está hablando esa persona
+y eso es preparándolo justamente para ese</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/65-2
+00:12:15.710 --> 00:12:20.757
+<v JONATHAN SANCHEZ GIRALDO>tema de los de la venta de producto.
+¿Listo, chicos, alguna pregunta,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/65-3
+00:12:20.757 --> 00:12:22.919
+<v JONATHAN SANCHEZ GIRALDO>alguna duda, alguna inquietud?</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/66-0
+00:12:24.119 --> 00:12:27.339
+<v JONATHAN SANCHEZ GIRALDO>El documento lo voy a montar apenas
+terminemos clase.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/66-1
+00:12:27.339 --> 00:12:31.812
+<v JONATHAN SANCHEZ GIRALDO>Prendo el producto dentro de la
+plataforma. ¿Alguna pregunta, alguna duda,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/66-2
+00:12:31.812 --> 00:12:33.839
+<v JONATHAN SANCHEZ GIRALDO>alguna inquietud? ¿Estamos listos?</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/68-0
+00:12:35.399 --> 00:12:40.161
+<v JONATHAN SANCHEZ GIRALDO>Veo por ahí algunos deditos arriba,
+veo deditos arriba, listo, manito arriba.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/67-0
+00:12:35.919 --> 00:12:36.599
+<v SERGIO ESTEBAN FRANCO AGUDELO>Later.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/68-1
+00:12:40.161 --> 00:12:43.519
+<v JONATHAN SANCHEZ GIRALDO>Si hay preguntas, dudas, inquietudes,
+listo, muy bien.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/69-0
+00:12:44.479 --> 00:12:51.667
+<v JONATHAN SANCHEZ GIRALDO>Ya quedando claro lo que vamos a trabajar,
+lo que vamos a exponer según el</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/69-1
+00:12:51.667 --> 00:12:53.679
+<v JONATHAN SANCHEZ GIRALDO>compromiso académico.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/70-0
+00:12:54.719 --> 00:12:57.879
+<v JONATHAN SANCHEZ GIRALDO>Que justamente tenemos acá.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/71-0
+00:12:58.959 --> 00:13:00.799
+<v JONATHAN SANCHEZ GIRALDO>Dentro del compromiso académico.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/72-0
+00:13:04.559 --> 00:13:07.399
+<v JONATHAN SANCHEZ GIRALDO>Chun Chun Chun Chun Chun Account.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/73-0
+00:13:08.879 --> 00:13:10.719
+<v JONATHAN SANCHEZ GIRALDO>Según el compromiso académico.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/74-0
+00:13:12.719 --> 00:13:16.519
+<v JONATHAN SANCHEZ GIRALDO>20%, el primero fue esta semana cuatro.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/76-0
+00:13:18.239 --> 00:13:24.268
+<v JONATHAN SANCHEZ GIRALDO>El segundo, miren,
+acá estamos ya semana 21 al 27 estamos</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/76-1
+00:13:24.268 --> 00:13:32.064
+<v JONATHAN SANCHEZ GIRALDO>cumpliendo con el tema de ya la parte de
+implementación del siguiente 20%.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/76-2
+00:13:32.064 --> 00:13:32.999
+<v JONATHAN SANCHEZ GIRALDO>Muy bien.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/77-0
+00:13:36.799 --> 00:13:39.828
+<v JONATHAN SANCHEZ GIRALDO>Bueno, chicos,
+entonces habíamos quedado la semana</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/77-1
+00:13:39.828 --> 00:13:40.719
+<v JONATHAN SANCHEZ GIRALDO>pasada por acá.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/78-0
+00:13:42.319 --> 00:13:44.879
+<v JONATHAN SANCHEZ GIRALDO>En el formulario.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/79-0
+00:13:45.999 --> 00:13:47.879
+<v JONATHAN SANCHEZ GIRALDO>De solicitar datos.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/81-0
+00:13:48.879 --> 00:13:53.978
+<v JONATHAN SANCHEZ GIRALDO>Habíamos quedado por acá en el flujo en
+el cual nosotros teníamos aquí la</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/81-1
+00:13:53.978 --> 00:13:58.318
+<v JONATHAN SANCHEZ GIRALDO>información y habíamos hablado un poco
+sobre el tema del CRUD.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/81-2
+00:13:58.318 --> 00:14:03.830
+<v JONATHAN SANCHEZ GIRALDO>Listo que el CRUD es crear, eliminar,
+modicar o consultar algo que yo voy a voy</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/81-3
+00:14:03.830 --> 00:14:09.479
+<v JONATHAN SANCHEZ GIRALDO>a necesitar dentro dentro de la fase en
+la cual me encuentro en mi en mi proceso.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/82-0
+00:14:09.599 --> 00:14:12.359
+<v JONATHAN SANCHEZ GIRALDO>Listo, muy bien, eso lo teníamos acá.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/84-0
+00:14:13.439 --> 00:14:19.533
+<v JONATHAN SANCHEZ GIRALDO>Estábamos levantando el servicio dentro
+dentro de lo normal que teníamos.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/84-1
+00:14:19.533 --> 00:14:26.369
+<v JONATHAN SANCHEZ GIRALDO>Estábamos imprimiendo la información del
+usuario justamente que estaba teniendo la</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/84-2
+00:14:26.369 --> 00:14:31.475
+<v JONATHAN SANCHEZ GIRALDO>autenticación. ¿Listo,
+entonces ahora cómo vamos a hacer para</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/84-3
+00:14:31.475 --> 00:14:33.039
+<v JONATHAN SANCHEZ GIRALDO>mandar información?</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/85-0
+00:14:33.519 --> 00:14:37.838
+<v JONATHAN SANCHEZ GIRALDO>Para el usuario, entonces,
+¿qué quiere decir eso? Vamos a ver acá,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/85-1
+00:14:37.838 --> 00:14:41.319
+<v JONATHAN SANCHEZ GIRALDO>por ejemplo,
+con este usuario que he estado probando.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/86-0
+00:14:42.479 --> 00:14:45.799
+<v JONATHAN SANCHEZ GIRALDO>Mandar información adicional del usuario
+es ahí.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/87-0
+00:14:46.639 --> 00:14:52.440
+<v JONATHAN SANCHEZ GIRALDO>Por ejemplo, en este caso,
+esta persona en el campo del nombre se</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/87-1
+00:14:52.440 --> 00:14:56.395
+<v JONATHAN SANCHEZ GIRALDO>llama profeitm@hotmail.com. Listo,
+entonces,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/87-2
+00:14:56.395 --> 00:15:03.074
+<v JONATHAN SANCHEZ GIRALDO>según según el lo que hemos visto,
+¿cuál de los CRUD debería yo de utilizar</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/87-3
+00:15:03.074 --> 00:15:05.359
+<v JONATHAN SANCHEZ GIRALDO>aquí para poder modificar?</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/88-0
+00:15:05.519 --> 00:15:08.239
+<v JONATHAN SANCHEZ GIRALDO>¿Este campo qué dicen por ahí?</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/90-0
+00:15:13.199 --> 00:15:16.239
+<v JONATHAN SANCHEZ GIRALDO>¿Ya el usuario está creado,
+entonces el no?</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/89-0
+00:15:15.399 --> 00:15:15.959
+<v ESNEIDER GUISAO OSPINA>Yes.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/91-0
+00:15:17.439 --> 00:15:18.159
+<v JONATHAN SANCHEZ GIRALDO>Sneider cuál.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/92-0
+00:15:21.279 --> 00:15:22.559
+<v JONATHAN SANCHEZ GIRALDO>Hágale inneiter.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/93-0
+00:15:22.879 --> 00:15:23.759
+<v ESNEIDER GUISAO OSPINA>Love that.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/94-0
+00:15:24.959 --> 00:15:28.399
+<v JONATHAN SANCHEZ GIRALDO>¿El update bien, me gusta con cuál más?</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/95-0
+00:15:33.119 --> 00:15:35.279
+<v JONATHAN SANCHEZ GIRALDO>¿Cuál más o solo el update?</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/97-0
+00:15:38.319 --> 00:15:40.959
+<v JONATHAN SANCHEZ GIRALDO>¿Quién dice que solamente la cómo?</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/96-0
+00:15:38.639 --> 00:15:39.519
+<v SERGIO ESTEBAN FRANCO AGUDELO>Busca primero.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/98-0
+00:15:40.519 --> 00:15:42.799
+<v SERGIO ESTEBAN FRANCO AGUDELO>¿Primero hay que primero habría que leer,
+no?</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/99-0
+00:15:43.439 --> 00:15:47.092
+<v JONATHAN SANCHEZ GIRALDO>Claro, Sergio, muy bien.
+Entonces está el y el read.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/99-1
+00:15:47.092 --> 00:15:51.848
+<v JONATHAN SANCHEZ GIRALDO>Acuerden que hay 2 tipos de read.
+¿Cuáles son los 2 tipos de read de</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/99-2
+00:15:51.848 --> 00:15:52.399
+<v JONATHAN SANCHEZ GIRALDO>lectura?</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/100-0
+00:15:54.479 --> 00:15:55.519
+<v SERGIO ESTEBAN FRANCO AGUDELO>Total y parcial.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/101-0
+00:15:55.839 --> 00:16:01.179
+<v JONATHAN SANCHEZ GIRALDO>Total y parcial. Excelente Sergio, profe.
+¿Cómo así que total y parcial para</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/101-1
+00:16:01.179 --> 00:16:04.855
+<v JONATHAN SANCHEZ GIRALDO>recordar un poquito?
+Esto que vemos acá es un total,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/101-2
+00:16:04.855 --> 00:16:09.432
+<v JONATHAN SANCHEZ GIRALDO>una lectura total. O sea,
+tráigame todos los usuarios de una base</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/101-3
+00:16:09.432 --> 00:16:14.772
+<v JONATHAN SANCHEZ GIRALDO>de datos. Esa es la lectura completa,
+el read completo de todos los usuarios</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/101-4
+00:16:14.772 --> 00:16:17.199
+<v JONATHAN SANCHEZ GIRALDO>que yo voy a traer y el parcial es.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/102-0
+00:16:17.359 --> 00:16:23.190
+<v JONATHAN SANCHEZ GIRALDO>Puntualmente yo necesito traer la
+información de este usuario y voy a</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/102-1
+00:16:23.190 --> 00:16:29.936
+<v JONATHAN SANCHEZ GIRALDO>modificar la información de ese usuario.
+También la actualización se puede hacer</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/102-2
+00:16:29.936 --> 00:16:30.519
+<v JONATHAN SANCHEZ GIRALDO>masiva.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/104-0
+00:16:31.679 --> 00:16:38.236
+<v JONATHAN SANCHEZ GIRALDO>Se puede hacer masiva en caso de que yo
+tenga un campo específico, no sé,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/104-1
+00:16:38.236 --> 00:16:44.880
+<v JONATHAN SANCHEZ GIRALDO>por ejemplo, de del el género. Sí,
+manejando el tema, el campo del género,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/104-2
+00:16:44.880 --> 00:16:51.879
+<v JONATHAN SANCHEZ GIRALDO>yo puedo ir a actualizar todos los que
+sean masculino o femenino o indefinido.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/105-0
+00:16:51.999 --> 00:16:57.590
+<v JONATHAN SANCHEZ GIRALDO>Yo puedo ir a hacerle alguna modificación
+dentro de eso masivamente. Listo,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/105-1
+00:16:57.590 --> 00:17:03.769
+<v JONATHAN SANCHEZ GIRALDO>muy bien. Entonces, dentro de este campo,
+entonces tenemos este campo que es el del</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/105-2
+00:17:03.769 --> 00:17:09.213
+<v JONATHAN SANCHEZ GIRALDO>de nombre y tenemos acá entonces
+información que es la metadata adicional</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/105-3
+00:17:09.213 --> 00:17:11.199
+<v JONATHAN SANCHEZ GIRALDO>que nosotros tenemos listo.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/106-0
+00:17:11.439 --> 00:17:15.022
+<v JONATHAN SANCHEZ GIRALDO>Dentro de nuestro formulario habíamos
+visto acá,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/106-1
+00:17:15.022 --> 00:17:20.066
+<v JONATHAN SANCHEZ GIRALDO>dentro de nuestro formulario habíamos
+visto que teníamos dos campos,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/106-2
+00:17:20.066 --> 00:17:26.134
+<v JONATHAN SANCHEZ GIRALDO>tipo de documento y número de documento.
+Yo aquí lo único que hice fue este campo,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/106-3
+00:17:26.134 --> 00:17:30.959
+<v JONATHAN SANCHEZ GIRALDO>le di un nombre para poder identificarlo
+y saber qué es mi campo.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/107-0
+00:17:31.359 --> 00:17:37.504
+<v JONATHAN SANCHEZ GIRALDO>Porque normalmente vienen con nombres,
+con nombres aleatorios y esos nombres,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/107-1
+00:17:37.504 --> 00:17:43.885
+<v JONATHAN SANCHEZ GIRALDO>pues obviamente no es que nos diga mucho,
+pero yo le di un tipo de nombre a este</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/107-2
+00:17:43.885 --> 00:17:48.139
+<v JONATHAN SANCHEZ GIRALDO>campo y a este segundo campo también le
+di un número,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/107-3
+00:17:48.139 --> 00:17:51.999
+<v JONATHAN SANCHEZ GIRALDO>un nombre que lo llame documento y este
+de aquí.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/108-0
+00:17:52.359 --> 00:17:55.759
+<v JONATHAN SANCHEZ GIRALDO>Lo llamé tipo dog, tipo dog, listo.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/109-0
+00:17:56.719 --> 00:18:01.649
+<v JONATHAN SANCHEZ GIRALDO>Para los que no recuerdan cómo llegar
+hasta acá, chicos, muy bien,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/109-1
+00:18:01.649 --> 00:18:07.683
+<v JONATHAN SANCHEZ GIRALDO>tenemos aut cero acá directamente al lado
+izquierdo nos vamos a encontrar con los</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/109-2
+00:18:07.683 --> 00:18:11.436
+<v JONATHAN SANCHEZ GIRALDO>action,
+los action y acá tenemos los forms. Listo,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/109-3
+00:18:11.436 --> 00:18:17.470
+<v JONATHAN SANCHEZ GIRALDO>aquí vamos a encontrar lo que es la parte
+de los formularios que nosotros estamos</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/109-4
+00:18:17.470 --> 00:18:18.279
+<v JONATHAN SANCHEZ GIRALDO>trabajando.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/110-0
+00:18:18.519 --> 00:18:23.694
+<v JONATHAN SANCHEZ GIRALDO>Ustedes deben de tener uno,
+la clase pasada lo llamamos mensaje de</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/110-1
+00:18:23.694 --> 00:18:28.559
+<v JONATHAN SANCHEZ GIRALDO>bienvenida y al ingresar acá vamos a
+aterrizar nuevamente acá.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/111-0
+00:18:31.839 --> 00:18:36.336
+<v JONATHAN SANCHEZ GIRALDO>Formularios y aquí vamos a aterrizar y
+aquí seguimos trabajando entonces en este</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/111-1
+00:18:36.336 --> 00:18:37.279
+<v JONATHAN SANCHEZ GIRALDO>proceso muy bien.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/112-0
+00:18:38.319 --> 00:18:41.570
+<v JONATHAN SANCHEZ GIRALDO>Listo,
+hay una cosa que se llaman los baúl y eso</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/112-1
+00:18:41.570 --> 00:18:46.081
+<v JONATHAN SANCHEZ GIRALDO>es lo que vamos a continuar aquí
+trabajando para poder conectar las</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/112-2
+00:18:46.081 --> 00:18:49.000
+<v JONATHAN SANCHEZ GIRALDO>diferentes acciones hacia hacia el
+proceso.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/112-3
+00:18:49.000 --> 00:18:54.241
+<v JONATHAN SANCHEZ GIRALDO>Vamos a capturar en estos momentos la
+información y a partir de la información</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/112-4
+00:18:54.241 --> 00:18:57.359
+<v JONATHAN SANCHEZ GIRALDO>que vamos capturando,
+la vamos a ir guardando.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/113-0
+00:18:57.679 --> 00:19:01.039
+<v JONATHAN SANCHEZ GIRALDO>Hacia el proceso de.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/114-0
+00:19:02.319 --> 00:19:04.239
+<v JONATHAN SANCHEZ GIRALDO>De nuestro.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/115-0
+00:19:05.599 --> 00:19:09.252
+<v JONATHAN SANCHEZ GIRALDO>Nuestro flujo de la creación de los
+usuarios. Listo,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/115-1
+00:19:09.252 --> 00:19:14.215
+<v JONATHAN SANCHEZ GIRALDO>ahí es donde viene la primera parte.
+Ya tenemos una partecita del crear</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/115-2
+00:19:14.215 --> 00:19:17.730
+<v JONATHAN SANCHEZ GIRALDO>usuario, sí,
+del crear usuario y ya nativamente la</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/115-3
+00:19:17.730 --> 00:19:21.521
+<v JONATHAN SANCHEZ GIRALDO>plataforma lo tiene.
+Entonces vamos a desconectar este</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/115-4
+00:19:21.521 --> 00:19:23.519
+<v JONATHAN SANCHEZ GIRALDO>amiguito de acá, este de acá.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/116-0
+00:19:25.359 --> 00:19:28.759
+<v JONATHAN SANCHEZ GIRALDO>Y vamos a meter un.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/117-0
+00:19:29.759 --> 00:19:33.156
+<v JONATHAN SANCHEZ GIRALDO>Un flow listo,
+vamos a meter un flow acá y este flow lo</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/117-1
+00:19:33.156 --> 00:19:37.584
+<v JONATHAN SANCHEZ GIRALDO>vamos a conectar acá. Entonces,
+después de que se levante el formulario,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/117-2
+00:19:37.584 --> 00:19:42.072
+<v JONATHAN SANCHEZ GIRALDO>vamos a tener que lanzarlo acá y vamos a
+tener que conectarlo acá. Listo,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/117-3
+00:19:42.072 --> 00:19:46.803
+<v JONATHAN SANCHEZ GIRALDO>aquí hay una cantidad de cosas que se
+vienen para más adelante en caso de que</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/117-4
+00:19:46.803 --> 00:19:48.319
+<v JONATHAN SANCHEZ GIRALDO>se necesite, por ejemplo.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/118-0
+00:19:48.639 --> 00:19:51.799
+<v JONATHAN SANCHEZ GIRALDO>Yo necesito que una persona después de
+tener.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/119-0
+00:19:52.959 --> 00:19:57.279
+<v JONATHAN SANCHEZ GIRALDO>3 cuatro intentos en el momento de.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/121-0
+00:19:58.159 --> 00:20:02.957
+<v JONATHAN SANCHEZ GIRALDO>Del logueo le saque una ventana adicional
+y le pida más información.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/121-1
+00:20:02.957 --> 00:20:06.643
+<v JONATHAN SANCHEZ GIRALDO>Yo necesito que una persona el día de su
+cumpleaños,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/121-2
+00:20:06.643 --> 00:20:11.719
+<v JONATHAN SANCHEZ GIRALDO>si se autentica en la plataforma,
+le saque una ventanita, que diga hola,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/121-3
+00:20:11.719 --> 00:20:14.987
+<v JONATHAN SANCHEZ GIRALDO>feliz cumpleaños y bienvenido a la
+plataforma.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/121-4
+00:20:14.987 --> 00:20:17.559
+<v JONATHAN SANCHEZ GIRALDO>Yo necesito que de un momento a otro.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/122-0
+00:20:17.639 --> 00:20:20.678
+<v JONATHAN SANCHEZ GIRALDO>Tenemos que hacer una actualización de
+algo,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/122-1
+00:20:20.678 --> 00:20:24.932
+<v JONATHAN SANCHEZ GIRALDO>un salario de algo de la no sé de la
+declaración, alguna cosa.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/122-2
+00:20:24.932 --> 00:20:29.929
+<v JONATHAN SANCHEZ GIRALDO>Yo puedo disparar por acá cada uno de
+estos flujos que voy poniendo en el</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/122-3
+00:20:29.929 --> 00:20:33.103
+<v JONATHAN SANCHEZ GIRALDO>momento en el que vaya a ir trabajando.
+Listo,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/122-4
+00:20:33.103 --> 00:20:37.559
+<v JONATHAN SANCHEZ GIRALDO>todo dependerá de lo que yo voy
+necesitando dentro de mi esquema.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/124-0
+00:20:37.959 --> 00:20:42.077
+<v JONATHAN SANCHEZ GIRALDO>De trabajo,
+entonces vamos a crear acá un nuevo flujo,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/124-1
+00:20:42.077 --> 00:20:46.119
+<v JONATHAN SANCHEZ GIRALDO>aquí vamos a crear un nuevo flujo,
+le voy a dar aquí.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/125-0
+00:20:47.719 --> 00:20:48.519
+<v JONATHAN SANCHEZ GIRALDO>Flujo.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/126-0
+00:20:49.639 --> 00:20:50.759
+<v JONATHAN SANCHEZ GIRALDO>Arquitectura.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/127-0
+00:20:54.599 --> 00:20:57.639
+<v JONATHAN SANCHEZ GIRALDO>¿Flujo arquitectura y le vamos a dar
+create listo?</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/128-0
+00:20:59.959 --> 00:21:06.666
+<v JONATHAN SANCHEZ GIRALDO>Aquí no lo tiene ya flujo de arquitectura
+y vamos a darle acá en este botón que se</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/128-1
+00:21:06.666 --> 00:21:07.959
+<v JONATHAN SANCHEZ GIRALDO>llama edit flow.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/129-0
+00:21:12.039 --> 00:21:15.095
+<v JONATHAN SANCHEZ GIRALDO>Muy bien,
+ahí ya tenemos entonces lo que nosotros</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/129-1
+00:21:15.095 --> 00:21:19.252
+<v JONATHAN SANCHEZ GIRALDO>vamos a poder realizar dentro de nuestro
+de nuestro esquema. Listo,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/129-2
+00:21:19.252 --> 00:21:24.203
+<v JONATHAN SANCHEZ GIRALDO>dentro de nuestro esquema vamos a poder
+capturar información y vamos a poder ver</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/129-3
+00:21:24.203 --> 00:21:28.665
+<v JONATHAN SANCHEZ GIRALDO>todo lo que va a ir pasando por la
+plataforma y ya dependiendo de lo que</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/129-4
+00:21:28.665 --> 00:21:30.559
+<v JONATHAN SANCHEZ GIRALDO>nosotros vamos a ir trabajando.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/130-0
+00:21:30.679 --> 00:21:34.892
+<v JONATHAN SANCHEZ GIRALDO>Pues vamos a ir solicitando en este caso
+para el caso de nosotros,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/130-1
+00:21:34.892 --> 00:21:37.910
+<v JONATHAN SANCHEZ GIRALDO>vamos a hacer la edición de la metadata.
+Listo,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/130-2
+00:21:37.910 --> 00:21:43.003
+<v JONATHAN SANCHEZ GIRALDO>vamos a hacer la edición de la metadata y
+vamos a utilizar uno de los flujos que</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/130-3
+00:21:43.003 --> 00:21:47.970
+<v JONATHAN SANCHEZ GIRALDO>nos va a servir para esto. Muy bien,
+lo primero que nosotros tenemos que hacer</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/130-4
+00:21:47.970 --> 00:21:49.919
+<v JONATHAN SANCHEZ GIRALDO>también es conectar este mundo.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/131-0
+00:21:50.039 --> 00:21:56.238
+<v JONATHAN SANCHEZ GIRALDO>¿Que tenemos acá con el baúl de
+conexiones de out Zero? ¿Listo,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/131-1
+00:21:56.238 --> 00:22:01.080
+<v JONATHAN SANCHEZ GIRALDO>qué es eso?
+El baúl de conexión de out Zero es la</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/131-2
+00:22:01.080 --> 00:22:08.635
+<v JONATHAN SANCHEZ GIRALDO>integración que tiene estos flujos con
+todo el ecosistema directamente de out</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/131-3
+00:22:08.635 --> 00:22:10.959
+<v JONATHAN SANCHEZ GIRALDO>Zero con todas las APIs.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/132-0
+00:22:11.079 --> 00:22:16.482
+<v JONATHAN SANCHEZ GIRALDO>Que yo pueda consumirlas,
+que yo pueda traer la información que voy</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/132-1
+00:22:16.482 --> 00:22:22.759
+<v JONATHAN SANCHEZ GIRALDO>necesitando dentro dentro del esquema que
+voy creando en mi aplicación, listo.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/133-0
+00:22:23.919 --> 00:22:27.960
+<v JONATHAN SANCHEZ GIRALDO>Entonces vamos a irnos por acá en la
+parte de acá arriba,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/133-1
+00:22:27.960 --> 00:22:32.070
+<v JONATHAN SANCHEZ GIRALDO>al lado izquierdo vemos un botón que se
+llama baul, listo,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/133-2
+00:22:32.070 --> 00:22:37.782
+<v JONATHAN SANCHEZ GIRALDO>baul y en baul en este caso vamos a crear
+acá un baul. Yo ya tengo conectado uno,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/133-3
+00:22:37.782 --> 00:22:42.519
+<v JONATHAN SANCHEZ GIRALDO>pero vamos a hacer el ejercicio acá para
+que ustedes lo puedan ver.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/134-0
+00:22:42.999 --> 00:22:47.225
+<v JONATHAN SANCHEZ GIRALDO>¿Qué es el baúl?
+Entonces el baúl es donde yo voy a</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/134-1
+00:22:47.225 --> 00:22:53.483
+<v JONATHAN SANCHEZ GIRALDO>guardar toda la data de conexión con mi
+aplicativo, listo con mi aplicativo.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/134-2
+00:22:53.483 --> 00:22:57.953
+<v JONATHAN SANCHEZ GIRALDO>Profe, ¿cómo así que con mi aplicativo?
+Claro, chicos,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/134-3
+00:22:57.953 --> 00:23:03.479
+<v JONATHAN SANCHEZ GIRALDO>todos ustedes estuvieron aquí en
+aplicaciones y entre aplicaciones.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/135-0
+00:23:04.359 --> 00:23:09.986
+<v JONATHAN SANCHEZ GIRALDO>Por acá en aplicaciones todos creamos ese
+formulario inicial que fue el de</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/135-1
+00:23:09.986 --> 00:23:13.812
+<v JONATHAN SANCHEZ GIRALDO>arquitectura.
+Miren acá login arquitectura, todos,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/135-2
+00:23:13.812 --> 00:23:19.889
+<v JONATHAN SANCHEZ GIRALDO>todos creamos ese primer formulario y ese
+es el que nos va a servir para ahorita</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/135-3
+00:23:19.889 --> 00:23:22.439
+<v JONATHAN SANCHEZ GIRALDO>hacer todo el tema de la conexión.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/136-0
+00:23:22.559 --> 00:23:27.977
+<v JONATHAN SANCHEZ GIRALDO>Listo, muy bien. Entonces,
+¿qué necesitamos para conectar ese baúl?</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/136-1
+00:23:27.977 --> 00:23:32.279
+<v JONATHAN SANCHEZ GIRALDO>Miremos aquí, vamos a darle a D de baúl,
+a D de baúl.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/138-0
+00:23:33.319 --> 00:23:39.446
+<v JONATHAN SANCHEZ GIRALDO>Y aquí vamos a decirle a o k, mira,
+nos vamos a conectar con este baúl de</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/138-1
+00:23:39.446 --> 00:23:45.076
+<v JONATHAN SANCHEZ GIRALDO>información que nosotros tenemos acá.
+Miren qué particular, chicos,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/138-2
+00:23:45.076 --> 00:23:49.713
+<v JONATHAN SANCHEZ GIRALDO>para temas a futuro,
+yo me puedo conectar a otros baúl,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/138-3
+00:23:49.713 --> 00:23:52.279
+<v JONATHAN SANCHEZ GIRALDO>a otros en Point, a otras APIs.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/139-0
+00:23:52.599 --> 00:23:56.955
+<v JONATHAN SANCHEZ GIRALDO>Y utilizar, pues,
+el servicio que se necesita. Por ejemplo,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/139-1
+00:23:56.955 --> 00:24:01.745
+<v JONATHAN SANCHEZ GIRALDO>aquí está el de WhatsApp.
+Entonces yo podría conectar el flujo de</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/139-2
+00:24:01.745 --> 00:24:06.609
+<v JONATHAN SANCHEZ GIRALDO>forma de que cuando una persona se
+autentique inmediatamente, pum,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/139-3
+00:24:06.609 --> 00:24:11.399
+<v JONATHAN SANCHEZ GIRALDO>yo consumo la API o WhatsApp y le mando
+un mensaje de bienvenida.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/141-0
+00:24:11.599 --> 00:24:15.884
+<v JONATHAN SANCHEZ GIRALDO>Diciéndole, hola, mira,
+este es el token de autenticación de tu</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/141-1
+00:24:15.884 --> 00:24:20.637
+<v JONATHAN SANCHEZ GIRALDO>de la plataforma o yo le puedo decir hola,
+bienvenido a la plataforma.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/141-2
+00:24:20.637 --> 00:24:23.716
+<v JONATHAN SANCHEZ GIRALDO>Estos son los productos que nosotros
+tenemos.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/141-3
+00:24:23.716 --> 00:24:28.269
+<v JONATHAN SANCHEZ GIRALDO>Yo puedo conectar eso directamente con
+las API de WhatsApp. ¿Listo?</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/141-4
+00:24:28.269 --> 00:24:30.879
+<v JONATHAN SANCHEZ GIRALDO>¿Qué nos va a pedir la API de WhatsApp?</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/142-0
+00:24:30.999 --> 00:24:36.287
+<v JONATHAN SANCHEZ GIRALDO>Obviamente nos va a pedir toque,
+nos va a pedir los endpoint que vamos a</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/142-1
+00:24:36.287 --> 00:24:42.009
+<v JONATHAN SANCHEZ GIRALDO>utilizar y a partir de eso ya empezamos a
+trabajarlos. Listo Telegram por acá,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/142-2
+00:24:42.009 --> 00:24:47.730
+<v JONATHAN SANCHEZ GIRALDO>miren Telegram con el tema de Telegram,
+yo también puedo llegar y disparar las</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/142-3
+00:24:47.730 --> 00:24:51.279
+<v JONATHAN SANCHEZ GIRALDO>diferentes configuraciones que vaya
+necesitando.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/143-0
+00:24:51.399 --> 00:24:57.529
+<v JONATHAN SANCHEZ GIRALDO>Con respecto a los diferentes flujos,
+Zapier, miren, Zapier,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/143-1
+00:24:57.529 --> 00:25:04.664
+<v JONATHAN SANCHEZ GIRALDO>Zapier es una plataforma que es parecida
+a n 8 n es parecida al power,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/143-2
+00:25:04.664 --> 00:25:10.794
+<v JONATHAN SANCHEZ GIRALDO>el power automate.
+Es una plataforma que interconecta muchas</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/143-3
+00:25:10.794 --> 00:25:11.999
+<v JONATHAN SANCHEZ GIRALDO>plataformas.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/144-0
+00:25:12.119 --> 00:25:17.930
+<v JONATHAN SANCHEZ GIRALDO>De forma muy fácil, por ejemplo,
+yo puedo conectar a Zapier con Google</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/144-1
+00:25:17.930 --> 00:25:21.940
+<v JONATHAN SANCHEZ GIRALDO>Google Shet,
+que es el de el de como el Excel de</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/144-2
+00:25:21.940 --> 00:25:25.786
+<v JONATHAN SANCHEZ GIRALDO>Google,
+y yo puedo ir guardando la información</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/144-3
+00:25:25.786 --> 00:25:30.697
+<v JONATHAN SANCHEZ GIRALDO>que vaya pasando por ahí.
+Yo puedo conectar Zapier con otra</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/144-4
+00:25:30.697 --> 00:25:33.479
+<v JONATHAN SANCHEZ GIRALDO>plataforma, otra pasarela de pago.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/145-0
+00:25:33.679 --> 00:25:36.853
+<v JONATHAN SANCHEZ GIRALDO>O sea,
+es una plataforma de interconexión de</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/145-1
+00:25:36.853 --> 00:25:42.284
+<v JONATHAN SANCHEZ GIRALDO>plataformas. Listo que ya tiene mucho,
+muy conectado cada uno de los flujos,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/145-2
+00:25:42.284 --> 00:25:45.529
+<v JONATHAN SANCHEZ GIRALDO>muy parecido también por ahí a Pably
+Connect,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/145-3
+00:25:45.529 --> 00:25:49.338
+<v JONATHAN SANCHEZ GIRALDO>que ya nosotros hemos visto al algo de
+Pably Connect,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/145-4
+00:25:49.338 --> 00:25:54.839
+<v JONATHAN SANCHEZ GIRALDO>listo o por acá tenemos simplemente el
+consumo de otra de otra de otras APIs.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/146-0
+00:25:55.079 --> 00:25:59.101
+<v JONATHAN SANCHEZ GIRALDO>Que vamos a poder interactuar
+directamente con ese listo, muy bien.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/146-1
+00:25:59.101 --> 00:26:03.301
+<v JONATHAN SANCHEZ GIRALDO>Ahora, ¿cuál vamos a utilizar?
+Nosotros vamos a utilizar esta que está</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/146-2
+00:26:03.301 --> 00:26:06.199
+<v JONATHAN SANCHEZ GIRALDO>acá out Zero Connect y le vamos a dar
+continuar.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/147-0
+00:26:07.359 --> 00:26:14.444
+<v JONATHAN SANCHEZ GIRALDO>Muy bien, nos pide, nos pide un nombre.
+En este caso nos va a pedir un nombre,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/147-1
+00:26:14.444 --> 00:26:15.879
+<v JONATHAN SANCHEZ GIRALDO>podemos ponerle.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/148-0
+00:26:18.999 --> 00:26:19.959
+<v JONATHAN SANCHEZ GIRALDO>Baúl.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/149-0
+00:26:20.999 --> 00:26:24.736
+<v JONATHAN SANCHEZ GIRALDO>Arquitectura, listo, o sea,
+ahí es donde vamos a guardar toda la</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/149-1
+00:26:24.736 --> 00:26:29.162
+<v JONATHAN SANCHEZ GIRALDO>información de la conexión que hemos
+estado trabajando aquí en arquitectura,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/149-2
+00:26:29.162 --> 00:26:30.599
+<v JONATHAN SANCHEZ GIRALDO>le vamos a dar continuar.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/150-0
+00:26:31.639 --> 00:26:35.630
+<v JONATHAN SANCHEZ GIRALDO>Y él nos va a pedir, OK, listo,
+necesitamos un tenant,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/150-1
+00:26:35.630 --> 00:26:41.290
+<v JONATHAN SANCHEZ GIRALDO>un client ID y un client sect. Listo,
+3 cositas y por acá hay una cosa que se</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/150-2
+00:26:41.290 --> 00:26:45.716
+<v JONATHAN SANCHEZ GIRALDO>llama audiencia. Listo,
+que es todo ese tema de audiencia es</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/150-3
+00:26:45.716 --> 00:26:50.359
+<v JONATHAN SANCHEZ GIRALDO>puntualmente la API que nosotros estamos
+creando y consultando.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/151-0
+00:26:50.439 --> 00:26:55.316
+<v JONATHAN SANCHEZ GIRALDO>Para todo el tema de las configuraciones,
+chicos, vamos hasta ahí, por favor,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/151-1
+00:26:55.316 --> 00:26:59.005
+<v JONATHAN SANCHEZ GIRALDO>feedback si voy muy rápido o vamos hasta
+ahí conectaditos,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/151-2
+00:26:59.005 --> 00:27:02.319
+<v JONATHAN SANCHEZ GIRALDO>mano arriba si hay preguntas,
+todas las inquietudes.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/152-0
+00:27:03.679 --> 00:27:04.879
+<v SERGIO ESTEBAN FRANCO AGUDELO>Está perfecto, profe.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/153-0
+00:27:06.359 --> 00:27:11.222
+<v JONATHAN SANCHEZ GIRALDO>Muchas gracias chicos por el feedback
+video por ahí manitos muy bien.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/153-1
+00:27:11.222 --> 00:27:15.112
+<v JONATHAN SANCHEZ GIRALDO>¿Ahora profe,
+dónde puedo encontrar el tenan? Muy bien,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/153-2
+00:27:15.112 --> 00:27:18.794
+<v JONATHAN SANCHEZ GIRALDO>vean el tenan,
+el tenan está acá en la en la URL que</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/153-3
+00:27:18.794 --> 00:27:23.378
+<v JONATHAN SANCHEZ GIRALDO>nosotros encontramos acá,
+pero podemos también encontrarlo acá en</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/153-4
+00:27:23.378 --> 00:27:24.559
+<v JONATHAN SANCHEZ GIRALDO>las aplicaciones.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/154-0
+00:27:24.839 --> 00:27:29.559
+<v JONATHAN SANCHEZ GIRALDO>En las aplicaciones nosotros tenemos esta
+que es la arquitectura, listo.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/155-0
+00:27:30.799 --> 00:27:36.189
+<v JONATHAN SANCHEZ GIRALDO>En mi arquitectura encontramos el dominio,
+entonces mírenlo acá, este es el dominio,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/155-1
+00:27:36.189 --> 00:27:36.759
+<v JONATHAN SANCHEZ GIRALDO>lo copio.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/156-0
+00:27:39.159 --> 00:27:42.719
+<v JONATHAN SANCHEZ GIRALDO>Y lo pego acá, listo, client ID.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/157-0
+00:27:43.879 --> 00:27:50.119
+<v JONATHAN SANCHEZ GIRALDO>client ID entonces por acá tenemos el
+client ID mírelo acá también client ID</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/158-0
+00:27:54.199 --> 00:27:55.359
+<v JONATHAN SANCHEZ GIRALDO>Client Secret.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/159-0
+00:27:56.359 --> 00:27:58.159
+<v JONATHAN SANCHEZ GIRALDO>Véalo acá, claim secret.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/160-0
+00:28:03.319 --> 00:28:03.959
+<v JONATHAN SANCHEZ GIRALDO>Muy bien.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/161-0
+00:28:05.079 --> 00:28:10.059
+<v JONATHAN SANCHEZ GIRALDO>Y ahora audiencia no la tenemos por acá,
+no tenemos la audiencia por acá porque la</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/161-1
+00:28:10.059 --> 00:28:13.299
+<v JONATHAN SANCHEZ GIRALDO>audiencia ya va muy ligada a lo que es la
+aplicación.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/161-2
+00:28:13.299 --> 00:28:16.479
+<v JONATHAN SANCHEZ GIRALDO>Ya vamos a ver de dónde la vamos a la
+vamos a sacar.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/161-3
+00:28:16.479 --> 00:28:20.679
+<v JONATHAN SANCHEZ GIRALDO>Si yo estoy en esta que es la aplicación
+que hemos estado trabajando.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/162-0
+00:28:21.799 --> 00:28:27.170
+<v JONATHAN SANCHEZ GIRALDO>por acá está todo el tema de Api Access
+listo Api Access en las apis Access</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/162-1
+00:28:27.170 --> 00:28:32.823
+<v JONATHAN SANCHEZ GIRALDO>Entonces tenemos en este caso tenemos yo
+tengo activado pues varias varias APIs</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/162-2
+00:28:32.823 --> 00:28:38.265
+<v JONATHAN SANCHEZ GIRALDO>Pero estas mismas APIs que tenemos acá
+son las mismas APIs que están aquí al</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/162-3
+00:28:38.265 --> 00:28:40.879
+<v JONATHAN SANCHEZ GIRALDO>lado izquierdo aquí al lado izquierdo</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/163-0
+00:28:41.399 --> 00:28:47.557
+<v JONATHAN SANCHEZ GIRALDO>miren acá son las mismas tres APIs que
+que tenemos la que vamos a utilizar es la</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/163-1
+00:28:47.557 --> 00:28:53.943
+<v JONATHAN SANCHEZ GIRALDO>principal la que dice out Zero management
+Api la primerita listo vuelvo acá para no</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/163-2
+00:28:53.943 --> 00:28:56.679
+<v JONATHAN SANCHEZ GIRALDO>salirme del flujo login arquitectura</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/164-0
+00:28:57.959 --> 00:28:59.279
+<v JONATHAN SANCHEZ GIRALDO>Happy Access.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/165-0
+00:29:01.479 --> 00:29:05.380
+<v JONATHAN SANCHEZ GIRALDO>Y acá tenemos las APIs. Listo, muy bien.
+Entonces,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/165-1
+00:29:05.380 --> 00:29:08.821
+<v JONATHAN SANCHEZ GIRALDO>cuando le damos clic acá en las en las
+APIs,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/165-2
+00:29:08.821 --> 00:29:13.334
+<v JONATHAN SANCHEZ GIRALDO>vamos a encontrar lo que es la audiencia.
+Listo, se llama,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/165-3
+00:29:13.334 --> 00:29:18.076
+<v JONATHAN SANCHEZ GIRALDO>es que aquí no aparece como audiencia,
+pero es el identifier.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/165-4
+00:29:18.076 --> 00:29:20.599
+<v JONATHAN SANCHEZ GIRALDO>¿Dónde vemos que diga la palabra?</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/166-0
+00:29:20.919 --> 00:29:23.599
+<v JONATHAN SANCHEZ GIRALDO>Audiencia por fuerita, salgámonos de acá.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/167-0
+00:29:25.079 --> 00:29:31.618
+<v JONATHAN SANCHEZ GIRALDO>Y aquí dice API Audience, miren acá listo,
+este es este es la el nombre de la</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/167-1
+00:29:31.618 --> 00:29:34.719
+<v JONATHAN SANCHEZ GIRALDO>audiencia, vamos a darle aquí copiar.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/168-0
+00:29:35.999 --> 00:29:41.879
+<v JONATHAN SANCHEZ GIRALDO>Volvamos para acá, vamos a pegarla acá,
+listo, ahí tenemos la audiencia.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/169-0
+00:29:43.079 --> 00:29:45.719
+<v JONATHAN SANCHEZ GIRALDO>Vamos a darle adicionar baul connection.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/170-0
+00:29:49.159 --> 00:29:52.276
+<v JONATHAN SANCHEZ GIRALDO>Y aquí nos dice que ya tenemos 22
+conexiones,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/170-1
+00:29:52.276 --> 00:29:57.019
+<v JONATHAN SANCHEZ GIRALDO>una que era la que yo tenía antes y una
+que acabamos de crear. Listo,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/170-2
+00:29:57.019 --> 00:30:00.203
+<v JONATHAN SANCHEZ GIRALDO>pero no todo termina ahí,
+no todo termina ahí.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/170-3
+00:30:00.203 --> 00:30:05.691
+<v JONATHAN SANCHEZ GIRALDO>Vamos a ir viendo que vamos a ir a ir
+necesitando dentro de las configuraciones,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/170-4
+00:30:05.691 --> 00:30:09.959
+<v JONATHAN SANCHEZ GIRALDO>dentro de las APIs que estábamos ahorita
+aquí en aplicaciones.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/171-0
+00:30:12.919 --> 00:30:14.359
+<v JONATHAN SANCHEZ GIRALDO>Login arquitectura.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/172-0
+00:30:15.399 --> 00:30:16.639
+<v JONATHAN SANCHEZ GIRALDO>Api Access.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/173-0
+00:30:18.519 --> 00:30:23.286
+<v JONATHAN SANCHEZ GIRALDO>¿Entonces van a encontrar esto?
+Quizás ustedes acá lo tengan en cero</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/173-1
+00:30:23.286 --> 00:30:27.223
+<v JONATHAN SANCHEZ GIRALDO>listo. ¿Por qué?
+Porque no lo han iniciado a configurar.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/173-2
+00:30:27.223 --> 00:30:32.473
+<v JONATHAN SANCHEZ GIRALDO>Yo lo voy a configurar acá porque todo
+depende lo que voy a ir necesitando.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/173-3
+00:30:32.473 --> 00:30:37.239
+<v JONATHAN SANCHEZ GIRALDO>Voy a ir necesitando permisos. Listo,
+voy a ir necesitando permisos.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/174-0
+00:30:37.319 --> 00:30:44.319
+<v JONATHAN SANCHEZ GIRALDO>Para poder que me funcione cada una de
+las diferentes integraciones. Entonces,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/174-1
+00:30:44.319 --> 00:30:50.698
+<v JONATHAN SANCHEZ GIRALDO>como nosotros vamos a necesitar,
+vamos a necesitar editar a un usuario,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/174-2
+00:30:50.698 --> 00:30:56.279
+<v JONATHAN SANCHEZ GIRALDO>pues tenemos que ir a buscar la API que
+nos diga qué permisos.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/176-0
+00:30:56.359 --> 00:31:01.729
+<v JONATHAN SANCHEZ GIRALDO>O scoops necesito para poder editar dicho
+dicho usuario. ¿Entonces,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/176-1
+00:31:01.729 --> 00:31:06.546
+<v JONATHAN SANCHEZ GIRALDO>dónde encontramos eso?
+En la documentación de la app, listo.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/176-2
+00:31:06.546 --> 00:31:11.442
+<v JONATHAN SANCHEZ GIRALDO>¿Dónde encuentro yo la las APIs en la
+parte de aquí superior,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/176-3
+00:31:11.442 --> 00:31:14.679
+<v JONATHAN SANCHEZ GIRALDO>documentación API Explorer, API Explorer?</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/177-0
+00:31:16.439 --> 00:31:23.761
+<v JONATHAN SANCHEZ GIRALDO>y en Api Explorer está management
+management Api y aquí en management Api</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/177-1
+00:31:23.761 --> 00:31:30.488
+<v JONATHAN SANCHEZ GIRALDO>entonces voy a ir bajando y voy a
+encontrar Dónde está la la de los</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/177-2
+00:31:30.488 --> 00:31:35.039
+<v JONATHAN SANCHEZ GIRALDO>usuarios Aquí está users miren acá y en
+users</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/178-0
+00:31:35.119 --> 00:31:41.712
+<v JONATHAN SANCHEZ GIRALDO>Entonces tenemos aquí el tema de los
+usuarios. Entonces vemos para listar todo,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/178-1
+00:31:41.712 --> 00:31:48.057
+<v JONATHAN SANCHEZ GIRALDO>listar o buscar usuarios, crear usuarios,
+traer un solo usuario, get a user,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/178-2
+00:31:48.057 --> 00:31:54.319
+<v JONATHAN SANCHEZ GIRALDO>delete patch of the user. Bueno,
+esta es la que nosotros vamos a necesitar.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/179-0
+00:31:54.439 --> 00:31:59.910
+<v JONATHAN SANCHEZ GIRALDO>Porque nosotros lo que vamos a querer
+hacer es hacer el proceso de la</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/179-1
+00:31:59.910 --> 00:32:04.599
+<v JONATHAN SANCHEZ GIRALDO>actualización de la metadata del usuario,
+si vemos por acá.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/180-0
+00:32:05.639 --> 00:32:10.119
+<v JONATHAN SANCHEZ GIRALDO>Voy a poner un poquito más grande,
+entonces yo por acá veo a Pepe Metadata.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/182-0
+00:32:11.399 --> 00:32:15.879
+<v JONATHAN SANCHEZ GIRALDO>Por acá dice user metadata,
+entonces por acá es lo que yo voy</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/182-1
+00:32:15.879 --> 00:32:21.370
+<v JONATHAN SANCHEZ GIRALDO>necesitando, lo que vamos a poder,
+lo que puedes hacer y tener en cuenta en</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/182-2
+00:32:21.370 --> 00:32:24.838
+<v JONATHAN SANCHEZ GIRALDO>el momento de la edición de la metadata.
+Listo,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/182-3
+00:32:24.838 --> 00:32:30.039
+<v JONATHAN SANCHEZ GIRALDO>si yo bajo un poquito más y voy leyendo
+la información por acá por acá.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/183-0
+00:32:30.199 --> 00:32:33.867
+<v JONATHAN SANCHEZ GIRALDO>¿Tantan aquí dice cómo debo mandar yo la
+metadata?</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/183-1
+00:32:33.867 --> 00:32:39.331
+<v JONATHAN SANCHEZ GIRALDO>¿Cómo debe ir la metadata dentro de la
+dentro de la estructura del llamado?</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/183-2
+00:32:39.331 --> 00:32:42.279
+<v JONATHAN SANCHEZ GIRALDO>Así debe de ir la metadata, mírenlo aquí.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/184-0
+00:32:43.959 --> 00:32:46.999
+<v JONATHAN SANCHEZ GIRALDO>Seguimos bajando,
+seguimos bajando y por acá.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/185-0
+00:32:47.879 --> 00:32:55.799
+<v JONATHAN SANCHEZ GIRALDO>Nos vamos a encontrar los scopes. Listo,
+los scopes son los permisos que necesita</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/185-1
+00:32:55.799 --> 00:33:02.173
+<v JONATHAN SANCHEZ GIRALDO>esa API para yo poder manipular el
+usuario. Listo, entonces dice,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/185-2
+00:33:02.173 --> 00:33:09.319
+<v JONATHAN SANCHEZ GIRALDO>usted debe poder dar permisos en update
+user, update user app metadata y.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/186-0
+00:33:09.639 --> 00:33:15.681
+<v JONATHAN SANCHEZ GIRALDO>day current user metadat listo estos 3
+permisos necesita darlos Okay entonces</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/186-1
+00:33:15.681 --> 00:33:19.399
+<v JONATHAN SANCHEZ GIRALDO>Vámonos a la API donde estábamos ahorita
+estaba</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/187-0
+00:33:25.279 --> 00:33:26.639
+<v JONATHAN SANCHEZ GIRALDO>Me perdí acá.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/188-0
+00:33:29.839 --> 00:33:33.365
+<v JONATHAN SANCHEZ GIRALDO>Aquí está la Aquí está la documentación,
+aquí está la API.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/188-1
+00:33:33.365 --> 00:33:37.130
+<v JONATHAN SANCHEZ GIRALDO>Entonces vamos a darle aquí en este
+primerito que tenemos acá,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/188-2
+00:33:37.130 --> 00:33:39.639
+<v JONATHAN SANCHEZ GIRALDO>vamos a darle aquí en editar lado derecho.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/189-0
+00:33:40.719 --> 00:33:45.850
+<v JONATHAN SANCHEZ GIRALDO>Y acá tenemos user delegate access o
+client access. Miren acá,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/189-1
+00:33:45.850 --> 00:33:50.248
+<v JONATHAN SANCHEZ GIRALDO>aquí tenemos lo que vamos a ir
+necesitando. Entonces,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/189-2
+00:33:50.248 --> 00:33:55.949
+<v JONATHAN SANCHEZ GIRALDO>si vemos acá en client access,
+yo tengo read user solamente tocándolo</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/189-3
+00:33:55.949 --> 00:34:01.895
+<v JONATHAN SANCHEZ GIRALDO>con dándole click o lo pueden filtrar
+también aquí en caso de que de que</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/189-4
+00:34:01.895 --> 00:34:03.279
+<v JONATHAN SANCHEZ GIRALDO>quieran buscarlo.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/190-0
+00:34:03.399 --> 00:34:07.696
+<v JONATHAN SANCHEZ GIRALDO>Profe,
+yo quiero simplemente aquí control cy</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/190-1
+00:34:07.696 --> 00:34:12.470
+<v JONATHAN SANCHEZ GIRALDO>control V,
+ahí lo puedes y puedes chulear dándole</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/190-2
+00:34:12.470 --> 00:34:19.058
+<v JONATHAN SANCHEZ GIRALDO>click y le va dando a va grabando para
+poder que tenga los permisos.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/190-3
+00:34:19.058 --> 00:34:22.399
+<v JONATHAN SANCHEZ GIRALDO>Entonces tenemos the user, tenemos.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/191-0
+00:34:22.519 --> 00:34:27.295
+<v JONATHAN SANCHEZ GIRALDO>Update user app metadata,
+ahí está update user app metadata.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/191-1
+00:34:27.295 --> 00:34:31.679
+<v JONATHAN SANCHEZ GIRALDO>Vamos guardar y aquí está update current
+user metadata.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/192-0
+00:34:34.679 --> 00:34:35.759
+<v JONATHAN SANCHEZ GIRALDO>Aquí no está.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/193-0
+00:34:38.719 --> 00:34:44.397
+<v JONATHAN SANCHEZ GIRALDO>Pero aquí sí está, miren acá, o sea,
+te toca jugar con estos 2, con estos 2,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/193-1
+00:34:44.397 --> 00:34:44.839
+<v JONATHAN SANCHEZ GIRALDO>listo.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/194-0
+00:34:47.079 --> 00:34:48.359
+<v JONATHAN SANCHEZ GIRALDO>¿Cómo le aquí?</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/195-0
+00:34:53.719 --> 00:34:58.975
+<v JONATHAN SANCHEZ GIRALDO>The user listo y client access.
+Aquí tenemos los que tenemos para</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/195-1
+00:34:58.975 --> 00:35:05.106
+<v JONATHAN SANCHEZ GIRALDO>trabajar y acá en la parte de arriba debe
+aparecer si vamos a aplicarla o no</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/195-2
+00:35:05.106 --> 00:35:10.679
+<v JONATHAN SANCHEZ GIRALDO>aplicarle el tema de los permisos. Listo,
+vamos a darle aquí guardar.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/196-0
+00:35:14.119 --> 00:35:15.919
+<v JONATHAN SANCHEZ GIRALDO>Y nos debe, nos debe quedar.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/197-0
+00:35:16.999 --> 00:35:23.414
+<v JONATHAN SANCHEZ GIRALDO>En este caso nos debe quedar los permisos
+de cada uno de los espacios que dimos</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/197-1
+00:35:23.414 --> 00:35:28.144
+<v JONATHAN SANCHEZ GIRALDO>para la conexión. Listo, chicos,
+me confirman por ahí. Sí,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/197-2
+00:35:28.144 --> 00:35:33.116
+<v JONATHAN SANCHEZ GIRALDO>estamos hasta ahí,
+me mandaron de pronto algunas pantallitas,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/197-3
+00:35:33.116 --> 00:35:34.799
+<v JONATHAN SANCHEZ GIRALDO>algunos sprint suyos.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/198-0
+00:35:35.959 --> 00:35:39.479
+<v JONATHAN SANCHEZ GIRALDO>Que para ver que estemos hasta ahí,
+que tengamos los permisos.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/199-0
+00:35:43.239 --> 00:35:45.119
+<v JONATHAN SANCHEZ GIRALDO>Igual veo por ahí deditos arriba.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/200-0
+00:35:48.279 --> 00:35:51.559
+<v JONATHAN SANCHEZ GIRALDO>Algunos que de pronto me manden print de
+del proceso.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/201-0
+00:35:55.639 --> 00:35:59.399
+<v JONATHAN SANCHEZ GIRALDO>Pues como para ir viendo que estemos
+hasta ahí, bueno.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/202-0
+00:36:00.879 --> 00:36:04.481
+<v JONATHAN SANCHEZ GIRALDO>Entonces ya estamos acá,
+ya tenemos permisos. Ojo,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/202-1
+00:36:04.481 --> 00:36:09.989
+<v JONATHAN SANCHEZ GIRALDO>todo esto lo estamos haciendo para poder
+llegar al formulario de la metadata.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/202-2
+00:36:09.989 --> 00:36:13.519
+<v JONATHAN SANCHEZ GIRALDO>Listo, muy bien,
+aquí ya no hay que guardar nada.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/205-0
+00:36:14.479 --> 00:36:20.046
+<v JONATHAN SANCHEZ GIRALDO>Aquí no hay que guardar nada,
+simplemente ya en el flujo de login</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/205-1
+00:36:20.046 --> 00:36:24.347
+<v JONATHAN SANCHEZ GIRALDO>arquitectura,
+API Access y en API Access están los</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/205-2
+00:36:24.347 --> 00:36:28.985
+<v JONATHAN SANCHEZ GIRALDO>cuatro permisos que nosotros vimos.
+¿Por qué dice 273?</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/205-3
+00:36:28.985 --> 00:36:35.479
+<v JONATHAN SANCHEZ GIRALDO>Porque hay 273 peticiones de las cuales
+yo puedo ir ir dando dando permisos.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/206-0
+00:36:35.599 --> 00:36:39.527
+<v JONATHAN SANCHEZ GIRALDO>Entonces,
+aquí les conecto con la vida real de lo</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/206-1
+00:36:39.527 --> 00:36:45.262
+<v JONATHAN SANCHEZ GIRALDO>que me ha pasado a mí. Entonces,
+si ustedes ven, es una gran API, o sea,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/206-2
+00:36:45.262 --> 00:36:49.582
+<v JONATHAN SANCHEZ GIRALDO>es la gran API,
+es la API papá de todo el tema del out</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/206-3
+00:36:49.582 --> 00:36:55.159
+<v JONATHAN SANCHEZ GIRALDO>Zero. Entonces ustedes dirán, juemadre,
+y si en algún momento nos nos.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/207-0
+00:36:55.559 --> 00:36:56.279
+<v JONATHAN SANCHEZ GIRALDO>Nos.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/208-0
+00:36:57.719 --> 00:37:03.199
+<v JONATHAN SANCHEZ GIRALDO>Nos contactó un proveedor y nos dijo,
+nosotros acabamos de acabamos de firmar</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/208-1
+00:37:03.199 --> 00:37:06.290
+<v JONATHAN SANCHEZ GIRALDO>un contrato con Comfama y nosotros en
+este,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/208-2
+00:37:06.290 --> 00:37:10.997
+<v JONATHAN SANCHEZ GIRALDO>en este caso necesitamos acceder a la
+información de los usuarios,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/208-3
+00:37:10.997 --> 00:37:15.001
+<v JONATHAN SANCHEZ GIRALDO>información de los usuarios.
+Entonces dijimos, juemadre,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/208-4
+00:37:15.001 --> 00:37:17.319
+<v JONATHAN SANCHEZ GIRALDO>¿cómo vamos a darle a esta gente?</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/209-0
+00:37:17.799 --> 00:37:24.023
+<v JONATHAN SANCHEZ GIRALDO>¿Cómo vamos a darle a esta gente toda la
+información de nosotros, o sea,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/209-1
+00:37:24.023 --> 00:37:26.239
+<v JONATHAN SANCHEZ GIRALDO>toda la información de el?</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/211-0
+00:37:27.799 --> 00:37:32.845
+<v JONATHAN SANCHEZ GIRALDO>del flujo que nosotros vamos vamos
+teniendo para el tema de las de las</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/211-1
+00:37:32.845 --> 00:37:38.387
+<v JONATHAN SANCHEZ GIRALDO>modificaciones nosotros no podemos no
+podemos realmente brindar absolutamente</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/211-2
+00:37:38.387 --> 00:37:43.859
+<v JONATHAN SANCHEZ GIRALDO>todo así hayan firmado con con fama
+Entonces qué fue lo que nosotros hicimos</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/211-3
+00:37:43.859 --> 00:37:46.559
+<v JONATHAN SANCHEZ GIRALDO>simplemente creamos un ambiente un Api</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/212-0
+00:37:46.679 --> 00:37:53.393
+<v JONATHAN SANCHEZ GIRALDO>Independiente, una app independiente.
+Creamos una solo para ese proyecto que le</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/212-1
+00:37:53.393 --> 00:37:59.099
+<v JONATHAN SANCHEZ GIRALDO>permitía leer, solo leer.
+Entonces le dimos los privilegios de solo</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/212-2
+00:37:59.099 --> 00:38:05.561
+<v JONATHAN SANCHEZ GIRALDO>lectura para los usuarios. Entonces,
+con esto independizamos la arquitectura</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/212-3
+00:38:05.561 --> 00:38:07.239
+<v JONATHAN SANCHEZ GIRALDO>de con los usuarios.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/213-0
+00:38:07.319 --> 00:38:12.509
+<v JONATHAN SANCHEZ GIRALDO>Con los usuarios terceros y eso nos
+permitía a nosotros también tener control</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/213-1
+00:38:12.509 --> 00:38:15.502
+<v JONATHAN SANCHEZ GIRALDO>de qué era lo que ellos estaban
+consultando.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/213-2
+00:38:15.502 --> 00:38:20.159
+<v JONATHAN SANCHEZ GIRALDO>Listo como para que lo conectemos con
+tiempo real. Muy bien, vámonos.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/214-0
+00:38:23.479 --> 00:38:27.422
+<v JONATHAN SANCHEZ GIRALDO>Vámonos, entonces,
+como ya tenemos conectado el API</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/214-1
+00:38:27.422 --> 00:38:28.559
+<v JONATHAN SANCHEZ GIRALDO>management acá.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/215-0
+00:38:35.799 --> 00:38:36.079
+<v JONATHAN SANCHEZ GIRALDO>Mhm.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/216-0
+00:38:44.439 --> 00:38:44.999
+<v JONATHAN SANCHEZ GIRALDO>Muy bien.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/217-0
+00:38:50.679 --> 00:38:53.599
+<v JONATHAN SANCHEZ GIRALDO>Muy bien,
+entonces ya tenemos el baúl conectado.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/218-0
+00:38:54.919 --> 00:39:00.650
+<v JONATHAN SANCHEZ GIRALDO>Ya tenemos aquí el baúl conectado
+arquitectura y vámonos entonces a nuestro</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/218-1
+00:39:00.650 --> 00:39:03.439
+<v JONATHAN SANCHEZ GIRALDO>flujito, vamos a dónde está el flujo.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/219-0
+00:39:05.479 --> 00:39:06.479
+<v JONATHAN SANCHEZ GIRALDO>Va a cerrar esto.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/220-0
+00:39:08.759 --> 00:39:09.439
+<v JONATHAN SANCHEZ GIRALDO>También.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/221-0
+00:39:13.959 --> 00:39:16.959
+<v JONATHAN SANCHEZ GIRALDO>Entonces en los flujos,
+el que creamos ahorita.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/222-0
+00:39:24.759 --> 00:39:25.599
+<v JONATHAN SANCHEZ GIRALDO>El techo es.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/223-0
+00:39:33.319 --> 00:39:35.679
+<v JONATHAN SANCHEZ GIRALDO>Dame un segundito que se me salga que la
+sesión.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/224-0
+00:39:45.479 --> 00:39:47.959
+<v JONATHAN SANCHEZ GIRALDO>Listo, entonces, mensaje de bienvenida.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/225-0
+00:39:51.559 --> 00:39:53.119
+<v JONATHAN SANCHEZ GIRALDO>Este no lo teníamos acá.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/226-0
+00:39:55.719 --> 00:39:56.999
+<v JONATHAN SANCHEZ GIRALDO>Teníamos un.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/227-0
+00:39:58.119 --> 00:39:58.599
+<v JONATHAN SANCHEZ GIRALDO>Flow.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/228-0
+00:40:02.959 --> 00:40:06.695
+<v JONATHAN SANCHEZ GIRALDO>Los de arquitectura,
+no son de 3 chicos que se me se me cerró</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/228-1
+00:40:06.695 --> 00:40:07.599
+<v JONATHAN SANCHEZ GIRALDO>aquí la sesión.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/229-0
+00:40:08.759 --> 00:40:13.159
+<v JONATHAN SANCHEZ GIRALDO>Puede ir grabando publish,
+grabando publish, listo.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/230-0
+00:40:15.879 --> 00:40:16.759
+<v JONATHAN SANCHEZ GIRALDO>Hello.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/231-0
+00:40:17.639 --> 00:40:19.479
+<v JONATHAN SANCHEZ GIRALDO>Vemos este acá, listo.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/232-0
+00:40:20.599 --> 00:40:24.439
+<v JONATHAN SANCHEZ GIRALDO>Y editar flujo, arquitectura, muy bien,
+editar el flujo.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/233-0
+00:40:27.159 --> 00:40:30.599
+<v JONATHAN SANCHEZ GIRALDO>Ya creamos el baúl,
+verifiquemos que sí tengamos el baúl aquí.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/234-0
+00:40:31.479 --> 00:40:35.008
+<v JONATHAN SANCHEZ GIRALDO>Aquí tenemos los 2 baul,
+baul de arquitectura. Muy bien,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/234-1
+00:40:35.008 --> 00:40:37.918
+<v JONATHAN SANCHEZ GIRALDO>uno es otra vez a flow,
+flujo de arquitectura.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/234-2
+00:40:37.918 --> 00:40:42.685
+<v JONATHAN SANCHEZ GIRALDO>Y ahí tenemos entonces lo primero.
+Entonces, ¿qué es lo que va a pasar aquí,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/234-3
+00:40:42.685 --> 00:40:45.780
+<v JONATHAN SANCHEZ GIRALDO>chicos? Entonces,
+como en el formulario anterior,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/234-4
+00:40:45.780 --> 00:40:50.547
+<v JONATHAN SANCHEZ GIRALDO>ojo que en el formulario anterior,
+acuérdense que nosotros le dimos nombre a</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/234-5
+00:40:50.547 --> 00:40:51.599
+<v JONATHAN SANCHEZ GIRALDO>estos IDs, miren.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/235-0
+00:40:52.079 --> 00:40:56.857
+<v JONATHAN SANCHEZ GIRALDO>A estos IDs les dimos nombres.
+Si aquí en este caso, por ejemplo,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/235-1
+00:40:56.857 --> 00:41:01.127
+<v JONATHAN SANCHEZ GIRALDO>por ahí guiño, guiño,
+ustedes tienen que pedirle el nombre</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/235-2
+00:41:01.127 --> 00:41:05.615
+<v JONATHAN SANCHEZ GIRALDO>completo a la persona.
+Entonces debe de haber un campo que se</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/235-3
+00:41:05.615 --> 00:41:10.754
+<v JONATHAN SANCHEZ GIRALDO>llame nombre completo. Listo,
+entonces ahí debe de solicitarle la a la</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/235-4
+00:41:10.754 --> 00:41:13.359
+<v JONATHAN SANCHEZ GIRALDO>persona que digite su nombre. Listo.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/237-0
+00:41:13.839 --> 00:41:19.639
+<v JONATHAN SANCHEZ GIRALDO>muy bien entonces acá en este en este
+flujo nos vamos a empezar a encontrar con</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/237-1
+00:41:19.639 --> 00:41:25.367
+<v JONATHAN SANCHEZ GIRALDO>las diferentes actividades que vamos a
+poder a poder realizar listo vamos a si</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/237-2
+00:41:25.367 --> 00:41:31.239
+<v JONATHAN SANCHEZ GIRALDO>nos vamos por acá vamos a encontrar unas
+que son nativas de outser miren las acá</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/237-3
+00:41:31.239 --> 00:41:32.399
+<v JONATHAN SANCHEZ GIRALDO>yo aquí es donde</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/238-0
+00:41:32.439 --> 00:41:38.677
+<v JONATHAN SANCHEZ GIRALDO>Puedo empezar a disparar flujos y API.
+Yo puedo consumir API directamente.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/238-1
+00:41:38.677 --> 00:41:43.085
+<v JONATHAN SANCHEZ GIRALDO>Mire HTTP request.
+Yo puedo consumir APIs acá que me</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/238-2
+00:41:43.085 --> 00:41:49.904
+<v JONATHAN SANCHEZ GIRALDO>permitan a mí ir y conectar cada una de
+las diferentes actividades que tenemos en</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/238-3
+00:41:49.904 --> 00:41:52.399
+<v JONATHAN SANCHEZ GIRALDO>el proceso de la creación del.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/239-0
+00:41:52.519 --> 00:41:55.551
+<v JONATHAN SANCHEZ GIRALDO>Del usuario listo,
+por acá está lo de WhatsApp,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/239-1
+00:41:55.551 --> 00:41:59.529
+<v JONATHAN SANCHEZ GIRALDO>por aquí está Telegram,
+por aquí vea todo esto lo tenemos para</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/239-2
+00:41:59.529 --> 00:42:04.328
+<v JONATHAN SANCHEZ GIRALDO>implementarlo. Listo, muy bien. Entonces,
+como nosotros vamos a actualizar,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/239-3
+00:42:04.328 --> 00:42:08.117
+<v JONATHAN SANCHEZ GIRALDO>entonces acá tenemos el update user,
+aquí está update user.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/239-4
+00:42:08.117 --> 00:42:09.759
+<v JONATHAN SANCHEZ GIRALDO>Entonces yo aquí con este.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/240-0
+00:42:14.319 --> 00:42:15.919
+<v JONATHAN SANCHEZ GIRALDO>Razón se me está saliendo.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/242-0
+00:42:26.879 --> 00:42:27.839
+<v JONATHAN SANCHEZ GIRALDO>Segundito a ver.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/243-0
+00:42:28.959 --> 00:42:29.919
+<v JONATHAN SANCHEZ GIRALDO>Editar flujo.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/245-0
+00:42:31.479 --> 00:42:31.759
+<v JONATHAN SANCHEZ GIRALDO>Mhm.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/246-0
+00:42:33.839 --> 00:42:36.354
+<v JONATHAN SANCHEZ GIRALDO>Bueno,
+por alguna razón se me está saliendo</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/246-1
+00:42:36.354 --> 00:42:39.439
+<v JONATHAN SANCHEZ GIRALDO>chicos del flujo, o sea,
+por tanto cambio de pestaña.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/247-0
+00:42:41.759 --> 00:42:44.159
+<v JONATHAN SANCHEZ GIRALDO>And it's a venir.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/248-0
+00:42:46.639 --> 00:42:47.679
+<v JONATHAN SANCHEZ GIRALDO>Editar flujo.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/249-0
+00:42:49.959 --> 00:42:53.397
+<v JONATHAN SANCHEZ GIRALDO>Listo acá y update user listo en update
+user.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/249-1
+00:42:53.397 --> 00:42:58.777
+<v JONATHAN SANCHEZ GIRALDO>Entonces yo aquí puedo empezar a trabajar
+todo lo que es la parte de la</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/249-2
+00:42:58.777 --> 00:43:03.934
+<v JONATHAN SANCHEZ GIRALDO>actualización del usuario.
+¿Entonces él me hace unas preguntas, o k,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/249-3
+00:43:03.934 --> 00:43:08.567
+<v JONATHAN SANCHEZ GIRALDO>cómo lo quieres llamar?
+¿Cómo quieres llamar este campito que</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/249-4
+00:43:08.567 --> 00:43:09.239
+<v JONATHAN SANCHEZ GIRALDO>está acá?</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/250-0
+00:43:09.839 --> 00:43:12.770
+<v JONATHAN SANCHEZ GIRALDO>Listo,
+yo lo voy a llamar actualizar metadata.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/250-1
+00:43:12.770 --> 00:43:15.639
+<v JONATHAN SANCHEZ GIRALDO>Listo,
+aquí es simplemente como para en algún</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/250-2
+00:43:15.639 --> 00:43:20.440
+<v JONATHAN SANCHEZ GIRALDO>momento yo voy a necesitar volver y
+recuperar toda esta información y lo voy</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/250-3
+00:43:20.440 --> 00:43:24.119
+<v JONATHAN SANCHEZ GIRALDO>lo voy a ir necesitando. ¿Listo, muy bien,
+él me dice, OK,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/250-4
+00:43:24.119 --> 00:43:28.359
+<v JONATHAN SANCHEZ GIRALDO>de qué baúl de conexión usted se va a
+pegar? Entonces en este caso.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/251-0
+00:43:29.519 --> 00:43:34.984
+<v JONATHAN SANCHEZ GIRALDO>Yo tenemos 2 baúl listo, 2 baúl,
+que son las APIs con las cuales nosotros</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/251-1
+00:43:34.984 --> 00:43:39.119
+<v JONATHAN SANCHEZ GIRALDO>hemos venido trabajando listo y
+adicionalmente por acá,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/251-2
+00:43:39.119 --> 00:43:43.550
+<v JONATHAN SANCHEZ GIRALDO>si ustedes ven aquí dice user ID, ay,
+cómo así que user ID,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/251-3
+00:43:43.550 --> 00:43:49.679
+<v JONATHAN SANCHEZ GIRALDO>o sea que yo voy a necesitar el dato del
+usuario y dónde está el dato del usuario.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/252-0
+00:43:49.759 --> 00:43:54.466
+<v JONATHAN SANCHEZ GIRALDO>Muy bien, si yo le doy acá en el más,
+me va a aparecer 2 cosas, uno,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/252-1
+00:43:54.466 --> 00:43:57.672
+<v JONATHAN SANCHEZ GIRALDO>los forms y aquí están los datos de los
+forms,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/252-2
+00:43:57.672 --> 00:44:01.151
+<v JONATHAN SANCHEZ GIRALDO>miren acá tipo de documento y número de
+documento.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/252-3
+00:44:01.151 --> 00:44:03.879
+<v JONATHAN SANCHEZ GIRALDO>Hasta ahí tenemos el nombre del usuario.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/253-0
+00:44:04.639 --> 00:44:08.167
+<v JONATHAN SANCHEZ GIRALDO>Nada,
+no tenemos el nombre del usuario listo y</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/253-1
+00:44:08.167 --> 00:44:13.796
+<v JONATHAN SANCHEZ GIRALDO>estamos en el mensaje de bienvenida,
+que es el formulario que teníamos que</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/253-2
+00:44:13.796 --> 00:44:17.999
+<v JONATHAN SANCHEZ GIRALDO>teníamos allá.
+Entonces por acá no nos va a servir este</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/253-3
+00:44:17.999 --> 00:44:22.803
+<v JONATHAN SANCHEZ GIRALDO>dato para la actualización.
+Miremos acá y miremos en ejecución,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/253-4
+00:44:22.803 --> 00:44:24.679
+<v JONATHAN SANCHEZ GIRALDO>en ejecución que tenemos.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/256-0
+00:44:24.879 --> 00:44:30.656
+<v JONATHAN SANCHEZ GIRALDO>Nothing, nada, no tenemos nada, dice.
+Primero tiene que disparar un flujo para</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/256-1
+00:44:30.656 --> 00:44:36.578
+<v JONATHAN SANCHEZ GIRALDO>poder capturar a ver qué es lo que vamos
+a trabajar directamente en este en este</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/256-2
+00:44:36.578 --> 00:44:40.599
+<v JONATHAN SANCHEZ GIRALDO>flujo. Ah, bueno, hagámosle caso,
+démosle aquí cerrar.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/257-0
+00:44:41.599 --> 00:44:43.319
+<v JONATHAN SANCHEZ GIRALDO>Vamos a quitar este bloque acá.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/258-0
+00:44:44.879 --> 00:44:48.639
+<v JONATHAN SANCHEZ GIRALDO>Y vamos, vamos a darle aquí publish.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/259-0
+00:44:50.239 --> 00:44:53.917
+<v JONATHAN SANCHEZ GIRALDO>Sí, no tenemos nada,
+absolutamente nada y él nos dice,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/259-1
+00:44:53.917 --> 00:44:57.461
+<v JONATHAN SANCHEZ GIRALDO>para que usted pueda empezar a tener
+datos, ejecute.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/259-2
+00:44:57.461 --> 00:45:00.538
+<v JONATHAN SANCHEZ GIRALDO>Entonces vamos a ejecutar un test.
+Miren acá,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/259-3
+00:45:00.538 --> 00:45:04.349
+<v JONATHAN SANCHEZ GIRALDO>vamos a darle clic en este test y él nos
+dice, OK, mira,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/259-4
+00:45:04.349 --> 00:45:09.766
+<v JONATHAN SANCHEZ GIRALDO>yo te voy a dar este input de ejemplo,
+yo te voy a mandar este input de ejemplo,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/259-5
+00:45:09.766 --> 00:45:12.039
+<v JONATHAN SANCHEZ GIRALDO>que es la información con la cual.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/260-0
+00:45:12.159 --> 00:45:18.998
+<v JONATHAN SANCHEZ GIRALDO>Yo normalmente es con la información que
+un usuario se conecta dentro de un flujo.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/260-1
+00:45:18.998 --> 00:45:23.118
+<v JONATHAN SANCHEZ GIRALDO>Listo,
+entonces te voy a mandar esta información,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/260-2
+00:45:23.118 --> 00:45:28.803
+<v JONATHAN SANCHEZ GIRALDO>el demo, esto es información demo, perdón,
+esta es información demo,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/260-3
+00:45:28.803 --> 00:45:31.439
+<v JONATHAN SANCHEZ GIRALDO>todo esta información demo para.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/261-0
+00:45:31.759 --> 00:45:36.773
+<v JONATHAN SANCHEZ GIRALDO>Pues para un nuevo poder testear listo,
+toda esta información es demo,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/261-1
+00:45:36.773 --> 00:45:42.494
+<v JONATHAN SANCHEZ GIRALDO>pero a mí me sirve porque yo necesito
+porque vea por acá veo que hay un user ID,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/261-2
+00:45:42.494 --> 00:45:47.437
+<v JONATHAN SANCHEZ GIRALDO>por aquí veo que hay un name,
+por aquí veo que hay un name, un email,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/261-3
+00:45:47.437 --> 00:45:52.239
+<v JONATHAN SANCHEZ GIRALDO>un email verify si está verificado o no
+está verificado el usuario.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/262-0
+00:45:52.479 --> 00:45:57.091
+<v JONATHAN SANCHEZ GIRALDO>Esta información me puede servir. Ah, no,
+yo no necesito este flujo,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/262-1
+00:45:57.091 --> 00:46:00.099
+<v JONATHAN SANCHEZ GIRALDO>sino que yo necesito un flujo más
+pequeñito.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/262-2
+00:46:00.099 --> 00:46:05.513
+<v JONATHAN SANCHEZ GIRALDO>Yo puedo modificar esta partecita aquí
+para poder hacer el tema del test. Listo,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/262-3
+00:46:05.513 --> 00:46:08.788
+<v JONATHAN SANCHEZ GIRALDO>muy bien,
+voy a mandar el test así tal cual como</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/262-4
+00:46:08.788 --> 00:46:13.199
+<v JONATHAN SANCHEZ GIRALDO>está. Me sirve, voy a dar test. Muy bien,
+me dijo que lo ejecutó.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/263-0
+00:46:13.679 --> 00:46:18.519
+<v JONATHAN SANCHEZ GIRALDO>Muy bien, vamos acá entonces,
+y cómo me doy cuenta que lo ejecuto</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/263-1
+00:46:18.519 --> 00:46:19.839
+<v JONATHAN SANCHEZ GIRALDO>chicos, ejecution.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/264-0
+00:46:21.359 --> 00:46:27.115
+<v JONATHAN SANCHEZ GIRALDO>Aquí en la parte de arriba, y él dijo, sí,
+efectivamente, usted ejecutó esto,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/264-1
+00:46:27.115 --> 00:46:28.959
+<v JONATHAN SANCHEZ GIRALDO>que era información demo.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/265-0
+00:46:30.319 --> 00:46:33.941
+<v JONATHAN SANCHEZ GIRALDO>¿Qué hizo? Nada. ¿Por qué?
+Porque no lo tenemos en este momento</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/265-1
+00:46:33.941 --> 00:46:37.167
+<v JONATHAN SANCHEZ GIRALDO>haciendo nada.
+Ya vamos a empezar a consumir cada una de</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/265-2
+00:46:37.167 --> 00:46:40.958
+<v JONATHAN SANCHEZ GIRALDO>los diferentes servicios. Listo,
+entonces acá podemos ver la misma</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/265-3
+00:46:40.958 --> 00:46:44.919
+<v JONATHAN SANCHEZ GIRALDO>información que se mandó. Miren,
+aquí está toda la información que se</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/265-4
+00:46:44.919 --> 00:46:47.239
+<v JONATHAN SANCHEZ GIRALDO>mandó, que fue la demo que teníamos allá.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/266-0
+00:46:49.119 --> 00:46:54.425
+<v JONATHAN SANCHEZ GIRALDO>entonces Vámonos a editar nuevamente
+porque estamos acá en edición ahora sí ya</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/266-1
+00:46:54.425 --> 00:46:59.999
+<v JONATHAN SANCHEZ GIRALDO>ejecutamos ya le hicimos caso vamos aquí
+al más vamos aquí a buscar el update user</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/268-0
+00:47:01.919 --> 00:47:07.062
+<v JONATHAN SANCHEZ GIRALDO>Nos pregunta nuevamente acá alias,
+nos pregunta de dónde vamos a pegarnos</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/268-1
+00:47:07.062 --> 00:47:12.553
+<v JONATHAN SANCHEZ GIRALDO>para la información del baul arquitect
+que tenemos y miren ahora sí por acá en</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/268-2
+00:47:12.553 --> 00:47:13.039
+<v JONATHAN SANCHEZ GIRALDO>el más.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/269-0
+00:47:14.559 --> 00:47:17.447
+<v JONATHAN SANCHEZ GIRALDO>¿Dónde nos vamos a pegar?
+Miren que ahora sí,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/269-1
+00:47:17.447 --> 00:47:21.841
+<v JONATHAN SANCHEZ GIRALDO>ya ejecución tiene información,
+ahorita era form y ahora ejecución ya</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/269-2
+00:47:21.841 --> 00:47:23.159
+<v JONATHAN SANCHEZ GIRALDO>tiene. Ay, se me fue.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/270-0
+00:47:25.759 --> 00:47:30.582
+<v JONATHAN SANCHEZ GIRALDO>Se me limpió ahí en ejecución porque ya
+tiene una ejecución. Sí,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/270-1
+00:47:30.582 --> 00:47:35.033
+<v JONATHAN SANCHEZ GIRALDO>ya tiene una ejecución y en la ejecución
+me dice, OK, mira,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/270-2
+00:47:35.033 --> 00:47:40.300
+<v JONATHAN SANCHEZ GIRALDO>tú ejecutaste y aquí está lo que
+capturamos de ese de ese envío que tú</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/270-3
+00:47:40.300 --> 00:47:45.641
+<v JONATHAN SANCHEZ GIRALDO>hiciste, de ese envío que tú hiciste.
+Mire que ahí está la información.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/270-4
+00:47:45.641 --> 00:47:47.199
+<v JONATHAN SANCHEZ GIRALDO>John Doe, user email.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/271-0
+00:47:47.679 --> 00:47:53.566
+<v JONATHAN SANCHEZ GIRALDO>user email verify toda esta información
+fue la que él capturó en ese flujo listo</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/271-1
+00:47:53.566 --> 00:47:59.162
+<v JONATHAN SANCHEZ GIRALDO>Entonces qué necesitamos de acá para
+poder para poder hacer la actualización</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/271-2
+00:47:59.162 --> 00:48:04.830
+<v JONATHAN SANCHEZ GIRALDO>de un de un usuario entonces necesitamos
+el user ID listo vamos aquí a la API</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/271-3
+00:48:04.830 --> 00:48:07.519
+<v JONATHAN SANCHEZ GIRALDO>verifiquemos la información de la API</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/272-0
+00:48:09.199 --> 00:48:13.527
+<v JONATHAN SANCHEZ GIRALDO>Si yo necesito,
+si yo necesito editar un usuario,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/272-1
+00:48:13.527 --> 00:48:18.635
+<v JONATHAN SANCHEZ GIRALDO>miren lo que dice acá,
+si yo necesito editar a un usuario,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/272-2
+00:48:18.635 --> 00:48:20.279
+<v JONATHAN SANCHEZ GIRALDO>necesito ese campo.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/273-0
+00:48:21.919 --> 00:48:24.959
+<v JONATHAN SANCHEZ GIRALDO>Miren acá también si yo necesito.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/274-0
+00:48:26.479 --> 00:48:30.064
+<v JONATHAN SANCHEZ GIRALDO>Editar un usuario,
+necesito el ID del usuario.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/274-1
+00:48:30.064 --> 00:48:36.318
+<v JONATHAN SANCHEZ GIRALDO>Listo con ese ID es con el que yo voy a
+poder trabajar y nada aquí es el user ID.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/274-2
+00:48:36.318 --> 00:48:37.919
+<v JONATHAN SANCHEZ GIRALDO>Muy bien, vamos bien.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/275-0
+00:48:40.399 --> 00:48:42.439
+<v JONATHAN SANCHEZ GIRALDO>Acá ya tenemos el user ID.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/276-0
+00:48:43.759 --> 00:48:46.948
+<v JONATHAN SANCHEZ GIRALDO>¿Ahora,
+qué es lo que nosotros vamos a editar?</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/276-1
+00:48:46.948 --> 00:48:52.376
+<v JONATHAN SANCHEZ GIRALDO>Necesitamos la información de la metadata
+que nosotros vamos a trabajar. Listo,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/276-2
+00:48:52.376 --> 00:48:54.479
+<v JONATHAN SANCHEZ GIRALDO>entonces si nos vamos a la API.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/277-0
+00:48:55.679 --> 00:48:58.679
+<v JONATHAN SANCHEZ GIRALDO>Por acá nos podemos tomar.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/278-0
+00:48:59.439 --> 00:49:03.028
+<v JONATHAN SANCHEZ GIRALDO>Prestado estructura de la metadata,
+acá está, mira,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/278-1
+00:49:03.028 --> 00:49:05.719
+<v JONATHAN SANCHEZ GIRALDO>aquí está la estructura de la metadata.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/279-0
+00:49:06.719 --> 00:49:09.538
+<v JONATHAN SANCHEZ GIRALDO>Listo,
+vamos a llevarnos alguna de esta</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/279-1
+00:49:09.538 --> 00:49:11.159
+<v JONATHAN SANCHEZ GIRALDO>información, nos sirve.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/280-0
+00:49:15.759 --> 00:49:16.359
+<v JONATHAN SANCHEZ GIRALDO>Perdón.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/281-0
+00:49:17.239 --> 00:49:21.657
+<v JONATHAN SANCHEZ GIRALDO>Alguna de esta información no sirve
+porque necesitamos esta estructura,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/281-1
+00:49:21.657 --> 00:49:24.479
+<v JONATHAN SANCHEZ GIRALDO>entonces nos vamos a llevar esta
+información.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/282-0
+00:49:25.799 --> 00:49:29.789
+<v JONATHAN SANCHEZ GIRALDO>Nos la vamos a llevar para acá,
+vamos a reemplazar estos 2,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/282-1
+00:49:29.789 --> 00:49:30.919
+<v JONATHAN SANCHEZ GIRALDO>las 2 llavecitas.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/283-0
+00:49:32.239 --> 00:49:35.039
+<v JONATHAN SANCHEZ GIRALDO>Podemos trabajar aquí si queremos.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/284-0
+00:49:37.399 --> 00:49:42.731
+<v JONATHAN SANCHEZ GIRALDO>Expandir un poco más para que sea un poco
+más amplio. En este caso yo necesito acá,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/284-1
+00:49:42.731 --> 00:49:46.919
+<v JONATHAN SANCHEZ GIRALDO>yo no necesito toda esta información que
+tenemos que tenemos acá.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/285-0
+00:49:47.879 --> 00:49:51.672
+<v JONATHAN SANCHEZ GIRALDO>Yo necesito solamente mi metadata que va
+a quedar acá. Listo.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/285-1
+00:49:51.672 --> 00:49:55.159
+<v JONATHAN SANCHEZ GIRALDO>¿Qué información entonces voy a necesitar
+ahí? Entonces.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/286-0
+00:49:57.359 --> 00:49:57.999
+<v JONATHAN SANCHEZ GIRALDO>Tipo.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/287-0
+00:49:59.759 --> 00:50:00.679
+<v JONATHAN SANCHEZ GIRALDO>Document.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/288-0
+00:50:01.599 --> 00:50:02.839
+<v JONATHAN SANCHEZ GIRALDO>2 puntos.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/290-0
+00:50:05.039 --> 00:50:05.879
+<v JONATHAN SANCHEZ GIRALDO>Coma.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/291-0
+00:50:11.919 --> 00:50:12.759
+<v JONATHAN SANCHEZ GIRALDO>Número.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/292-0
+00:50:13.759 --> 00:50:14.519
+<v JONATHAN SANCHEZ GIRALDO>Document.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/293-0
+00:50:18.079 --> 00:50:19.599
+<v JONATHAN SANCHEZ GIRALDO>2 puntos, listo.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/294-0
+00:50:20.559 --> 00:50:25.855
+<v JONATHAN SANCHEZ GIRALDO>Ya vamos a ir viendo acá porque aquí nos
+falta agregar las variables que vamos a</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/294-1
+00:50:25.855 --> 00:50:29.319
+<v JONATHAN SANCHEZ GIRALDO>necesitar. Listo,
+sale aquí guardar y nos quedó así.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/295-0
+00:50:32.799 --> 00:50:38.540
+<v JONATHAN SANCHEZ GIRALDO>Y en este, en estos 2 campos, sí,
+en estos 2 campos que son los que vamos a</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/295-1
+00:50:38.540 --> 00:50:42.166
+<v JONATHAN SANCHEZ GIRALDO>trabajar,
+entonces vamos a meter las variables.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/295-2
+00:50:42.166 --> 00:50:46.547
+<v JONATHAN SANCHEZ GIRALDO>¿Cuáles variables?
+Las variables que nosotros tomamos del</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/295-3
+00:50:46.547 --> 00:50:50.173
+<v JONATHAN SANCHEZ GIRALDO>formulario de inicio,
+o sale aquí en variables,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/295-4
+00:50:50.173 --> 00:50:53.119
+<v JONATHAN SANCHEZ GIRALDO>ya no es en las variables de ejecución.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/296-0
+00:50:53.279 --> 00:50:57.447
+<v JONATHAN SANCHEZ GIRALDO>Sino en el form,
+en el form que nosotros teníamos allá,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/296-1
+00:50:57.447 --> 00:50:59.679
+<v JONATHAN SANCHEZ GIRALDO>mírenlo acá tipo de documento.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/297-0
+00:51:01.879 --> 00:51:03.399
+<v JONATHAN SANCHEZ GIRALDO>Se nos pasó para abajo.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/298-0
+00:51:06.239 --> 00:51:08.199
+<v JONATHAN SANCHEZ GIRALDO>Control Xy acá.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/299-0
+00:51:11.519 --> 00:51:12.399
+<v JONATHAN SANCHEZ GIRALDO>Y en este.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/301-0
+00:51:13.599 --> 00:51:18.359
+<v JONATHAN SANCHEZ GIRALDO>Entonces ponemos la otra aquí variables
+forms.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/302-0
+00:51:19.359 --> 00:51:23.639
+<v JONATHAN SANCHEZ GIRALDO>Número de un documento, ahí está,
+ahí está la estructura.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/304-0
+00:51:25.159 --> 00:51:26.679
+<v JONATHAN SANCHEZ GIRALDO>De lo que necesitamos.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/305-0
+00:51:27.839 --> 00:51:29.719
+<v JONATHAN SANCHEZ GIRALDO>Hay que tener mucho cuidado, chicos que.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/306-0
+00:51:30.799 --> 00:51:34.319
+<v JONATHAN SANCHEZ GIRALDO>En ocasiones a uno se les va,
+se le va así,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/306-1
+00:51:34.319 --> 00:51:37.839
+<v JONATHAN SANCHEZ GIRALDO>se les borra a uno alguna llavecita o
+algo,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/306-2
+00:51:37.839 --> 00:51:43.359
+<v JONATHAN SANCHEZ GIRALDO>y el formato JSON es muy estricto en la
+en el tema de la estructura.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/306-3
+00:51:43.359 --> 00:51:49.359
+<v JONATHAN SANCHEZ GIRALDO>Es para que de pronto no vayan a cometer
+ahí algún algún error o una coma.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/306-4
+00:51:49.359 --> 00:51:51.759
+<v JONATHAN SANCHEZ GIRALDO>Usted deja sin poner una coma.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/307-0
+00:51:51.839 --> 00:51:57.095
+<v JONATHAN SANCHEZ GIRALDO>Y él no sabe que está terminando el
+carril de la de la data que estamos</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/307-1
+00:51:57.095 --> 00:52:00.599
+<v JONATHAN SANCHEZ GIRALDO>tomando. Listo, muy bien,
+démosle aquí guardar.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/308-0
+00:52:04.959 --> 00:52:06.519
+<v JONATHAN SANCHEZ GIRALDO>Dice que tenemos un error.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/309-0
+00:52:08.719 --> 00:52:10.159
+<v JONATHAN SANCHEZ GIRALDO>¿Quién me dice cuál es el error?</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/310-0
+00:52:16.279 --> 00:52:18.239
+<v JONATHAN SANCHEZ GIRALDO>¿Quién cree qué creen que es el error?</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/311-0
+00:52:20.559 --> 00:52:26.359
+<v JONATHAN SANCHEZ GIRALDO>Te lo voy a poner un poquito más grande,
+dice user data is not valid Jason.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/313-0
+00:52:27.439 --> 00:52:36.399
+<v SERGIO ESTEBAN FRANCO AGUDELO>está con esa anotación de doble llave en
+el Jason, necesita valores reales, no?</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/312-0
+00:52:27.519 --> 00:52:27.919
+<v JONATHAN SANCHEZ GIRALDO>Okay.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/314-0
+00:52:38.639 --> 00:52:38.999
+<v JONATHAN SANCHEZ GIRALDO>Yeah.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/315-0
+00:52:41.679 --> 00:52:43.559
+<v JONATHAN SANCHEZ GIRALDO>Dame un segundito, aquí está.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/316-0
+00:52:50.159 --> 00:52:50.639
+<v JONATHAN SANCHEZ GIRALDO>List.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/317-0
+00:52:51.719 --> 00:52:52.999
+<v JONATHAN SANCHEZ GIRALDO>Tú me dices que.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/318-0
+00:52:54.239 --> 00:52:54.559
+<v JONATHAN SANCHEZ GIRALDO>Um.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/319-0
+00:52:56.239 --> 00:52:57.479
+<v JONATHAN SANCHEZ GIRALDO>Este puede ser un error.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/320-0
+00:52:59.999 --> 00:53:01.239
+<v JONATHAN SANCHEZ GIRALDO>Este puede ser un error.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/321-0
+00:53:00.239 --> 00:53:03.639
+<v SERGIO ESTEBAN FRANCO AGUDELO>Sí, es un resultado, eso no es un valor,
+ya es un válido.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/322-0
+00:53:04.559 --> 00:53:10.482
+<v JONATHAN SANCHEZ GIRALDO>Listo, muy bueno apreciación ahí, Sergio,
+sino que no puede ser, o sea,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/322-1
+00:53:10.482 --> 00:53:16.570
+<v JONATHAN SANCHEZ GIRALDO>no puede ser un dato fijo porque
+obviamente necesitamos que sea tomado de</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/322-2
+00:53:16.570 --> 00:53:17.639
+<v JONATHAN SANCHEZ GIRALDO>una variable.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/323-0
+00:53:18.719 --> 00:53:20.199
+<v JONATHAN SANCHEZ GIRALDO>Listo, please.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/324-0
+00:53:21.199 --> 00:53:26.473
+<v JONATHAN SANCHEZ GIRALDO>En este caso, ahí tengamos fe,
+ahí está la información. Sí,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/324-1
+00:53:26.473 --> 00:53:32.978
+<v JONATHAN SANCHEZ GIRALDO>ahí está la información y Aut Zero se
+encarga de traducir de que ese dato</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/324-2
+00:53:32.978 --> 00:53:35.439
+<v JONATHAN SANCHEZ GIRALDO>realmente esté ahí guardado.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/325-0
+00:53:36.639 --> 00:53:39.199
+<v JONATHAN SANCHEZ GIRALDO>¿Qué otra,
+¿Qué otro error posiblemente puedan ver?</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/328-0
+00:53:51.679 --> 00:53:55.239
+<v JONATHAN SANCHEZ GIRALDO>Ninguno, bueno,
+si ustedes recuerdan por acá.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/327-0
+00:53:52.519 --> 00:53:52.719
+<v SERGIO ESTEBAN FRANCO AGUDELO>What?</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/329-0
+00:53:56.039 --> 00:54:00.279
+<v JONATHAN SANCHEZ GIRALDO>This is on computer text. Sí,
+this is on computer text.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/330-0
+00:54:01.279 --> 00:54:06.650
+<v JONATHAN SANCHEZ GIRALDO>¿Entonces, al ser campos de textos,
+yo cómo debo de tratar los campos de</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/330-1
+00:54:06.650 --> 00:54:10.990
+<v JONATHAN SANCHEZ GIRALDO>texto como textos?
+Entonces yo debo de meter dentro de las</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/330-2
+00:54:10.990 --> 00:54:11.799
+<v JONATHAN SANCHEZ GIRALDO>comillitas.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/331-0
+00:54:13.199 --> 00:54:14.199
+<v JONATHAN SANCHEZ GIRALDO>Justamente.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/333-0
+00:54:15.039 --> 00:54:20.599
+<v JONATHAN SANCHEZ GIRALDO>Los campos de test listo para poder que
+pueda ser un formato válido dentro dentro</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/333-1
+00:54:20.599 --> 00:54:23.039
+<v JONATHAN SANCHEZ GIRALDO>de la dentro de la ejecución, listo.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/334-0
+00:54:25.999 --> 00:54:28.359
+<v JONATHAN SANCHEZ GIRALDO>Estamos los acá que comillitas.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/335-0
+00:54:34.639 --> 00:54:35.879
+<v JONATHAN SANCHEZ GIRALDO>Vamos a darle guardar.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/336-0
+00:54:36.959 --> 00:54:42.665
+<v JONATHAN SANCHEZ GIRALDO>Ahí ya nada de error y vamos a darle
+publicar listo otra vez.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/336-1
+00:54:42.665 --> 00:54:50.118
+<v JONATHAN SANCHEZ GIRALDO>Este es el formato finalmente Jason en el
+cual vamos a guardar el propio sistema</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/336-2
+00:54:50.118 --> 00:54:55.639
+<v JONATHAN SANCHEZ GIRALDO>propio out cero reconoce estas 2
+llavecitas como variables.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/337-0
+00:54:55.839 --> 00:55:00.082
+<v JONATHAN SANCHEZ GIRALDO>Propias del sistema,
+listo y al tener sus propias variables</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/337-1
+00:55:00.082 --> 00:55:03.334
+<v JONATHAN SANCHEZ GIRALDO>del sistema,
+permite manejarlas de esa en esa</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/337-2
+00:55:03.334 --> 00:55:07.223
+<v JONATHAN SANCHEZ GIRALDO>estructura. Entonces,
+cuando él va a mandar a guardar,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/337-3
+00:55:07.223 --> 00:55:12.455
+<v JONATHAN SANCHEZ GIRALDO>él va a ir con esta información
+estructurada que tiene en este en este en</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/337-4
+00:55:12.455 --> 00:55:15.919
+<v JONATHAN SANCHEZ GIRALDO>este momento. Listo,
+vamos a darle aquí guardar.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/338-0
+00:55:17.359 --> 00:55:22.865
+<v JONATHAN SANCHEZ GIRALDO>Vamos a darle aquí nuevamente publicar
+vamos a salirnos de este de este porque</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/338-1
+00:55:22.865 --> 00:55:28.162
+<v JONATHAN SANCHEZ GIRALDO>estábamos aquí en el en el formulario
+Vamos a darle publicar a este como ya</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/338-2
+00:55:28.162 --> 00:55:33.947
+<v JONATHAN SANCHEZ GIRALDO>tenemos el formulario activo verifiquemos
+a ver si si ya nos nos va a funcionar si</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/338-3
+00:55:33.947 --> 00:55:35.759
+<v JONATHAN SANCHEZ GIRALDO>ya tenemos levantado el el</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/339-0
+00:55:36.239 --> 00:55:40.239
+<v JONATHAN SANCHEZ GIRALDO>El formulario, entonces vamos aquí.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/340-0
+00:55:42.559 --> 00:55:43.959
+<v JONATHAN SANCHEZ GIRALDO>Vamos a loquearnos.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/341-0
+00:55:46.399 --> 00:55:47.159
+<v JONATHAN SANCHEZ GIRALDO>Carlos.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/342-0
+00:55:53.759 --> 00:55:55.359
+<v JONATHAN SANCHEZ GIRALDO>Vamos a loguearnos.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/343-0
+00:55:57.599 --> 00:55:57.919
+<v JONATHAN SANCHEZ GIRALDO>Um.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/344-0
+00:55:59.039 --> 00:56:01.879
+<v JONATHAN SANCHEZ GIRALDO>Yo tengo el otro usuario acá.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/351-0
+00:56:24.879 --> 00:56:30.839
+<v JONATHAN SANCHEZ GIRALDO>Autenticación, user management, users,
+voy a utilizar este.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/352-0
+00:56:31.919 --> 00:56:32.479
+<v JONATHAN SANCHEZ GIRALDO>Otro.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/353-0
+00:56:33.599 --> 00:56:34.279
+<v JONATHAN SANCHEZ GIRALDO>Profe.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/354-0
+00:56:35.439 --> 00:56:39.378
+<v JONATHAN SANCHEZ GIRALDO>ITM, miremos que no tiene metadata,
+aún tiene metadata,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/354-1
+00:56:39.378 --> 00:56:41.839
+<v JONATHAN SANCHEZ GIRALDO>pero vamos a ahorrar esta metadata.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/355-0
+00:56:43.519 --> 00:56:45.559
+<v JONATHAN SANCHEZ GIRALDO>Ahorrar esta metadata, guardar.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/356-0
+00:56:47.999 --> 00:56:50.959
+<v JONATHAN SANCHEZ GIRALDO>Verifiquemos que si la borró.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/357-0
+00:56:53.439 --> 00:56:56.839
+<v JONATHAN SANCHEZ GIRALDO>Sí,
+ahí está sin metadata y vamos a disparar</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/357-1
+00:56:56.839 --> 00:56:57.519
+<v JONATHAN SANCHEZ GIRALDO>el flujo.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/358-0
+00:57:02.959 --> 00:57:03.279
+<v JONATHAN SANCHEZ GIRALDO>Cup.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/359-0
+00:57:04.719 --> 00:57:06.119
+<v JONATHAN SANCHEZ GIRALDO>Tenemos el usuario.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/360-0
+00:57:10.159 --> 00:57:11.919
+<v JONATHAN SANCHEZ GIRALDO>Bien, le vamos a dar continuar.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/361-0
+00:57:13.919 --> 00:57:18.959
+<v JONATHAN SANCHEZ GIRALDO>Allá nos pide el documento identidad,
+vamos a dar aquí identidad.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/362-0
+00:57:20.399 --> 00:57:24.079
+<v JONATHAN SANCHEZ GIRALDO>23456789 y vamos a darle continuar.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/363-0
+00:57:25.999 --> 00:57:28.341
+<v JONATHAN SANCHEZ GIRALDO>¿Profe,
+y cómo me doy cuenta si funcionó o no</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/363-1
+00:57:28.341 --> 00:57:28.799
+<v JONATHAN SANCHEZ GIRALDO>funcionó?</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/365-0
+00:57:29.999 --> 00:57:33.199
+<v JONATHAN SANCHEZ GIRALDO>Uno,
+pues vamos a ver si tiene la metadata. Sí,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/365-1
+00:57:33.199 --> 00:57:38.399
+<v JONATHAN SANCHEZ GIRALDO>vamos a ir a ver si tiene la metadata.
+Entonces vamos a ver donde el usuario.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/366-0
+00:57:39.239 --> 00:57:41.039
+<v JONATHAN SANCHEZ GIRALDO>Vamos acá.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/367-0
+00:57:42.879 --> 00:57:44.799
+<v JONATHAN SANCHEZ GIRALDO>Profe, ITMSP.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/368-0
+00:57:46.479 --> 00:57:52.222
+<v JONATHAN SANCHEZ GIRALDO>Y aquí tenemos la mitad, profe,
+no me convence. Quiero algo más técnico,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/368-1
+00:57:52.222 --> 00:57:57.415
+<v JONATHAN SANCHEZ GIRALDO>algo más técnico que me diga qué fue lo
+qué fue lo que pasó. O K,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/368-2
+00:57:57.415 --> 00:58:01.034
+<v JONATHAN SANCHEZ GIRALDO>entonces nos vamos para acá,
+para los flujos,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/368-3
+00:58:01.034 --> 00:58:05.439
+<v JONATHAN SANCHEZ GIRALDO>para los flujos y en los flujos donde
+tenemos el flujo.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/369-0
+00:58:05.999 --> 00:58:09.119
+<v JONATHAN SANCHEZ GIRALDO>Del mensaje de bienvenida en ejecuciones
+aquí.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/370-0
+00:58:15.119 --> 00:58:18.079
+<v JONATHAN SANCHEZ GIRALDO>sí salió donde es action.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/371-0
+00:58:19.559 --> 00:58:20.519
+<v JONATHAN SANCHEZ GIRALDO>Forms.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/372-0
+00:58:21.599 --> 00:58:25.259
+<v JONATHAN SANCHEZ GIRALDO>Puede ser porque como estoy trabajando en
+tantas pestañitas,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/372-1
+00:58:25.259 --> 00:58:27.719
+<v JONATHAN SANCHEZ GIRALDO>me está molestando mensaje de bienvenida.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/373-0
+00:58:29.599 --> 00:58:34.771
+<v JONATHAN SANCHEZ GIRALDO>Flow arquitectura, flujo arquitectura,
+que era el que estamos trabajando,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/373-1
+00:58:34.771 --> 00:58:35.679
+<v JONATHAN SANCHEZ GIRALDO>editar flujo.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/374-0
+00:58:37.599 --> 00:58:39.279
+<v JONATHAN SANCHEZ GIRALDO>Y en ejecuciones acá.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/375-0
+00:58:40.359 --> 00:58:43.912
+<v JONATHAN SANCHEZ GIRALDO>Miren,
+ahí está la ejecución que acabamos de</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/375-1
+00:58:43.912 --> 00:58:50.623
+<v JONATHAN SANCHEZ GIRALDO>hacer a las 7:04 de la mañana. ¿Entonces,
+qué fue lo que pasó? ¿Qué fue lo que pasó?</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/375-2
+00:58:50.623 --> 00:58:56.149
+<v JONATHAN SANCHEZ GIRALDO>Entonces, el lo que hizo fue mandó, sí,
+mandó 2 campos que están acá,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/375-3
+00:58:56.149 --> 00:59:01.359
+<v JONATHAN SANCHEZ GIRALDO>los mandó dentro de todo el contexto de
+la ejecución que tuvimos.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/376-0
+00:59:01.759 --> 00:59:07.202
+<v JONATHAN SANCHEZ GIRALDO>En este caso, con toda la información,
+esta sí, ya es información real.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/376-1
+00:59:07.202 --> 00:59:11.586
+<v JONATHAN SANCHEZ GIRALDO>¿Y qué fue lo que hizo?
+Disparó esta acción que está acá,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/376-2
+00:59:11.586 --> 00:59:16.802
+<v JONATHAN SANCHEZ GIRALDO>disparó esta acción. Listo,
+disparó esta acción que era modificar el</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/376-3
+00:59:16.802 --> 00:59:20.959
+<v JONATHAN SANCHEZ GIRALDO>usuario, la metadata del usuario.
+¿Cuál fue la salida?</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/377-0
+00:59:21.439 --> 00:59:26.837
+<v JONATHAN SANCHEZ GIRALDO>La salida es que hubo unas cabeceras y
+que la API respondió 200. Listo,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/377-1
+00:59:26.837 --> 00:59:31.410
+<v JONATHAN SANCHEZ GIRALDO>quiso decir de que sí hizo la ejecución,
+generó algún error,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/377-2
+00:59:31.410 --> 00:59:35.383
+<v JONATHAN SANCHEZ GIRALDO>no generó ningún error.
+En caso de que genere error,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/377-3
+00:59:35.383 --> 00:59:40.931
+<v JONATHAN SANCHEZ GIRALDO>aquí vamos a ver el error que puede estar
+generando. Normalmente, chicos,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/377-4
+00:59:40.931 --> 00:59:43.479
+<v JONATHAN SANCHEZ GIRALDO>cuando estamos empezando con esto.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/378-0
+00:59:43.839 --> 00:59:48.465
+<v JONATHAN SANCHEZ GIRALDO>Normalmente pueden ser tema de permisos o
+scopes listo.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/378-1
+00:59:48.465 --> 00:59:54.578
+<v JONATHAN SANCHEZ GIRALDO>Recuerden que cada vez que vamos a
+manipular una API tenemos que tener la</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/378-2
+00:59:54.578 --> 01:00:01.021
+<v JONATHAN SANCHEZ GIRALDO>información de la API de qué se necesita
+para poder actualizar cuáles son los</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/378-3
+01:00:01.021 --> 01:00:04.159
+<v JONATHAN SANCHEZ GIRALDO>scopes que yo voy teniendo para poder.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/379-0
+01:00:05.839 --> 01:00:12.401
+<v JONATHAN SANCHEZ GIRALDO>Confirmarlo y poder realizar cada una de
+las diferentes validaciones. Listo, profe,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/379-1
+01:00:12.401 --> 01:00:14.119
+<v JONATHAN SANCHEZ GIRALDO>entonces forevermente.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/380-0
+01:00:14.959 --> 01:00:19.376
+<v JONATHAN SANCHEZ GIRALDO>Nos vamos a quedar viendo ese formulario
+de login.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/380-1
+01:00:19.376 --> 01:00:26.304
+<v JONATHAN SANCHEZ GIRALDO>Entonces aquí es donde viene el tema de
+verificar si necesitamos un flujo nuevo</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/380-2
+01:00:26.304 --> 01:00:32.279
+<v JONATHAN SANCHEZ GIRALDO>para darle una banderita de la
+actualización que yo pueda preguntar.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/381-0
+01:00:33.119 --> 01:00:38.889
+<v JONATHAN SANCHEZ GIRALDO>Yo pueda preguntar si necesito un flujo
+para verificar si los datos del usuario</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/381-1
+01:00:38.889 --> 01:00:44.225
+<v JONATHAN SANCHEZ GIRALDO>están actualizados o no. Ay, profe,
+¿y dónde iría eso entonces? Entonces,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/381-2
+01:00:44.225 --> 01:00:49.346
+<v JONATHAN SANCHEZ GIRALDO>si yo tengo acá lo primero que yo
+necesito saber es si los datos están</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/381-3
+01:00:49.346 --> 01:00:52.879
+<v JONATHAN SANCHEZ GIRALDO>actualizados,
+entonces yo qué tendría que hacer.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/382-0
+01:00:53.239 --> 01:00:58.119
+<v JONATHAN SANCHEZ GIRALDO>Coger un flow de estos,
+coger un flow de estos, ponerlo acá.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/383-0
+01:00:59.599 --> 01:01:00.679
+<v JONATHAN SANCHEZ GIRALDO>Ponerlo acá.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/384-0
+01:01:03.519 --> 01:01:09.639
+<v JONATHAN SANCHEZ GIRALDO>Y tener un ruteador acá,
+yo necesitaría acá un este.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/385-0
+01:01:11.879 --> 01:01:18.137
+<v JONATHAN SANCHEZ GIRALDO>Un ROA, perdón, un ROA, un ROA,
+que me diga si la respuesta de la API en</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/385-1
+01:01:18.137 --> 01:01:19.679
+<v JONATHAN SANCHEZ GIRALDO>la primera opción.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/386-0
+01:01:20.959 --> 01:01:25.560
+<v JONATHAN SANCHEZ GIRALDO>Si la respuesta a la API en la primera
+opción estuvo correcta,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/386-1
+01:01:25.560 --> 01:01:27.239
+<v JONATHAN SANCHEZ GIRALDO>entonces va a disparar.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/387-0
+01:01:28.479 --> 01:01:32.679
+<v JONATHAN SANCHEZ GIRALDO>Un flujo y si no,
+entonces va a disparar otro flujo.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/388-0
+01:01:34.559 --> 01:01:36.439
+<v JONATHAN SANCHEZ GIRALDO>Digamos que aquí va a continuar.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/389-0
+01:01:38.879 --> 01:01:42.199
+<v JONATHAN SANCHEZ GIRALDO>Este es en caso de la actualización y
+este es en caso de.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/391-0
+01:01:43.119 --> 01:01:47.630
+<v JONATHAN SANCHEZ GIRALDO>Y que no necesite actualizarse. Listo,
+entonces acá miren que eso es</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/391-1
+01:01:47.630 --> 01:01:50.898
+<v JONATHAN SANCHEZ GIRALDO>transparente.
+Los roads son transparentes para el</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/391-2
+01:01:50.898 --> 01:01:53.971
+<v JONATHAN SANCHEZ GIRALDO>usuario.
+Entonces yo acá en este road yo puedo</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/391-3
+01:01:53.971 --> 01:01:57.435
+<v JONATHAN SANCHEZ GIRALDO>poner una condición,
+puedo poner una validación. Sí,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/391-4
+01:01:57.435 --> 01:02:02.599
+<v JONATHAN SANCHEZ GIRALDO>puedo poner una validación dependiendo de
+qué de la información que me traiga.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/392-0
+01:02:02.719 --> 01:02:06.991
+<v JONATHAN SANCHEZ GIRALDO>Este nuevo flujo,
+entonces yo acá tendré que crear un nuevo</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/392-1
+01:02:06.991 --> 01:02:11.191
+<v JONATHAN SANCHEZ GIRALDO>flujo que se llame consultar usuario,
+consulto el usuario,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/392-2
+01:02:11.191 --> 01:02:16.602
+<v JONATHAN SANCHEZ GIRALDO>verifico si la si tiene la metadata,
+y cómo hago para consultar si tiene la</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/392-3
+01:02:16.602 --> 01:02:21.799
+<v JONATHAN SANCHEZ GIRALDO>metadata por medio de las APIs,
+por medio de las APIs yo puedo utilizar.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/393-0
+01:02:22.799 --> 01:02:29.867
+<v JONATHAN SANCHEZ GIRALDO>get a user miren aquí get a user y con
+get a user con este mismo end Point yo</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/393-1
+01:02:29.867 --> 01:02:37.026
+<v JONATHAN SANCHEZ GIRALDO>puedo verificar miren aquí Este es un
+ejemplo de lo que responde el get a user</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/393-2
+01:02:37.026 --> 01:02:41.919
+<v JONATHAN SANCHEZ GIRALDO>yo puedo verificar con el usuario si la
+metadata está</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/394-0
+01:02:41.999 --> 01:02:47.646
+<v JONATHAN SANCHEZ GIRALDO>Vacía o llena. Mire, user metadata.
+Si la metadata está vacía es porque el</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/394-1
+01:02:47.646 --> 01:02:51.410
+<v JONATHAN SANCHEZ GIRALDO>usuario no ha actualizado datos y si
+tiene datos,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/394-2
+01:02:51.410 --> 01:02:57.207
+<v JONATHAN SANCHEZ GIRALDO>pues simplemente le tiro un flujo,
+no sea de actualización de datos o algo o</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/394-3
+01:02:57.207 --> 01:03:01.800
+<v JONATHAN SANCHEZ GIRALDO>algo diferente. Listo, chicos,
+se entiende lo que vimos hoy.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/394-4
+01:03:01.800 --> 01:03:04.359
+<v JONATHAN SANCHEZ GIRALDO>¿Alguna pregunta, duda, inquietud?</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/395-0
+01:03:05.759 --> 01:03:06.919
+<v JONATHAN SANCHEZ GIRALDO>Dedito arriba.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/396-0
+01:03:10.239 --> 01:03:12.519
+<v JONATHAN SANCHEZ GIRALDO>Manito arriba, si hay preguntas, dudas.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/399-0
+01:03:15.879 --> 01:03:20.679
+<v JONATHAN SANCHEZ GIRALDO>Muy bien, veo varios deditos arriba,
+Sneider y vas a hacer algo.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/397-0
+01:03:17.279 --> 01:03:17.839
+<v ESNEIDER GUISAO OSPINA>Who are you?</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/398-0
+01:03:19.199 --> 01:03:19.519
+<v ESNEIDER GUISAO OSPINA>Hey.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/401-0
+01:03:22.439 --> 01:03:25.577
+<v ESNEIDER GUISAO OSPINA>Por ejemplo,
+esa información yo la puedo pedir desde</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/401-1
+01:03:25.577 --> 01:03:29.839
+<v ESNEIDER GUISAO OSPINA>que el usuario se registra esa metadata y
+después ya irá a modificarla.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/402-0
+01:03:30.319 --> 01:03:35.559
+<v JONATHAN SANCHEZ GIRALDO>Sí, también se puede, se puede hacer,
+también se puede.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/403-0
+01:03:34.559 --> 01:03:39.768
+<v ESNEIDER GUISAO OSPINA>De pronto en algún caso, como dijiste,
+necesito pedir unos datos de todos los</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/403-1
+01:03:39.768 --> 01:03:43.039
+<v ESNEIDER GUISAO OSPINA>usuarios que se que estén autenticados,
+¿cierto?</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/404-0
+01:03:44.079 --> 01:03:44.159
+<v JONATHAN SANCHEZ GIRALDO>Uh-huh.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/405-0
+01:03:45.919 --> 01:03:50.318
+<v JONATHAN SANCHEZ GIRALDO>Pero mira,
+Edneider que normalmente en todos los</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/405-1
+01:03:50.318 --> 01:03:56.781
+<v JONATHAN SANCHEZ GIRALDO>formularios de registro ya casi nunca te
+piden el nombre de la persona.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/405-2
+01:03:56.781 --> 01:04:02.616
+<v JONATHAN SANCHEZ GIRALDO>Si de pronto vas entrando a diferentes a
+diferentes plataformas,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/405-3
+01:04:02.616 --> 01:04:05.039
+<v JONATHAN SANCHEZ GIRALDO>siempre te piden el correo.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/406-0
+01:04:05.239 --> 01:04:08.660
+<v JONATHAN SANCHEZ GIRALDO>Y la contraseña.
+Y después por allá en otro flujo te</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/406-1
+01:04:08.660 --> 01:04:13.048
+<v JONATHAN SANCHEZ GIRALDO>pedirán el nombre de la persona.
+Lo primero que tienen que hacer es</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/406-2
+01:04:13.048 --> 01:04:16.339
+<v JONATHAN SANCHEZ GIRALDO>engancharte.
+Eso lo hace el equipo de experiencia.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/406-3
+01:04:16.339 --> 01:04:21.630
+<v JONATHAN SANCHEZ GIRALDO>El equipo de experiencia lo que hace es
+cómo voy a organizar yo la información de</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/406-4
+01:04:21.630 --> 01:04:26.599
+<v JONATHAN SANCHEZ GIRALDO>forma que tú te me enganches de una vez y
+yo ya tenga tu información rápida.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/407-0
+01:04:27.119 --> 01:04:31.734
+<v JONATHAN SANCHEZ GIRALDO>Pero si yo llego y te cojo con un
+formulario súper grande en el momento y</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/407-1
+01:04:31.734 --> 01:04:36.037
+<v JONATHAN SANCHEZ GIRALDO>pedirte toda la información,
+digamos que ahí a nivel de experiencia,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/407-2
+01:04:36.037 --> 01:04:41.150
+<v JONATHAN SANCHEZ GIRALDO>quizás yo pueda perder la oportunidad de
+engancharte. Entonces, por eso, digamos,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/407-3
+01:04:41.150 --> 01:04:45.391
+<v JONATHAN SANCHEZ GIRALDO>es válido lo que tú dices, profe,
+yo puedo de una vez pedir toda la</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/407-4
+01:04:45.391 --> 01:04:47.199
+<v JONATHAN SANCHEZ GIRALDO>información en un formulario.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/408-0
+01:04:47.359 --> 01:04:51.442
+<v JONATHAN SANCHEZ GIRALDO>Sí, es válido, es válido y se puede,
+se puede hacer.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/408-1
+01:04:51.442 --> 01:04:57.450
+<v JONATHAN SANCHEZ GIRALDO>Y digamos que para la práctica aplica.
+Si buscas dentro del dentro del dentro</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/408-2
+01:04:57.450 --> 01:05:02.457
+<v JONATHAN SANCHEZ GIRALDO>del formulario cómo adicionarlo,
+pero es bueno tener el tema del</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/408-3
+01:05:02.457 --> 01:05:07.079
+<v JONATHAN SANCHEZ GIRALDO>pensamiento diferente en el caso de que
+de que se necesite.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/409-0
+01:05:07.279 --> 01:05:07.759
+<v JONATHAN SANCHEZ GIRALDO>Listo.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/410-0
+01:05:12.479 --> 01:05:16.612
+<v JONATHAN SANCHEZ GIRALDO>Bueno, chicos,
+entonces en estos momentos procedo a</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/410-1
+01:05:16.612 --> 01:05:22.016
+<v JONATHAN SANCHEZ GIRALDO>aprender la actividad. Cualquier duda,
+cualquier inquietud, chicos,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/410-2
+01:05:22.016 --> 01:05:24.559
+<v JONATHAN SANCHEZ GIRALDO>de verdad que yo espero por acá.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/411-0
+01:05:25.599 --> 01:05:32.203
+<v JONATHAN SANCHEZ GIRALDO>Yo espero por acá que como esta actividad
+ya lleva un poquito más el tema de manejo</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/411-1
+01:05:32.203 --> 01:05:38.021
+<v JONATHAN SANCHEZ GIRALDO>de las APIs, el manejo de los token,
+posiblemente se van a pegar en algún</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/411-2
+01:05:38.021 --> 01:05:43.681
+<v JONATHAN SANCHEZ GIRALDO>momento en alguno de los flujos.
+Yo espero que acá en el Teams general,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/411-3
+01:05:43.681 --> 01:05:46.039
+<v JONATHAN SANCHEZ GIRALDO>en este en el de arquitectura.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/412-0
+01:05:46.719 --> 01:05:50.149
+<v JONATHAN SANCHEZ GIRALDO>acá acá en el team general realicen
+preguntas chicos,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/412-1
+01:05:50.149 --> 01:05:54.721
+<v JONATHAN SANCHEZ GIRALDO>realicen porfa preguntas, dudas,
+obviamente en el momento en el que les</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/412-2
+01:05:54.721 --> 01:05:59.611
+<v JONATHAN SANCHEZ GIRALDO>vaya a fallar algo, les falla algo,
+pues si no falla nada súper bien que que</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/412-3
+01:05:59.611 --> 01:06:04.756
+<v JONATHAN SANCHEZ GIRALDO>hagan todo el proceso de del flujo listo
+y que en el momento en el en el cual ya</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/412-4
+01:06:04.756 --> 01:06:07.359
+<v JONATHAN SANCHEZ GIRALDO>vayan a empezar a hacer las aplicaciones.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/413-0
+01:06:07.519 --> 01:06:11.895
+<v JONATHAN SANCHEZ GIRALDO>No vayan a quedar así como que yo en esta
+fotico es así,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/413-1
+01:06:11.895 --> 01:06:17.884
+<v JONATHAN SANCHEZ GIRALDO>no vayan a quedar así en esa fotico que
+ya están preguntando el domingo a las</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/413-2
+01:06:17.884 --> 01:06:23.181
+<v JONATHAN SANCHEZ GIRALDO>12:00 a las 11:00 de la noche. Profe,
+no me está funcionando la app,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/413-3
+01:06:23.181 --> 01:06:26.559
+<v JONATHAN SANCHEZ GIRALDO>entonces yo voy a voy a resultarle así
+con.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/414-0
+01:06:27.039 --> 01:06:31.166
+<v JONATHAN SANCHEZ GIRALDO>Con un sticker para poder reaccionar.
+Entonces tenemos tiempo,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/414-1
+01:06:31.166 --> 01:06:35.097
+<v JONATHAN SANCHEZ GIRALDO>ya la documentación está.
+Yo les muestro cosas funcionando,</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/414-2
+01:06:35.097 --> 01:06:39.747
+<v JONATHAN SANCHEZ GIRALDO>no les muestro cosas que ay,
+no lo voy a poner a ver si les funciona o</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/414-3
+01:06:39.747 --> 01:06:44.005
+<v JONATHAN SANCHEZ GIRALDO>cómo les funciona. No,
+yo les muestro cosas funcionando que para</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/414-4
+01:06:44.005 --> 01:06:45.839
+<v JONATHAN SANCHEZ GIRALDO>que ustedes puedan aprender.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/415-0
+01:06:45.919 --> 01:06:46.399
+<v JONATHAN SANCHEZ GIRALDO>Listo.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/417-0
+01:06:47.519 --> 01:06:52.786
+<v JONATHAN SANCHEZ GIRALDO>Chicos, bueno, si no hay preguntas,
+no hay dudas, no hay más inquietudes.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/417-1
+01:06:52.786 --> 01:06:58.479
+<v JONATHAN SANCHEZ GIRALDO>Entonces que tengan un excelente resto de
+semana y nos vemos el viernes. Listo.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/419-0
+01:06:59.999 --> 01:07:00.919
+<v LUZ MALLELY ZAPATA>Gracias, profe.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/422-0
+01:07:00.159 --> 01:07:01.639
+<v ISAAC PEREZ OSORNO>Todo profe, muchas gracias.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/424-0
+01:07:01.679 --> 01:07:02.439
+<v JUAN DAVID OSORIO ZAPATA>Muchas gracias.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/425-0
+01:07:01.999 --> 01:07:04.119
+<v JONATHAN SANCHEZ GIRALDO>Chao, que estés muy bien, chico, chao,
+chao.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/427-0
+01:07:03.919 --> 01:07:04.719
+<v ANA MAR�A COLORADO VARELA>Thank you so much.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/428-0
+01:07:04.239 --> 01:07:04.799
+<v DIEGO ALEJANDRO RAMOS ESCOBAR>Joe.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/433-0
+01:07:05.599 --> 01:07:08.199
+<v JONATHAN SANCHEZ GIRALDO>Chao, feliz tarde, feliz día.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/435-0
+01:07:10.399 --> 01:07:11.279
+<v JONATHAN SANCHEZ GIRALDO>A litar aquí.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/438-0
+01:07:15.919 --> 01:07:16.639
+<v JONATHAN SANCHEZ GIRALDO>And so far.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/444-0
+01:07:43.359 --> 01:07:43.439
+<v JONATHAN SANCHEZ GIRALDO>Yo.</v>
+
+55d86378-76b1-44d5-ade8-51151c9d09af/450-0
+01:08:21.439 --> 01:08:21.719
+<v JONATHAN SANCHEZ GIRALDO>Mhm.</v>

@@ -1,0 +1,755 @@
+WEBVTT
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/5-0
+00:00:06.414 --> 00:00:09.820
+<v CRISTIAN JOSE MENDEZ GUZMAN>Hola, muy buenas tardes,
+nosotros somos el grupo de la asignatura</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/5-1
+00:00:09.820 --> 00:00:11.214
+<v CRISTIAN JOSE MENDEZ GUZMAN>de arquitectura software 2.</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/7-0
+00:00:14.254 --> 00:00:18.512
+<v CRISTIAN JOSE MENDEZ GUZMAN>Nuestro caso de estudio para este
+semestre se llama seña viva,</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/7-1
+00:00:18.512 --> 00:00:23.446
+<v CRISTIAN JOSE MENDEZ GUZMAN>en la cual pues es un sistema de
+traducción bidireccional en tiempo real</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/7-2
+00:00:23.446 --> 00:00:28.109
+<v CRISTIAN JOSE MENDEZ GUZMAN>entre la lengua de señas colombiana LCC y
+el español oral y escrito.</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/7-3
+00:00:28.109 --> 00:00:33.854
+<v CRISTIAN JOSE MENDEZ GUZMAN>Estoy con mi compañero Mateo Orozco Kendo
+y mi persona Cristian, José Méndez Guzmán.</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/8-0
+00:00:36.334 --> 00:00:40.986
+<v CRISTIAN JOSE MENDEZ GUZMAN>Vamos a continuar con el punto uno en la
+cual pues vamos a hablar sobre el</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/8-1
+00:00:40.986 --> 00:00:45.452
+<v CRISTIAN JOSE MENDEZ GUZMAN>contexto del escenario. Entonces,
+el objetivo principal de seña viva es</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/8-2
+00:00:45.452 --> 00:00:50.289
+<v CRISTIAN JOSE MENDEZ GUZMAN>permitir que una persona sorda y una
+persona oyente mantenga una conversación</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/8-3
+00:00:50.289 --> 00:00:51.654
+<v CRISTIAN JOSE MENDEZ GUZMAN>fluida en tiempo real.</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/9-0
+00:00:52.414 --> 00:00:56.134
+<v CRISTIAN JOSE MENDEZ GUZMAN>Esto sin depender de la presencia de un
+intérprete humano.</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/10-0
+00:00:57.214 --> 00:00:59.054
+<v CRISTIAN JOSE MENDEZ GUZMAN>Como problema principal.</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/11-0
+00:01:00.174 --> 00:01:04.772
+<v CRISTIAN JOSE MENDEZ GUZMAN>¿Qué tenemos hoy en día?
+Pues la comunicación cotidiana entre</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/11-1
+00:01:04.772 --> 00:01:08.776
+<v CRISTIAN JOSE MENDEZ GUZMAN>sordos y oyentes depende de intérpretes
+presenciales,</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/11-2
+00:01:08.776 --> 00:01:14.338
+<v CRISTIAN JOSE MENDEZ GUZMAN>que son un recurso que puede ser escaso,
+costoso y que exige puede seguir,</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/11-3
+00:01:14.338 --> 00:01:16.414
+<v CRISTIAN JOSE MENDEZ GUZMAN>pues un agendamiento previo.</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/12-0
+00:01:17.454 --> 00:01:21.454
+<v CRISTIAN JOSE MENDEZ GUZMAN>¿Eso qué genera una barrera en
+situaciones inmediatas?</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/13-0
+00:01:22.414 --> 00:01:28.734
+<v CRISTIAN JOSE MENDEZ GUZMAN>Como en una consulta médica o un trámite
+bancario o una entrevista de trabajo,</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/13-1
+00:01:28.734 --> 00:01:34.014
+<v CRISTIAN JOSE MENDEZ GUZMAN>o también pues en clases.
+Entonces escribir en papel no es ágil y</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/13-2
+00:01:34.014 --> 00:01:38.254
+<v CRISTIAN JOSE MENDEZ GUZMAN>eso y desconoce,
+pues y se desconoce que para muchas</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/13-3
+00:01:38.254 --> 00:01:43.854
+<v CRISTIAN JOSE MENDEZ GUZMAN>personas sordas la LCC es una lengua
+materna y el español escrito es.</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/14-0
+00:01:44.094 --> 00:01:45.654
+<v CRISTIAN JOSE MENDEZ GUZMAN>Una segunda lengua.</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/15-0
+00:01:46.894 --> 00:01:50.934
+<v CRISTIAN JOSE MENDEZ GUZMAN>Como actores principales,
+definimos cuatro cuatro roles.</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/16-0
+00:01:51.774 --> 00:01:55.693
+<v CRISTIAN JOSE MENDEZ GUZMAN>Tenemos lo que es el usuario sordo,
+el usuario oyente,</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/16-1
+00:01:55.693 --> 00:01:58.614
+<v CRISTIAN JOSE MENDEZ GUZMAN>el intérprete o el validador lingüístico.</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/17-0
+00:01:59.374 --> 00:02:02.731
+<v CRISTIAN JOSE MENDEZ GUZMAN>Que aprueba,
+pues esas señales del glosario y tenemos</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/17-1
+00:02:02.731 --> 00:02:04.534
+<v CRISTIAN JOSE MENDEZ GUZMAN>el administrador del sistema.</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/18-0
+00:02:05.614 --> 00:02:11.309
+<v CRISTIAN JOSE MENDEZ GUZMAN>ahora pues voy a seguir con lo que son
+las funcionalidades claves en la cual</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/18-1
+00:02:11.309 --> 00:02:17.077
+<v CRISTIAN JOSE MENDEZ GUZMAN>destaco dos desde la como bueno como
+desarrollo de front pues destaco dos dos</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/18-2
+00:02:17.077 --> 00:02:22.772
+<v CRISTIAN JOSE MENDEZ GUZMAN>flujos desde la interfaz lo que es
+primero pues la captura de video donde la</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/18-3
+00:02:22.772 --> 00:02:26.174
+<v CRISTIAN JOSE MENDEZ GUZMAN>cámara reconoce las señales del usuario
+sordo</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/19-0
+00:02:26.814 --> 00:02:32.713
+<v CRISTIAN JOSE MENDEZ GUZMAN>Y esa pues la va a convertir en texto y
+voz sintetizada para el oyente y segundo</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/19-1
+00:02:32.713 --> 00:02:38.612
+<v CRISTIAN JOSE MENDEZ GUZMAN>vamos a tener lo que es la captura de voz
+del oyente que se transcribe y traduce</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/19-2
+00:02:38.612 --> 00:02:43.929
+<v CRISTIAN JOSE MENDEZ GUZMAN>hacia un avatar 3D 3D animado en la cual
+va a ejecutar pues esas señales</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/19-3
+00:02:43.929 --> 00:02:45.094
+<v CRISTIAN JOSE MENDEZ GUZMAN>correspondientes</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/20-0
+00:02:46.334 --> 00:02:50.601
+<v CRISTIAN JOSE MENDEZ GUZMAN>Ahora pues le voy a dar paso a mi
+compañero para explicar la identificación</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/20-1
+00:02:50.601 --> 00:02:52.454
+<v CRISTIAN JOSE MENDEZ GUZMAN>pues de esos patrones de diseños.</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/21-0
+00:02:54.334 --> 00:03:00.303
+<v MATEO OROZCO OQUENDO>listo yo les voy a explicar la lógica de
+negocio y los patrones de diseño</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/21-1
+00:03:00.303 --> 00:03:06.836
+<v MATEO OROZCO OQUENDO>aplicados desde el Back el reto principal
+de seña viva es que no existe un único</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/21-2
+00:03:06.836 --> 00:03:13.450
+<v MATEO OROZCO OQUENDO>proceso de traducción por esta dificultad
+Pues nosotros elegimos tres patrones de</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/21-3
+00:03:13.450 --> 00:03:13.934
+<v MATEO OROZCO OQUENDO>diseño</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/23-0
+00:03:14.334 --> 00:03:19.280
+<v MATEO OROZCO OQUENDO>El primero es estrategia,
+es un patrón de comportamiento,</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/23-1
+00:03:19.280 --> 00:03:23.458
+<v MATEO OROZCO OQUENDO>lo que nos ayuda es a traducir de señas a
+texto,</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/23-2
+00:03:23.458 --> 00:03:29.683
+<v MATEO OROZCO OQUENDO>porque como este exige un modelo de
+visión por computador que analice el</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/23-3
+00:03:29.683 --> 00:03:33.094
+<v MATEO OROZCO OQUENDO>video de la cámara, pues lo necesitamos.</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/24-0
+00:03:33.454 --> 00:03:38.427
+<v MATEO OROZCO OQUENDO>Para poder integrarlo en esta parte de
+traducir de texto a señas,</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/24-1
+00:03:38.427 --> 00:03:44.230
+<v MATEO OROZCO OQUENDO>pues exige un motor que arma la secuencia
+de animación del avatar. Por esto,</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/24-2
+00:03:44.230 --> 00:03:49.505
+<v MATEO OROZCO OQUENDO>pues nosotros tenemos entonces 2
+algoritmos completamente distintos y</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/24-3
+00:03:49.505 --> 00:03:53.574
+<v MATEO OROZCO OQUENDO>además a eso se le suma que el sistema
+debe soportar.</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/25-0
+00:03:53.774 --> 00:04:01.015
+<v MATEO OROZCO OQUENDO>En un futuro varias lenguas de señas.
+En el momento nosotros pensamos solamente</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/25-1
+00:04:01.015 --> 00:04:05.722
+<v MATEO OROZCO OQUENDO>en la colombiana,
+pero podríamos expandirnos, pues,</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/25-2
+00:04:05.722 --> 00:04:11.877
+<v MATEO OROZCO OQUENDO>a otras lenguaje de señas.
+Entonces nosotros definimos una interfaz</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/25-3
+00:04:11.877 --> 00:04:13.054
+<v MATEO OROZCO OQUENDO>común que es.</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/26-0
+00:04:13.134 --> 00:04:18.814
+<v MATEO OROZCO OQUENDO>La estrategia de traducción y las clases
+concretas que la implementan.</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/27-0
+00:04:19.814 --> 00:04:26.879
+<v MATEO OROZCO OQUENDO>la sesión de conversación intercambia el
+algoritmo en tiempo de ejecución sin</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/27-1
+00:04:26.879 --> 00:04:34.126
+<v MATEO OROZCO OQUENDO>conocer eh claramente sus detalles Esa es
+la la lo lo que nos da este patrón de</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/27-2
+00:04:34.126 --> 00:04:40.014
+<v MATEO OROZCO OQUENDO>strategy y pues esto elimina
+condicionales que serían anidados y</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/28-0
+00:04:40.414 --> 00:04:43.214
+<v MATEO OROZCO OQUENDO>Cumple el principio de abierto y cerrado.</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/29-0
+00:04:44.494 --> 00:04:50.206
+<v MATEO OROZCO OQUENDO>¿Por qué significa que agregar una nueva
+lengua es agregar una nueva clase y no</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/29-1
+00:04:50.206 --> 00:04:53.134
+<v MATEO OROZCO OQUENDO>modificar la lógica que pues ya funciona?</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/30-0
+00:04:54.014 --> 00:04:59.232
+<v MATEO OROZCO OQUENDO>El segundo es observer.
+También es un patrón de comportamiento y</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/30-1
+00:04:59.232 --> 00:05:03.969
+<v MATEO OROZCO OQUENDO>sucede que cuando el motor produce un
+fragmento traducido,</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/30-2
+00:05:03.969 --> 00:05:08.625
+<v MATEO OROZCO OQUENDO>varios componentes deben reaccionar pues
+al mismo tiempo.</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/30-3
+00:05:08.625 --> 00:05:15.368
+<v MATEO OROZCO OQUENDO>Los subtítulos en pantalla, el avatar 3D,
+el sintetizador de voz y el registro pues</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/30-4
+00:05:15.368 --> 00:05:16.974
+<v MATEO OROZCO OQUENDO>de la base de datos.</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/31-0
+00:05:17.614 --> 00:05:23.622
+<v MATEO OROZCO OQUENDO>si el motor lo que hiciera fuera Llamar
+directamente a cada uno quedaría pues</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/31-1
+00:05:23.622 --> 00:05:29.862
+<v MATEO OROZCO OQUENDO>acoplada la interfaz y a persistencia con
+observer nosotros ganamos que el motor</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/31-2
+00:05:29.862 --> 00:05:36.179
+<v MATEO OROZCO OQUENDO>publique un evento y cada componente se
+suscribe o se da de baja dependiendo Pues</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/31-3
+00:05:36.179 --> 00:05:37.334
+<v MATEO OROZCO OQUENDO>de la tarea que</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/32-0
+00:05:37.454 --> 00:05:43.303
+<v MATEO OROZCO OQUENDO>Que necesita hacer y el flujo, por tanto,
+queda asíncrono y orientado simplemente a</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/32-1
+00:05:43.303 --> 00:05:46.575
+<v MATEO OROZCO OQUENDO>eventos,
+que es justo pues lo que necesitamos,</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/32-2
+00:05:46.575 --> 00:05:50.614
+<v MATEO OROZCO OQUENDO>una traducción continua sobre pues
+streaming tiempo real.</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/33-0
+00:05:51.614 --> 00:05:55.846
+<v MATEO OROZCO OQUENDO>El tercero es Adapter,
+es un patrón estructural.</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/33-1
+00:05:55.846 --> 00:06:01.632
+<v MATEO OROZCO OQUENDO>Nosotros dependemos de servicios externos
+como Media Pipe o bueno,</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/33-2
+00:06:01.632 --> 00:06:08.627
+<v MATEO OROZCO OQUENDO>algunos otros que nos permiten integrar,
+pues nuestros nuestros algoritmos o nos</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/33-3
+00:06:08.627 --> 00:06:12.254
+<v MATEO OROZCO OQUENDO>permite integrar algoritmos de traducción.</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/34-0
+00:06:12.414 --> 00:06:16.247
+<v MATEO OROZCO OQUENDO>y de creación de imágenes para el modelo
+3D.</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/34-1
+00:06:16.247 --> 00:06:22.636
+<v MATEO OROZCO OQUENDO>Entonces nosotros en con media Pipe lo
+que haríamos es detectar los puntos</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/34-2
+00:06:22.636 --> 00:06:28.684
+<v MATEO OROZCO OQUENDO>claves de las manos para poderlos
+traducir y además de eso el motor de</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/34-3
+00:06:28.684 --> 00:06:33.454
+<v MATEO OROZCO OQUENDO>reconocimiento de voz cada uno pues se
+expone a una API</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/35-0
+00:06:33.574 --> 00:06:39.916
+<v MATEO OROZCO OQUENDO>distinta y todos son reemplazables,
+pues a futuro por si llega un modelo</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/35-1
+00:06:39.916 --> 00:06:46.172
+<v MATEO OROZCO OQUENDO>mejor o pues este modelo no,
+no nos está funcionando como como debería.</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/35-2
+00:06:46.172 --> 00:06:52.254
+<v MATEO OROZCO OQUENDO>Entonces creamos interfaces propias del
+dominio y clases adaptadoras.</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/36-0
+00:06:52.334 --> 00:06:57.824
+<v MATEO OROZCO OQUENDO>que pues estas traducen esas interfaces a
+las llamadas de cada uno de los</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/36-1
+00:06:57.824 --> 00:07:03.463
+<v MATEO OROZCO OQUENDO>proveedores así pues cambiar de proveedor
+se reduce simplemente escribir un</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/36-2
+00:07:03.463 --> 00:07:09.473
+<v MATEO OROZCO OQUENDO>adaptador nuevo y ya pues no tocamos el
+núcleo listo Ahora les voy a explicar el</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/36-3
+00:07:09.473 --> 00:07:11.254
+<v MATEO OROZCO OQUENDO>diagrama vml que creamos</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/37-0
+00:07:13.214 --> 00:07:15.414
+<v MATEO OROZCO OQUENDO>Entonces, por acá.</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/38-0
+00:07:18.174 --> 00:07:24.207
+<v MATEO OROZCO OQUENDO>tenemos en la parte superior tenemos el
+patrón estrategy la sesión de</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/38-1
+00:07:24.207 --> 00:07:30.757
+<v MATEO OROZCO OQUENDO>conversación es el contexto mantiene como
+la referencia a la interfaz de la</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/38-2
+00:07:30.757 --> 00:07:37.134
+<v MATEO OROZCO OQUENDO>estrategia y traducción y pues nunca
+conoce la implementación concreta de</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/39-0
+00:07:37.534 --> 00:07:39.454
+<v MATEO OROZCO OQUENDO>¿Del qué es lo que se está ejecutando?</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/40-0
+00:07:40.734 --> 00:07:43.654
+<v MATEO OROZCO OQUENDO>Debajo aparecen pues las 3 clases.</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/41-0
+00:07:44.614 --> 00:07:52.082
+<v MATEO OROZCO OQUENDO>las tres clases que le realizan esa
+interfaz que es señal a texto ls y además</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/41-1
+00:07:52.082 --> 00:07:59.454
+<v MATEO OROZCO OQUENDO>de eso pues tomar el video de la cámara y
+devuelve el texto a español cierto</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/42-0
+00:08:00.414 --> 00:08:04.054
+<v MATEO OROZCO OQUENDO>Después de eso tenemos.</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/43-0
+00:08:07.054 --> 00:08:10.820
+<v MATEO OROZCO OQUENDO>La transcripción de voz que se hace,
+pues en el camino inverso,</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/43-1
+00:08:10.820 --> 00:08:15.174
+<v MATEO OROZCO OQUENDO>transcribe la voz del oyente y arma la
+secuencia de señas para el avatar.</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/44-0
+00:08:16.574 --> 00:08:22.395
+<v MATEO OROZCO OQUENDO>Y soporta el lenguaje de señas que
+nosotros añadimos,</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/44-1
+00:08:22.395 --> 00:08:29.186
+<v MATEO OROZCO OQUENDO>simplemente como les conté anteriormente,
+añadiendo una nueva,</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/44-2
+00:08:29.186 --> 00:08:33.174
+<v MATEO OROZCO OQUENDO>un nuevo modelo sin quitar el núcleo.</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/45-0
+00:08:34.894 --> 00:08:41.054
+<v MATEO OROZCO OQUENDO>En el centro tenemos adapter,
+es el detector de pose.</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/46-0
+00:08:42.134 --> 00:08:44.414
+<v MATEO OROZCO OQUENDO>¿Y el reconocedor de voz?</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/47-0
+00:08:45.454 --> 00:08:50.431
+<v MATEO OROZCO OQUENDO>que son nuestras interfaces y el
+mediapipe adapter que es este y el</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/47-1
+00:08:50.431 --> 00:08:56.140
+<v MATEO OROZCO OQUENDO>whisper adapter pues son los los que
+encapsulan estas librerías externas Pues</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/47-2
+00:08:56.140 --> 00:09:01.556
+<v MATEO OROZCO OQUENDO>un detalle importante acá es que las
+estrategias las estrategias dependen</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/47-3
+00:09:01.556 --> 00:09:06.094
+<v MATEO OROZCO OQUENDO>únicamente de las interfaces nunca pues
+como de las librerías</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/48-0
+00:09:09.134 --> 00:09:13.974
+<v MATEO OROZCO OQUENDO>Y listo y en la parte inferior está el
+observer,</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/48-1
+00:09:13.974 --> 00:09:18.814
+<v MATEO OROZCO OQUENDO>que es la misma clase de sesión de
+conversación.</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/49-0
+00:09:20.494 --> 00:09:21.734
+<v MATEO OROZCO OQUENDO>Con la tenemos.</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/50-0
+00:09:24.254 --> 00:09:30.187
+<v MATEO OROZCO OQUENDO>Listo en esta actúa como un sujeto y
+notifica a la vista los subtítulos al</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/50-1
+00:09:30.187 --> 00:09:36.199
+<v MATEO OROZCO OQUENDO>avatar y al repositorio pues de la
+transcripción en el punto de integración</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/50-2
+00:09:36.199 --> 00:09:38.414
+<v MATEO OROZCO OQUENDO>es la clase pues central la.</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/51-0
+00:09:39.934 --> 00:09:40.734
+<v MATEO OROZCO OQUENDO>Playa Cup.</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/52-0
+00:09:41.854 --> 00:09:47.197
+<v MATEO OROZCO OQUENDO>Que pues lo que nos permite es difundir
+el resultado y mientras la</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/52-1
+00:09:47.197 --> 00:09:53.338
+<v MATEO OROZCO OQUENDO>infraestructura externa queda aislada,
+pues esta se comunica a partir de las</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/52-2
+00:09:53.338 --> 00:09:54.694
+<v MATEO OROZCO OQUENDO>otras interfaces.</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/53-0
+00:09:56.214 --> 00:09:59.212
+<v MATEO OROZCO OQUENDO>Listo,
+le voy a dar paso a mi compañero para que</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/53-1
+00:09:59.212 --> 00:10:01.414
+<v MATEO OROZCO OQUENDO>explique el modelo de base de datos.</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/55-0
+00:10:09.054 --> 00:10:13.063
+<v CRISTIAN JOSE MENDEZ GUZMAN>Bueno,
+continuando con la capa de persistencia</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/55-1
+00:10:13.063 --> 00:10:17.670
+<v CRISTIAN JOSE MENDEZ GUZMAN>como encargado,
+pues como le decía mi compañero en el</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/55-2
+00:10:17.670 --> 00:10:23.300
+<v CRISTIAN JOSE MENDEZ GUZMAN>tema de la base de datos,
+se diseñó un modelo entidad relación de</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/55-3
+00:10:23.300 --> 00:10:27.054
+<v CRISTIAN JOSE MENDEZ GUZMAN>cuatro tablas para dar soporte a seña
+viva.</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/57-0
+00:10:28.054 --> 00:10:34.535
+<v CRISTIAN JOSE MENDEZ GUZMAN>tenemos lo que es la tabla usuario,
+en la cual va a almacenar cada uno de los</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/57-1
+00:10:34.535 --> 00:10:41.016
+<v CRISTIAN JOSE MENDEZ GUZMAN>actores de la plataforma con sus roles.
+También lo que vamos a tener la tabla</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/57-2
+00:10:41.016 --> 00:10:46.084
+<v CRISTIAN JOSE MENDEZ GUZMAN>session conversación,
+en la cual va a actuar como la entidad</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/57-3
+00:10:46.084 --> 00:10:48.494
+<v CRISTIAN JOSE MENDEZ GUZMAN>contenedora de la interacción</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/58-0
+00:10:48.574 --> 00:10:48.974
+<v CRISTIAN JOSE MENDEZ GUZMAN>Diva.</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/59-0
+00:10:50.094 --> 00:10:56.810
+<v CRISTIAN JOSE MENDEZ GUZMAN>La tercera tabla que es la transcripción
+va a guardar cada uno de esos mensajes</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/59-1
+00:10:56.810 --> 00:10:57.734
+<v CRISTIAN JOSE MENDEZ GUZMAN>traducidos.</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/60-0
+00:10:58.654 --> 00:11:05.294
+<v CRISTIAN JOSE MENDEZ GUZMAN>En la cual pues tiene una relación uno n
+asociada a la tabla session.</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/61-0
+00:11:06.414 --> 00:11:13.584
+<v CRISTIAN JOSE MENDEZ GUZMAN>Y tenemos lo que es la tabla glosario LSC,
+en la cual vamos a almacenar las palabras</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/61-1
+00:11:13.584 --> 00:11:18.054
+<v CRISTIAN JOSE MENDEZ GUZMAN>claves y las rutas de las animaciones 3D
+del Avatar.</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/62-0
+00:11:19.374 --> 00:11:19.414
+<v CRISTIAN JOSE MENDEZ GUZMAN>Y.</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/63-0
+00:11:20.974 --> 00:11:23.734
+<v CRISTIAN JOSE MENDEZ GUZMAN>Todas estas relaciones son de tipo uno a
+n,</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/63-1
+00:11:23.734 --> 00:11:28.501
+<v CRISTIAN JOSE MENDEZ GUZMAN>en la cual pues buscamos garantizar lo
+que es la integridad referencial sin</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/63-2
+00:11:28.501 --> 00:11:31.574
+<v CRISTIAN JOSE MENDEZ GUZMAN>recargar,
+pues cada una de las claves primarias.</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/64-0
+00:11:33.534 --> 00:11:37.652
+<v CRISTIAN JOSE MENDEZ GUZMAN>Ahora, siguiendo,
+pues con el punto de la integración y</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/64-1
+00:11:37.652 --> 00:11:38.534
+<v CRISTIAN JOSE MENDEZ GUZMAN>explicación.</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/65-0
+00:11:39.574 --> 00:11:45.556
+<v CRISTIAN JOSE MENDEZ GUZMAN>tenemos pues nuestra base de datos se
+conecta se está conectando de forma</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/65-1
+00:11:45.556 --> 00:11:51.699
+<v CRISTIAN JOSE MENDEZ GUZMAN>directa con los patrones pues del UML
+cuando el patrón el patrón estrategic</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/65-2
+00:11:51.699 --> 00:11:58.004
+<v CRISTIAN JOSE MENDEZ GUZMAN>traduce voz a señas consulta las rutas de
+las animaciones en la tabla Pues de</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/65-3
+00:11:58.004 --> 00:11:58.974
+<v CRISTIAN JOSE MENDEZ GUZMAN>glosario lsc</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/66-0
+00:12:00.494 --> 00:12:06.410
+<v CRISTIAN JOSE MENDEZ GUZMAN>Ahora los los adaptadores del patrón
+adapter van a lo que van a hacer es</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/66-1
+00:12:06.410 --> 00:12:12.408
+<v CRISTIAN JOSE MENDEZ GUZMAN>limpiar las las estructuras escenas de
+las APIs antes de procesarlas y al</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/66-2
+00:12:12.408 --> 00:12:18.325
+<v CRISTIAN JOSE MENDEZ GUZMAN>finalizar cada traducción el patrón
+observe va a activar la persistencia</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/66-3
+00:12:18.325 --> 00:12:19.054
+<v CRISTIAN JOSE MENDEZ GUZMAN>asíncrona</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/67-0
+00:12:19.454 --> 00:12:25.426
+<v CRISTIAN JOSE MENDEZ GUZMAN>registrando el texto en la tabla
+transcripción eso enlazado a la tabla de</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/67-1
+00:12:25.426 --> 00:12:31.882
+<v CRISTIAN JOSE MENDEZ GUZMAN>sesión conversation activa entonces pues
+de este modo pues la arquitectura pues</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/67-2
+00:12:31.882 --> 00:12:37.854
+<v CRISTIAN JOSE MENDEZ GUZMAN>está orientada a objetos y a la base de
+datos relacionada en la cual pues</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/68-0
+00:12:38.734 --> 00:12:43.054
+<v CRISTIAN JOSE MENDEZ GUZMAN>Pues van a trabajar en total armonía,
+pues sin acoplarse.</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/69-0
+00:12:44.814 --> 00:12:49.624
+<v CRISTIAN JOSE MENDEZ GUZMAN>Bueno, en resumen,
+pues con seña viva lo que logramos es un</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/69-1
+00:12:49.624 --> 00:12:54.113
+<v CRISTIAN JOSE MENDEZ GUZMAN>diseño integral,
+pues donde la experiencia del usuario,</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/69-2
+00:12:54.113 --> 00:13:00.205
+<v CRISTIAN JOSE MENDEZ GUZMAN>los patrones del diseño y el modelo
+relacional respondan a esa necesidad de</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/69-3
+00:13:00.205 --> 00:13:04.614
+<v CRISTIAN JOSE MENDEZ GUZMAN>comunicación entre personas sordas y
+personas oyentes.</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/70-0
+00:13:06.014 --> 00:13:08.794
+<v CRISTIAN JOSE MENDEZ GUZMAN>Bueno,
+pues eso concluye pues nuestra</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/70-1
+00:13:08.794 --> 00:13:13.622
+<v CRISTIAN JOSE MENDEZ GUZMAN>presentación de la guía número uno de
+arquitectura de software 2.</v>
+
+d3410680-d75e-47a5-92e0-1bdc39b507aa/70-2
+00:13:13.622 --> 00:13:17.134
+<v CRISTIAN JOSE MENDEZ GUZMAN>Muchas gracias y bueno, eso,
+pues eso era todo.</v>

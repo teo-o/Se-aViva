@@ -1,0 +1,272 @@
+<mxfile host="app.diagrams.net" modified="2026-08-29T00:00:00.000Z" agent="SeñaViva" version="24.0.0" type="device">
+  <diagram name="UML Clases - SeñaViva" id="senaviva-uml-clases">
+    <mxGraphModel dx="1422" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2339" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <!-- ============ TITULO ============ -->
+        <mxCell id="titulo" value="SeñaViva — Diagrama UML de clases (Strategy + Adapter + Observer)" style="text;html=1;align=left;verticalAlign=middle;fontSize=22;fontStyle=1;fontColor=#1F1F1F;" vertex="1" parent="1">
+          <mxGeometry x="60" y="20" width="900" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- ============ ETIQUETAS DE BANDA ============ -->
+        <mxCell id="lbl_strategy" value="PATRÓN STRATEGY — selección del algoritmo de traducción en tiempo de ejecución" style="text;html=1;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#B85450;" vertex="1" parent="1">
+          <mxGeometry x="60" y="80" width="700" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_adapter" value="PATRÓN ADAPTER — integración de servicios externos heterogéneos" style="text;html=1;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#82B366;" vertex="1" parent="1">
+          <mxGeometry x="60" y="500" width="700" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_observer" value="PATRÓN OBSERVER — difusión del resultado a los componentes suscritos" style="text;html=1;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#6C8EBF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1000" width="700" height="30" as="geometry" />
+        </mxCell>
+
+        <!-- ============ CONTEXTO / SUJETO ============ -->
+        <mxCell id="ctx" value="SesionConversacion&#10;&lt;i&gt;(Context + Subject)&lt;/i&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="60" y="150" width="300" height="256" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx_f1" value="- idSesion: UUID" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ctx">
+          <mxGeometry y="40" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx_f2" value="- estrategia: EstrategiaTraduccion" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ctx">
+          <mxGeometry y="66" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx_f3" value="- observadores: List&lt;ObservadorTraduccion&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ctx">
+          <mxGeometry y="92" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx_sep" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="ctx">
+          <mxGeometry y="118" width="300" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx_m1" value="+ setEstrategia(e: EstrategiaTraduccion): void" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ctx">
+          <mxGeometry y="126" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx_m2" value="+ procesar(entrada: EntradaMedia): void" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ctx">
+          <mxGeometry y="152" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx_m3" value="+ suscribir(o: ObservadorTraduccion): void" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ctx">
+          <mxGeometry y="178" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx_m4" value="+ desuscribir(o: ObservadorTraduccion): void" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ctx">
+          <mxGeometry y="204" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ctx_m5" value="+ notificar(r: ResultadoTraduccion): void" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ctx">
+          <mxGeometry y="230" width="300" height="26" as="geometry" />
+        </mxCell>
+
+        <!-- ============ INTERFAZ ESTRATEGIA ============ -->
+        <mxCell id="iestr" value="&lt;i&gt;«interface»&lt;/i&gt;&lt;br&gt;EstrategiaTraduccion" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=44;horizontalStack=0;resizeParent=1;resizeParentMax=0;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="480" y="180" width="330" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="iestr_m1" value="+ traducir(e: EntradaMedia): ResultadoTraduccion" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iestr">
+          <mxGeometry y="44" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="iestr_m2" value="+ getIdiomaSoportado(): String" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iestr">
+          <mxGeometry y="70" width="330" height="26" as="geometry" />
+        </mxCell>
+
+        <!-- ============ ESTRATEGIAS CONCRETAS ============ -->
+        <mxCell id="e1" value="SenasATextoLSC" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="110" width="320" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="e1_f1" value="- detector: DetectorDePose" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="e1">
+          <mxGeometry y="26" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="e1_f2" value="- modelo: ModeloReconocimiento" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="e1">
+          <mxGeometry y="52" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="e1_sep" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="e1">
+          <mxGeometry y="78" width="320" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="e1_m1" value="+ traducir(e: EntradaMedia): ResultadoTraduccion" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="e1">
+          <mxGeometry y="86" width="320" height="26" as="geometry" />
+        </mxCell>
+
+        <mxCell id="e2" value="TextoASenasLSC" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="260" width="320" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="e2_f1" value="- reconocedor: ReconocedorDeVoz" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="e2">
+          <mxGeometry y="26" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="e2_f2" value="- glosario: GlosarioLSC" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="e2">
+          <mxGeometry y="52" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="e2_sep" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="e2">
+          <mxGeometry y="78" width="320" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="e2_m1" value="+ traducir(e: EntradaMedia): ResultadoTraduccion" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="e2">
+          <mxGeometry y="86" width="320" height="26" as="geometry" />
+        </mxCell>
+
+        <mxCell id="e3" value="SenasATextoASL" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="410" width="320" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="e3_f1" value="- detector: DetectorDePose" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="e3">
+          <mxGeometry y="26" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="e3_sep" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="e3">
+          <mxGeometry y="52" width="320" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="e3_m1" value="+ traducir(e: EntradaMedia): ResultadoTraduccion" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="e3">
+          <mxGeometry y="60" width="320" height="26" as="geometry" />
+        </mxCell>
+
+        <!-- ============ ADAPTER: TARGETS ============ -->
+        <mxCell id="idet" value="&lt;i&gt;«interface»&lt;/i&gt;&lt;br&gt;DetectorDePose" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=44;horizontalStack=0;resizeParent=1;resizeParentMax=0;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="480" y="560" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="idet_m1" value="+ detectarPuntos(f: Frame): List&lt;PuntoClave&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="idet">
+          <mxGeometry y="44" width="330" height="26" as="geometry" />
+        </mxCell>
+
+        <mxCell id="irec" value="&lt;i&gt;«interface»&lt;/i&gt;&lt;br&gt;ReconocedorDeVoz" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=44;horizontalStack=0;resizeParent=1;resizeParentMax=0;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="480" y="760" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="irec_m1" value="+ transcribir(a: AudioStream): String" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="irec">
+          <mxGeometry y="44" width="330" height="26" as="geometry" />
+        </mxCell>
+
+        <!-- ============ ADAPTER: ADAPTADORES ============ -->
+        <mxCell id="ad1" value="MediaPipeAdapter" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="930" y="550" width="320" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="ad1_f1" value="- mediaPipe: MediaPipeHands" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ad1">
+          <mxGeometry y="26" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ad1_sep" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="ad1">
+          <mxGeometry y="52" width="320" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ad1_m1" value="+ detectarPuntos(f: Frame): List&lt;PuntoClave&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ad1">
+          <mxGeometry y="60" width="320" height="26" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ad2" value="WhisperAdapter" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="930" y="750" width="320" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="ad2_f1" value="- cliente: WhisperAPI" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ad2">
+          <mxGeometry y="26" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ad2_sep" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="ad2">
+          <mxGeometry y="52" width="320" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ad2_m1" value="+ transcribir(a: AudioStream): String" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ad2">
+          <mxGeometry y="60" width="320" height="26" as="geometry" />
+        </mxCell>
+
+        <!-- ============ ADAPTER: ADAPTEES (EXTERNOS) ============ -->
+        <mxCell id="ex1" value="&lt;i&gt;«external»&lt;/i&gt;&lt;br&gt;MediaPipeHands" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=44;horizontalStack=0;resizeParent=1;resizeParentMax=0;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="558" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ex1_m1" value="+ process(img: Image): HandLandmarks" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ex1">
+          <mxGeometry y="44" width="250" height="26" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ex2" value="&lt;i&gt;«external»&lt;/i&gt;&lt;br&gt;WhisperAPI" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=44;horizontalStack=0;resizeParent=1;resizeParentMax=0;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="758" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ex2_m1" value="+ createTranscription(file, model): JSON" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ex2">
+          <mxGeometry y="44" width="250" height="26" as="geometry" />
+        </mxCell>
+
+        <!-- ============ OBSERVER ============ -->
+        <mxCell id="iobs" value="&lt;i&gt;«interface»&lt;/i&gt;&lt;br&gt;ObservadorTraduccion" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=44;horizontalStack=0;resizeParent=1;resizeParentMax=0;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1140" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="iobs_m1" value="+ actualizar(r: ResultadoTraduccion): void" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iobs">
+          <mxGeometry y="44" width="330" height="26" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ob1" value="VistaSubtitulos" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="1040" width="300" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="ob1_m1" value="+ actualizar(r: ResultadoTraduccion): void" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ob1">
+          <mxGeometry y="26" width="300" height="26" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ob2" value="AvatarSenas" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="1140" width="300" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="ob2_f1" value="- secuencia: List&lt;Animacion&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ob2">
+          <mxGeometry y="26" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ob2_sep" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="ob2">
+          <mxGeometry y="52" width="300" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ob2_m1" value="+ actualizar(r: ResultadoTraduccion): void" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ob2">
+          <mxGeometry y="60" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ob2_m2" value="+ reproducir(): void" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ob2">
+          <mxGeometry y="86" width="300" height="26" as="geometry" />
+        </mxCell>
+
+        <mxCell id="ob3" value="RepositorioTranscripcion" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="1300" width="300" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="ob3_m1" value="+ actualizar(r: ResultadoTraduccion): void" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ob3">
+          <mxGeometry y="26" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ob3_m2" value="+ guardar(t: Transcripcion): void" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ob3">
+          <mxGeometry y="52" width="300" height="26" as="geometry" />
+        </mxCell>
+
+        <!-- ============ RELACIONES: STRATEGY ============ -->
+        <mxCell id="r1" value="- estrategia" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;startArrow=diamondThin;startFill=0;startSize=14;endArrow=open;endSize=12;" edge="1" parent="1" source="ctx" target="iestr">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=block;endFill=0;endSize=16;" edge="1" parent="1" source="e1" target="iestr">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=block;endFill=0;endSize=16;" edge="1" parent="1" source="e2" target="iestr">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=block;endFill=0;endSize=16;" edge="1" parent="1" source="e3" target="iestr">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- ============ RELACIONES: ESTRATEGIAS -> TARGETS ============ -->
+        <mxCell id="r5" value="«usa»" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=open;endSize=12;" edge="1" parent="1" source="e1" target="idet">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r6" value="«usa»" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=open;endSize=12;" edge="1" parent="1" source="e3" target="idet">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r7" value="«usa»" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=open;endSize=12;" edge="1" parent="1" source="e2" target="irec">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- ============ RELACIONES: ADAPTER ============ -->
+        <mxCell id="r8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=block;endFill=0;endSize=16;" edge="1" parent="1" source="ad1" target="idet">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=block;endFill=0;endSize=16;" edge="1" parent="1" source="ad2" target="irec">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r10" value="adapta" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endSize=12;" edge="1" parent="1" source="ad1" target="ex1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r11" value="adapta" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endSize=12;" edge="1" parent="1" source="ad2" target="ex2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- ============ RELACIONES: OBSERVER ============ -->
+        <mxCell id="r12" value="- observadores 0..*" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;startArrow=diamondThin;startFill=0;startSize=14;endArrow=open;endSize=12;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ctx" target="iobs">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=block;endFill=0;endSize=16;" edge="1" parent="1" source="ob1" target="iobs">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=block;endFill=0;endSize=16;" edge="1" parent="1" source="ob2" target="iobs">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=block;endFill=0;endSize=16;" edge="1" parent="1" source="ob3" target="iobs">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+
+        <!-- ============ CONVENCIONES ============ -->
+        <mxCell id="leyenda" value="&lt;b&gt;Convenciones UML&lt;/b&gt;&lt;br&gt;— Línea discontinua con triángulo hueco: realización (implements)&lt;br&gt;— Línea discontinua con flecha abierta: dependencia «usa»&lt;br&gt;— Rombo hueco + flecha abierta: agregación (el contexto guarda la referencia)&lt;br&gt;— Línea continua con flecha abierta: asociación&lt;br&gt;&lt;br&gt;Azul: interfaces · Verde: adaptadores · Rojo: librerías externas · Naranja: contexto/sujeto" style="text;html=1;align=left;verticalAlign=top;fontSize=12;strokeColor=#999999;fillColor=#F5F5F5;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1140" width="360" height="180" as="geometry" />
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
