@@ -2,8 +2,10 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SenaViva.API.Auth;
 using SenaViva.API.Services;
+using SenaViva.Shared.Auth;
 using SenaViva.Shared.DTOs.Requests;
 using SenaViva.Shared.DTOs.Responses;
+using SenaViva.Shared.Enums;
 
 namespace SenaViva.API.Controllers;
 
@@ -16,6 +18,48 @@ public class UsersController(UsersService usersService) : ControllerBase
     [Authorize(Policy = Permissions.ReadUsers)]
     public async Task<ActionResult<IReadOnlyList<UserResponse>>> GetAll(CancellationToken cancellationToken) =>
         Ok(await usersService.GetAllAsync(cancellationToken));
+
+    [HttpGet("me")]
+    [ProducesResponseType(StatusCodes.Status403Forbidden)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    public async Task<ActionResult<UserResponse>> GetCurrent(CancellationToken cancellationToken)
+    {
+        var currentUser = CurrentUser.From(User);
+        if (currentUser.IsMachine)
+        {
+            return Forbid();
+        }
+
+        return Ok(await usersService.GetByAuth0IdAsync(currentUser.Auth0Id, cancellationToken));
+    }
+
+    [HttpPost("me")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status201Created)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    [ProducesResponseType(StatusCodes.Status403Forbidden)]
+    [ProducesResponseType(StatusCodes.Status409Conflict)]
+    public async Task<ActionResult<UserResponse>> RegisterCurrent(
+        RegisterCurrentUserRequest request,
+        CancellationToken cancellationToken)
+    {
+        var currentUser = CurrentUser.From(User);
+        if (currentUser.IsMachine)
+        {
+            return Forbid();
+        }
+
+        if (request.Role == UserRole.Administrator && !currentUser.IsAdministrator)
+        {
+            return Problem(
+                statusCode: StatusCodes.Status403Forbidden,
+                title: "Prohibido",
+                detail: $"Solo quien tiene el rol '{SenaVivaClaims.AdministratorRole}' en Auth0 puede registrarse como administrador.");
+        }
+
+        var (user, created) = await usersService.RegisterCurrentUserAsync(currentUser, request, cancellationToken);
+        return created ? CreatedAtAction(nameof(GetCurrent), user) : Ok(user);
+    }
 
     [HttpGet("{id:int}")]
     [Authorize(Policy = Permissions.ReadUsers)]

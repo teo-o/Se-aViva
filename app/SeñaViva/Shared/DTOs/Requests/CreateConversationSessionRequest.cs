@@ -5,8 +5,8 @@ namespace SenaViva.Shared.DTOs.Requests;
 
 public class CreateConversationSessionRequest
 {
-    [Range(1, int.MaxValue)]
-    public int UserId { get; init; }
+    [Range(1, int.MaxValue, ErrorMessage = "El usuario es obligatorio.")]
+    public int UserId { get; set; }
 
-    public SignLanguage SignLanguage { get; init; } = SignLanguage.LSC;
+    public SignLanguage SignLanguage { get; set; } = SignLanguage.LSC;
 }

@@ -14,9 +14,10 @@ public class GlobalExceptionHandler(
     {
         var (statusCode, title, detail) = exception switch
         {
-            NotFoundException => (StatusCodes.Status404NotFound, "Resource not found", exception.Message),
-            ConflictException => (StatusCodes.Status409Conflict, "Conflict", exception.Message),
-            _ => (StatusCodes.Status500InternalServerError, "Unexpected error", "An unexpected error occurred.")
+            BadRequestException => (StatusCodes.Status400BadRequest, "Solicitud inválida", exception.Message),
+            NotFoundException => (StatusCodes.Status404NotFound, "Recurso no encontrado", exception.Message),
+            ConflictException => (StatusCodes.Status409Conflict, "Conflicto", exception.Message),
+            _ => (StatusCodes.Status500InternalServerError, "Error inesperado", "Ocurrió un error inesperado.")
         };
 
         if (statusCode == StatusCodes.Status500InternalServerError)

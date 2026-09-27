@@ -38,7 +38,7 @@ public class ConversationSessionsService(DataContext context)
         CancellationToken cancellationToken)
     {
         var user = await context.Users.FindAsync([request.UserId], cancellationToken)
-            ?? throw new NotFoundException($"User {request.UserId} was not found.");
+            ?? throw new NotFoundException($"No existe el usuario {request.UserId}.");
 
         var session = new ConversationSession
         {
@@ -73,5 +73,5 @@ public class ConversationSessionsService(DataContext context)
         await context.SaveChangesAsync(cancellationToken);
     }
 
-    private static NotFoundException SessionNotFound(Guid id) => new($"Conversation session {id} was not found.");
+    private static NotFoundException SessionNotFound(Guid id) => new($"No existe la sesión de conversación {id}.");
 }
