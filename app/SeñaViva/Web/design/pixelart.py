@@ -123,4 +123,5 @@ if __name__ == "__main__":
     (out / "empty.svg").write_text(to_svg(EMPTY, "Sin datos"), encoding="utf-8")
     (out / "lost.svg").write_text(to_svg(LOST, "No encontrado"), encoding="utf-8")
     to_png(LOGO, 2, out.parent / "favicon.png")
+    to_png(LOGO, 12, out / "logo-192.png")  # for Auth0 Universal Login, which needs a PNG URL
     print("assets generated in", out)
