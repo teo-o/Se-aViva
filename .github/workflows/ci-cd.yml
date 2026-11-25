@@ -1,0 +1,50 @@
+name: CI/CD SenaViva - Seguridad y Compilación
+
+# Punto 3: Disparador automático ante cada commit en main
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build-and-security:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 1. Obtener código del repositorio
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 2. Configurar .NET SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+
+      - name: 3. Restaurar y compilar proyecto SenaViva
+        run: |
+          dotnet restore "app/SeñaViva"
+          dotnet build "app/SeñaViva" --no-restore --configuration Release
+
+      - name: 4. Seguridad - Detección de secretos (Gitleaks)
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 5. Seguridad - Vulnerabilidades en dependencias (OWASP Dependency-Check)
+        uses: dependency-check/Dependency-Check_Action@main
+        with:
+          project: 'SenaViva'
+          path: 'app/SeñaViva'
+          format: 'HTML'
+          args: >
+            --failOnCVSS 9
+            --enableRetired
+
+      - name: 6. Publicar reporte HTML de OWASP
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: owasp-dependency-check-report
+          path: reports/
